@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const Home = () => {
   return (
@@ -23,7 +24,7 @@ const Home = () => {
               <img
                 src="/lovable-uploads/79617020-94dd-435f-89b0-a5e1eb5fec83.png"
                 alt="PhD Graduate Illustration"
-                className="mx-auto w-[700px] h-[700px] object-contain"
+                className="mx-auto w-[600px] h-[600px] object-contain"
               />
             </div>
 
@@ -85,6 +86,7 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <ScrollToTopButton />
     </div>
   );
 };

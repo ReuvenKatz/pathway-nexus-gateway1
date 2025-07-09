@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-girassol font-bold text-[#2E4A87] mb-6">
+          <h1 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6">
             About Us
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
@@ -172,6 +173,7 @@ const About = () => {
           </TabsContent>
         </Tabs>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };
