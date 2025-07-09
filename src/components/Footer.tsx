@@ -6,10 +6,10 @@ const Footer = () => {
         <div className="text-center">
           <div className="mb-4">
             <span className="text-xl font-algerian text-[#2E4A87]">
-              PHD GATEWAY CONSULTING
+              PhD GATEWAY CONSULTING
             </span>
           </div>
-          <p className="text-sm text-gray-600">
+          <p className="text-sm text-gray-600 font-algerian">
             © 2024 PhD Gateway Consulting. All rights reserved.
           </p>
           <p className="text-sm text-gray-500 mt-2">

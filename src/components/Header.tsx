@@ -24,7 +24,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <span className="text-2xl font-algerian text-[#2E4A87] tracking-wide">
-              PHD GATEWAY CONSULTING
+              PhD GATEWAY CONSULTING
             </span>
           </Link>
 

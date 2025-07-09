@@ -11,7 +11,7 @@ const Home = () => {
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-algerian text-[#2E4A87] mb-6">
-              PHD GATEWAY CONSULTING
+              PhD GATEWAY CONSULTING
             </h1>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-12">
               Professional guidance from experienced experts Prof. Reuven Katz and EdD. Hila Katz. Advancing careers 
