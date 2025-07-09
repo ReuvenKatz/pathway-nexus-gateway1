@@ -10,7 +10,7 @@ const Home = () => {
       <section className="bg-gradient-to-b from-gray-50 to-white py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-6xl font-algerian text-[#2E4A87] mb-6">
+            <h1 className="text-4xl lg:text-6xl font-algerian text-black mb-6">
               PhD GATEWAY CONSULTING
             </h1>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-12">
@@ -23,7 +23,7 @@ const Home = () => {
               <img
                 src="/lovable-uploads/79617020-94dd-435f-89b0-a5e1eb5fec83.png"
                 alt="PhD Graduate Illustration"
-                className="mx-auto max-w-sm h-auto"
+                className="mx-auto w-[700px] h-[700px] object-contain"
               />
             </div>
 
@@ -51,7 +51,7 @@ const Home = () => {
             {/* Reuven Card */}
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-serif font-bold text-[#2E4A87] mb-4">
+                <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
                   Meet Reuven Katz, PhD, MBA
                 </h3>
                 <p className="text-gray-600 mb-6">
@@ -69,7 +69,7 @@ const Home = () => {
             {/* Hila Card */}
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-serif font-bold text-[#2E4A87] mb-4">
+                <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
                   Meet Hila Katz, EdD
                 </h3>
                 <p className="text-gray-600 mb-6">
