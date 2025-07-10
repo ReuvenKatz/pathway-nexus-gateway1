@@ -2,6 +2,7 @@
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const AboutReuven = () => {
   return (
@@ -20,8 +21,12 @@ const AboutReuven = () => {
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Left Column - Photo */}
           <div className="lg:col-span-1">
-            <div className="bg-gray-100 rounded-lg aspect-[3/4] flex items-center justify-center">
-              <span className="text-gray-500">Professional Photo Placeholder</span>
+            <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '80%'}}>
+              <img 
+                src="/lovable-uploads/0bff4781-ae2c-45f0-98d2-ad5dece5b50e.png" 
+                alt="Reuven Katz - Academic Coach & Consultant"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
@@ -102,6 +107,7 @@ const AboutReuven = () => {
           </Card>
         </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

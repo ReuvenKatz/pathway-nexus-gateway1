@@ -1,6 +1,7 @@
 
 import { Button } from '@/components/ui/button';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const AboutHila = () => {
   return (
@@ -19,7 +20,7 @@ const AboutHila = () => {
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Left Column - Photo */}
           <div className="lg:col-span-1">
-            <div className="bg-gray-100 rounded-lg aspect-[3/4] flex items-center justify-center">
+            <div className="bg-gray-100 rounded-lg aspect-[3/4] flex items-center justify-center" style={{width: '80%'}}>
               <span className="text-gray-500">Professional Photo Placeholder</span>
             </div>
           </div>
@@ -47,6 +48,7 @@ const AboutHila = () => {
           </div>
         </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };
