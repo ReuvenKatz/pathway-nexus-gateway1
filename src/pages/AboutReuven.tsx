@@ -5,6 +5,15 @@ import { Link } from 'react-router-dom';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const AboutReuven = () => {
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    console.error('Image failed to load:', e.currentTarget.src);
+    console.log('Attempting to load image from:', e.currentTarget.src);
+  };
+
+  const handleImageLoad = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    console.log('Image loaded successfully:', e.currentTarget.src);
+  };
+
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
@@ -26,6 +35,9 @@ const AboutReuven = () => {
                 src="/lovable-uploads/56736c88-2950-47c0-b73a-aa3c8aa3edca.png" 
                 alt="Reuven Katz - Academic Coach & Consultant"
                 className="w-full h-full object-cover"
+                onError={handleImageError}
+                onLoad={handleImageLoad}
+                loading="eager"
               />
             </div>
           </div>
