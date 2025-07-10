@@ -23,7 +23,7 @@ const AboutReuven = () => {
           <div className="lg:col-span-1">
             <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '80%'}}>
               <img 
-                src="/lovable-uploads/0bff4781-ae2c-45f0-98d2-ad5dece5b50e.png" 
+                src="/lovable-uploads/6d130454-1c86-4057-96ba-a375ced6f78e.png" 
                 alt="Reuven Katz - Academic Coach & Consultant"
                 className="w-full h-full object-cover"
               />

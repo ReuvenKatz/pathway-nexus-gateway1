@@ -1,5 +1,6 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const CareerGuidance = () => {
   return (
@@ -119,6 +120,7 @@ const CareerGuidance = () => {
           </p>
         </div>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

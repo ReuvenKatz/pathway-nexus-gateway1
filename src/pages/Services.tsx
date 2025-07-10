@@ -3,6 +3,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const Services = () => {
   const individualConsultingServices = [
@@ -236,6 +237,7 @@ const Services = () => {
           </TabsContent>
         </Tabs>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };

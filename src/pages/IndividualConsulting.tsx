@@ -1,5 +1,6 @@
 
 import { Card, CardContent } from '@/components/ui/card';
+import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const IndividualConsulting = () => {
   const services = [
@@ -83,6 +84,7 @@ const IndividualConsulting = () => {
           </CardContent>
         </Card>
       </div>
+      <ScrollToTopButton />
     </div>
   );
 };
