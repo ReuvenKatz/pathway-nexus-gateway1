@@ -1,4 +1,3 @@
-
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
@@ -6,6 +5,15 @@ import { Link } from 'react-router-dom';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const About = () => {
+  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    console.error('Image failed to load:', e.currentTarget.src);
+    console.log('Attempting to load image from:', e.currentTarget.src);
+  };
+
+  const handleImageLoad = (e: React.SyntheticEvent<HTMLImageElement>) => {
+    console.log('Image loaded successfully:', e.currentTarget.src);
+  };
+
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
@@ -43,8 +51,15 @@ const About = () => {
             <div className="grid lg:grid-cols-3 gap-12">
               {/* Left Column - Photo */}
               <div className="lg:col-span-1">
-                <div className="bg-gray-100 rounded-lg aspect-[3/4] flex items-center justify-center">
-                  <span className="text-gray-500">Professional Photo Placeholder</span>
+                <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '80%'}}>
+                  <img 
+                    src="/lovable-uploads/56736c88-2950-47c0-b73a-aa3c8aa3edca.png" 
+                    alt="Reuven Katz - Academic Coach & Consultant"
+                    className="w-full h-full object-cover"
+                    onError={handleImageError}
+                    onLoad={handleImageLoad}
+                    loading="eager"
+                  />
                 </div>
               </div>
 
