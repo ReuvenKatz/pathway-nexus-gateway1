@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
@@ -71,7 +70,7 @@ const Home = () => {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
                 <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
-                  Meet Hila Katz, EdD
+                  Meet Dr. Hila Katz
                 </h3>
                 <p className="text-gray-600 mb-6">
                   Expert consultant with extensive experience in students' guidance in humanities.
