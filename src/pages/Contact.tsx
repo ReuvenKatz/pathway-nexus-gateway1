@@ -219,7 +219,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              {/* Calendly only */}
+              {/* Calendly and Session Info */}
               <div className="space-y-8">
                 <Card className="shadow-lg">
                   <CardHeader>
@@ -233,6 +233,35 @@ const Contact = () => {
                     <div className="calendly-inline-widget min-h-[400px] w-full" 
                          data-url="https://calendly.com/reuven-katz/one-on-one-with-reuven"
                          style={{ minWidth: '320px', height: '400px' }}>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* What to Expect */}
+                <Card className="shadow-lg bg-gray-50">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-serif text-[#2E4A87]">What to Expect</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-3 text-gray-700">
+                      <li>• Initial assessment of your current situation and goals</li>
+                      <li>• Discussion of challenges and opportunities</li>
+                      <li>• Personalized strategy recommendations</li>
+                      <li>• Next steps and follow-up planning</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                {/* Session Details */}
+                <Card className="shadow-lg bg-gray-50">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2 text-gray-700">
+                      <p><strong>Duration:</strong> 45 minutes</p>
+                      <p><strong>Format:</strong> Video call (Zoom/Teams)</p>
+                      <p><strong>Preparation:</strong> Please prepare a brief overview of your current situation and goals</p>
                     </div>
                   </CardContent>
                 </Card>
@@ -317,7 +346,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              {/* Placeholder for Hila's Calendly */}
+              {/* Placeholder for Hila's Calendly and Session Info */}
               <div className="space-y-8">
                 <Card className="shadow-lg">
                   <CardHeader>
@@ -333,6 +362,35 @@ const Contact = () => {
                         <p className="text-gray-500 mb-2">Calendly integration coming soon</p>
                         <p className="text-sm text-gray-400">This space will display Hila's scheduling calendar</p>
                       </div>
+                    </div>
+                  </CardContent>
+                </Card>
+
+                {/* What to Expect for Hila */}
+                <Card className="shadow-lg bg-gray-50">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-serif text-[#2E4A87]">What to Expect</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <ul className="space-y-3 text-gray-700">
+                      <li>• Initial assessment of your current situation and goals</li>
+                      <li>• Discussion of challenges and opportunities</li>
+                      <li>• Personalized strategy recommendations</li>
+                      <li>• Next steps and follow-up planning</li>
+                    </ul>
+                  </CardContent>
+                </Card>
+
+                {/* Session Details for Hila */}
+                <Card className="shadow-lg bg-gray-50">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2 text-gray-700">
+                      <p><strong>Duration:</strong> 45 minutes</p>
+                      <p><strong>Format:</strong> Video call (Zoom/Teams)</p>
+                      <p><strong>Preparation:</strong> Please prepare a brief overview of your current situation and goals</p>
                     </div>
                   </CardContent>
                 </Card>

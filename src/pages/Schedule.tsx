@@ -32,38 +32,15 @@ const Schedule = () => {
           </p>
         </div>
 
-        {/* Session Information */}
-        <div className="grid lg:grid-cols-2 gap-12 mb-12">
-          <div className="space-y-8">
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-4">What to Expect</h2>
-              <ul className="space-y-3 text-gray-700">
-                <li>• Initial assessment of your current situation and goals</li>
-                <li>• Discussion of challenges and opportunities</li>
-                <li>• Personalized strategy recommendations</li>
-                <li>• Next steps and follow-up planning</li>
-              </ul>
-            </div>
-
-            <div className="bg-gray-50 p-6 rounded-lg">
-              <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-4">Session Details</h2>
-              <div className="space-y-2 text-gray-700">
-                <p><strong>Duration:</strong> 45 minutes</p>
-                <p><strong>Format:</strong> Video call (Zoom/Teams)</p>
-                <p><strong>Preparation:</strong> Please prepare a brief overview of your current situation and goals</p>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-6 text-center">Schedule Your Session</h2>
-            <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation</p>
-            
-            {/* Calendly Embedded Widget */}
-            <div className="calendly-inline-widget min-h-[650px] w-full" 
-                 data-url="https://calendly.com/reuven-katz/one-on-one-with-reuven"
-                 style={{ minWidth: '320px', height: '650px' }}>
-            </div>
+        {/* Calendly Widget */}
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-6 text-center">Schedule Your Session</h2>
+          <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation</p>
+          
+          {/* Calendly Embedded Widget */}
+          <div className="calendly-inline-widget min-h-[650px] w-full" 
+               data-url="https://calendly.com/reuven-katz/one-on-one-with-reuven"
+               style={{ minWidth: '320px', height: '650px' }}>
           </div>
         </div>
       </div>
