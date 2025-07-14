@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Link } from 'react-router-dom';
@@ -46,31 +45,19 @@ const AboutReuven = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700">
-                My academic career spans over two decades in research and higher education. Over the years, many students have 
-                approached me for help and guidance in completing the dissertation. This led to my developing a method for teaching how to 
-                manage doctoral research effectively. I also assist recently graduated PhDs with choosing their career path and navigating 
-                rejoining the workforce. My coaching methodology is grounded in extensive experience, empathy, and strategies proven to be 
-                effective.
+                My academic career spans over two decades in research and higher education. Over the years, many students have approached me for help and guidance in completing the dissertation. This led to my developing a method for teaching how to manage doctoral research effectively. I also assist recently graduated PhDs with choosing their career path and navigating rejoining the workforce. My coaching methodology is grounded in extensive experience, empathy, and strategies proven to be effective.
               </p>
 
               <p className="text-gray-700">
-                My educational background includes a BSc and MSc from the Israel Institute of Technology, a PhD in Engineering from the 
-                University of Michigan, and an Executive MBA from Tel Aviv University. I served as a Research Scientist at the University of 
-                Michigan before joining the faculty of the Israel Institute of Technology as a Professor of Mechanical Engineering.
+                My educational background includes a BSc and MSc from the Technion, Israel Institute of Technology, a PhD in Engineering from the University of Michigan, and an Executive MBA from Tel Aviv University. I served as a Research Scientist at the University of Michigan before joining the faculty of the Technion as a Professor of Mechanical Engineering.
               </p>
 
               <p className="text-gray-700">
-                I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one coaching. 
-                Throughout my career, I have conducted workshops for doctoral students in the United States, United Kingdom, Israel, Italy, 
-                and Poland. This international perspective has deepened my understanding of the shared universal challenges facing doctoral 
-                students. Students who attended my workshops and consulted with me consistently reported increased clarity about their 
-                research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing 
-                the dissertation and moving forward with their careers.
+                I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one consulting. Throughout my career, I have conducted workshops for doctoral students in the United States, Israel, Italy, and Poland. This international perspective has deepened my understanding of the shared universal challenges facing doctoral students. Students who attended my workshops and consulted with me consistently reported increased clarity about their research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing the dissertation and moving forward with their careers.
               </p>
 
               <p className="text-gray-700">
-                As PhD consultant, I now collaborate with my daughter Hila, whose background in arts, humanities and education compliments 
-                my own.
+                As PhD consultant, I now collaborate with my daughter Hila, whose background in arts, humanities and education compliments my own.
               </p>
             </div>
 
