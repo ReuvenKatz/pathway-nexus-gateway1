@@ -219,7 +219,7 @@ const Contact = () => {
                 </CardContent>
               </Card>
 
-              {/* Calendly and Contact Info */}
+              {/* Calendly only */}
               <div className="space-y-8">
                 <Card className="shadow-lg">
                   <CardHeader>
@@ -233,22 +233,6 @@ const Contact = () => {
                     <div className="calendly-inline-widget min-h-[400px] w-full" 
                          data-url="https://calendly.com/reuven-katz/one-on-one-with-reuven"
                          style={{ minWidth: '320px', height: '400px' }}>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Direct Contact</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-4">
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-2">Email Reuven</h4>
-                      <p className="text-gray-600">
-                        <a href="mailto:Reuven.Katz@gmail.com" className="text-[#2E4A87] hover:underline">
-                          Reuven.Katz@gmail.com
-                        </a>
-                      </p>
                     </div>
                   </CardContent>
                 </Card>
