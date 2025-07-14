@@ -1,9 +1,12 @@
+
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const AboutReuven = () => {
+  const navigate = useNavigate();
+
   const handleImageError = (e: React.SyntheticEvent<HTMLImageElement>) => {
     console.error('Image failed to load:', e.currentTarget.src);
     console.log('Attempting to load image from:', e.currentTarget.src);
@@ -11,6 +14,10 @@ const AboutReuven = () => {
 
   const handleImageLoad = (e: React.SyntheticEvent<HTMLImageElement>) => {
     console.log('Image loaded successfully:', e.currentTarget.src);
+  };
+
+  const handleContactReuven = () => {
+    navigate('/contact');
   };
 
   return (
@@ -63,7 +70,10 @@ const AboutReuven = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <Button className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
+              <Button 
+                className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
+                onClick={handleContactReuven}
+              >
                 Contact Reuven
               </Button>
               <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">

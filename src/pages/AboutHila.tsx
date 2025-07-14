@@ -1,9 +1,15 @@
 
 import { Button } from '@/components/ui/button';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const AboutHila = () => {
+  const navigate = useNavigate();
+
+  const handleContactHila = () => {
+    navigate('/contact');
+  };
+
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
@@ -43,7 +49,10 @@ const AboutHila = () => {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
-              <Button className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
+              <Button 
+                className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
+                onClick={handleContactHila}
+              >
                 Contact Hila
               </Button>
               <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">
