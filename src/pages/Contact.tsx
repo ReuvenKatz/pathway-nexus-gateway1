@@ -280,14 +280,6 @@ const Contact = () => {
                         <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Preparation</h4>
-                        <p className="text-sm">You'll receive a brief questionnaire before our session to maximize our time together</p>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Follow-up</h4>
-                        <p className="text-sm">Summary notes and action items provided within 24 hours</p>
-                      </div>
-                      <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
                         <p className="text-sm">Flexible scheduling</p>
                       </div>
@@ -437,14 +429,6 @@ const Contact = () => {
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
                         <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Preparation</h4>
-                        <p className="text-sm">You'll receive a brief questionnaire before our session to maximize our time together</p>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Follow-up</h4>
-                        <p className="text-sm">Summary notes and action items provided within 24 hours</p>
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
