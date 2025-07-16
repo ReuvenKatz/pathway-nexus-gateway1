@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -278,7 +277,7 @@ const Contact = () => {
                     <div className="space-y-3 text-gray-700">
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
-                        <p className="text-sm">60-minute one-on-one video consultation via Zoom</p>
+                        <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Preparation</h4>
@@ -290,7 +289,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
-                        <p className="text-sm">Flexible scheduling including evenings and weekends</p>
+                        <p className="text-sm">Flexible scheduling</p>
                       </div>
                     </div>
                   </CardContent>
@@ -437,7 +436,7 @@ const Contact = () => {
                     <div className="space-y-3 text-gray-700">
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
-                        <p className="text-sm">60-minute one-on-one video consultation via Zoom</p>
+                        <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Preparation</h4>
@@ -449,7 +448,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
-                        <p className="text-sm">Flexible scheduling including evenings and weekends</p>
+                        <p className="text-sm">Flexible scheduling</p>
                       </div>
                     </div>
                   </CardContent>
