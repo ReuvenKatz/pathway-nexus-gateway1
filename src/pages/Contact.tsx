@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
@@ -145,79 +144,95 @@ const Contact = () => {
           <TabsContent value="reuven" className="space-y-6">
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
-              <Card className="shadow-lg">
-                <CardHeader>
-                  <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch with Reuven</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-6">
-                  <div className="space-y-2">
-                    <Label htmlFor="reuven-name">Full Name *</Label>
-                    <Input 
-                      id="reuven-name" 
-                      placeholder="Your full name"
-                      value={reuvenForm.name}
-                      onChange={(e) => setReuvenForm({...reuvenForm, name: e.target.value})}
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="reuven-email">Email Address *</Label>
-                    <Input 
-                      id="reuven-email" 
-                      type="email" 
-                      placeholder="your.email@example.com"
-                      value={reuvenForm.email}
-                      onChange={(e) => setReuvenForm({...reuvenForm, email: e.target.value})}
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="reuven-field">Field of Study</Label>
-                    <Input 
-                      id="reuven-field" 
-                      placeholder="e.g., Computer Science, Psychology, etc."
-                      value={reuvenForm.field}
-                      onChange={(e) => setReuvenForm({...reuvenForm, field: e.target.value})}
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="reuven-stage">Current Stage</Label>
-                    <select 
-                      id="reuven-stage" 
-                      className="w-full p-2 border border-gray-300 rounded-md"
-                      value={reuvenForm.stage}
-                      onChange={(e) => setReuvenForm({...reuvenForm, stage: e.target.value})}
+              <div className="space-y-6">
+                <Card className="shadow-lg">
+                  <CardHeader>
+                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch with Reuven</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-6">
+                    <div className="space-y-2">
+                      <Label htmlFor="reuven-name">Full Name *</Label>
+                      <Input 
+                        id="reuven-name" 
+                        placeholder="Your full name"
+                        value={reuvenForm.name}
+                        onChange={(e) => setReuvenForm({...reuvenForm, name: e.target.value})}
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="reuven-email">Email Address *</Label>
+                      <Input 
+                        id="reuven-email" 
+                        type="email" 
+                        placeholder="your.email@example.com"
+                        value={reuvenForm.email}
+                        onChange={(e) => setReuvenForm({...reuvenForm, email: e.target.value})}
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="reuven-field">Field of Study</Label>
+                      <Input 
+                        id="reuven-field" 
+                        placeholder="e.g., Computer Science, Psychology, etc."
+                        value={reuvenForm.field}
+                        onChange={(e) => setReuvenForm({...reuvenForm, field: e.target.value})}
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="reuven-stage">Current Stage</Label>
+                      <select 
+                        id="reuven-stage" 
+                        className="w-full p-2 border border-gray-300 rounded-md"
+                        value={reuvenForm.stage}
+                        onChange={(e) => setReuvenForm({...reuvenForm, stage: e.target.value})}
+                      >
+                        <option value="">Select your current stage</option>
+                        <option value="early-phd">Early PhD (1st-2nd year)</option>
+                        <option value="mid-phd">Mid PhD (3rd-4th year)</option>
+                        <option value="late-phd">Late PhD (5th+ year)</option>
+                        <option value="writing">Writing dissertation</option>
+                        <option value="recent-grad">Recent PhD graduate</option>
+                      </select>
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="reuven-message">How can Reuven help you? *</Label>
+                      <Textarea 
+                        id="reuven-message" 
+                        placeholder="Tell us about your specific challenges or goals..."
+                        rows={4}
+                        value={reuvenForm.message}
+                        onChange={(e) => setReuvenForm({...reuvenForm, message: e.target.value})}
+                      />
+                    </div>
+                    
+                    <Button 
+                      className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
+                      onClick={() => handleSubmit('reuven')}
+                      disabled={isLoading}
                     >
-                      <option value="">Select your current stage</option>
-                      <option value="early-phd">Early PhD (1st-2nd year)</option>
-                      <option value="mid-phd">Mid PhD (3rd-4th year)</option>
-                      <option value="late-phd">Late PhD (5th+ year)</option>
-                      <option value="writing">Writing dissertation</option>
-                      <option value="recent-grad">Recent PhD graduate</option>
-                    </select>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="reuven-message">How can Reuven help you? *</Label>
-                    <Textarea 
-                      id="reuven-message" 
-                      placeholder="Tell us about your specific challenges or goals..."
-                      rows={4}
-                      value={reuvenForm.message}
-                      onChange={(e) => setReuvenForm({...reuvenForm, message: e.target.value})}
-                    />
-                  </div>
-                  
-                  <Button 
-                    className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
-                    onClick={() => handleSubmit('reuven')}
-                    disabled={isLoading}
-                  >
-                    {isLoading ? 'Sending...' : 'Send Message to Reuven'}
-                  </Button>
-                </CardContent>
-              </Card>
+                      {isLoading ? 'Sending...' : 'Send Message'}
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Price per Meeting */}
+                <Card className="shadow-lg bg-blue-50">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Price per Meeting</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2 text-gray-700">
+                      <p>Single meeting XXX GBP (Pounds) (VAT included)</p>
+                      <p>Single meeting YYY $ (VAT included)</p>
+                      <p>Single meeting ZZZ Euro (VAT included)</p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
 
               {/* Calendly and Session Info */}
               <div className="space-y-8">
@@ -244,10 +259,11 @@ const Contact = () => {
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3 text-gray-700">
-                      <li>• Initial assessment of your current situation and goals</li>
-                      <li>• Discussion of challenges and opportunities</li>
-                      <li>• Personalized strategy recommendations</li>
-                      <li>• Next steps and follow-up planning</li>
+                      <li>• Personalized guidance based on your specific field and stage</li>
+                      <li>• Strategic planning for your research and career goals</li>
+                      <li>• Practical tools and frameworks for PhD success</li>
+                      <li>• One-on-one mentoring tailored to your needs</li>
+                      <li>• Clear action steps and follow-up recommendations</li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -258,10 +274,23 @@ const Contact = () => {
                     <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="space-y-2 text-gray-700">
-                      <p><strong>Duration:</strong> 45 minutes</p>
-                      <p><strong>Format:</strong> Video call (Zoom/Teams)</p>
-                      <p><strong>Preparation:</strong> Please prepare a brief overview of your current situation and goals</p>
+                    <div className="space-y-3 text-gray-700">
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
+                        <p className="text-sm">60-minute one-on-one video consultation via Zoom</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Preparation</h4>
+                        <p className="text-sm">You'll receive a brief questionnaire before our session to maximize our time together</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Follow-up</h4>
+                        <p className="text-sm">Summary notes and action items provided within 24 hours</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
+                        <p className="text-sm">Flexible scheduling including evenings and weekends</p>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
@@ -272,79 +301,95 @@ const Contact = () => {
           <TabsContent value="hila" className="space-y-6">
             <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form for Hila */}
-              <Card className="shadow-lg">
-                <CardHeader>
-                  <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch with Hila</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-6">
-                  <div className="space-y-2">
-                    <Label htmlFor="hila-name">Full Name *</Label>
-                    <Input 
-                      id="hila-name" 
-                      placeholder="Your full name"
-                      value={hilaForm.name}
-                      onChange={(e) => setHilaForm({...hilaForm, name: e.target.value})}
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="hila-email">Email Address *</Label>
-                    <Input 
-                      id="hila-email" 
-                      type="email" 
-                      placeholder="your.email@example.com"
-                      value={hilaForm.email}
-                      onChange={(e) => setHilaForm({...hilaForm, email: e.target.value})}
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="hila-field">Field of Study</Label>
-                    <Input 
-                      id="hila-field" 
-                      placeholder="e.g., Computer Science, Psychology, etc."
-                      value={hilaForm.field}
-                      onChange={(e) => setHilaForm({...hilaForm, field: e.target.value})}
-                    />
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="hila-stage">Current Stage</Label>
-                    <select 
-                      id="hila-stage" 
-                      className="w-full p-2 border border-gray-300 rounded-md"
-                      value={hilaForm.stage}
-                      onChange={(e) => setHilaForm({...hilaForm, stage: e.target.value})}
+              <div className="space-y-6">
+                <Card className="shadow-lg">
+                  <CardHeader>
+                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch with Hila</CardTitle>
+                  </CardHeader>
+                  <CardContent className="space-y-6">
+                    <div className="space-y-2">
+                      <Label htmlFor="hila-name">Full Name *</Label>
+                      <Input 
+                        id="hila-name" 
+                        placeholder="Your full name"
+                        value={hilaForm.name}
+                        onChange={(e) => setHilaForm({...hilaForm, name: e.target.value})}
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="hila-email">Email Address *</Label>
+                      <Input 
+                        id="hila-email" 
+                        type="email" 
+                        placeholder="your.email@example.com"
+                        value={hilaForm.email}
+                        onChange={(e) => setHilaForm({...hilaForm, email: e.target.value})}
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="hila-field">Field of Study</Label>
+                      <Input 
+                        id="hila-field" 
+                        placeholder="e.g., Computer Science, Psychology, etc."
+                        value={hilaForm.field}
+                        onChange={(e) => setHilaForm({...hilaForm, field: e.target.value})}
+                      />
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="hila-stage">Current Stage</Label>
+                      <select 
+                        id="hila-stage" 
+                        className="w-full p-2 border border-gray-300 rounded-md"
+                        value={hilaForm.stage}
+                        onChange={(e) => setHilaForm({...hilaForm, stage: e.target.value})}
+                      >
+                        <option value="">Select your current stage</option>
+                        <option value="early-phd">Early PhD (1st-2nd year)</option>
+                        <option value="mid-phd">Mid PhD (3rd-4th year)</option>
+                        <option value="late-phd">Late PhD (5th+ year)</option>
+                        <option value="writing">Writing dissertation</option>
+                        <option value="recent-grad">Recent PhD graduate</option>
+                      </select>
+                    </div>
+                    
+                    <div className="space-y-2">
+                      <Label htmlFor="hila-message">How can Hila help you? *</Label>
+                      <Textarea 
+                        id="hila-message" 
+                        placeholder="Tell us about your specific challenges or goals..."
+                        rows={4}
+                        value={hilaForm.message}
+                        onChange={(e) => setHilaForm({...hilaForm, message: e.target.value})}
+                      />
+                    </div>
+                    
+                    <Button 
+                      className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
+                      onClick={() => handleSubmit('hila')}
+                      disabled={isLoading}
                     >
-                      <option value="">Select your current stage</option>
-                      <option value="early-phd">Early PhD (1st-2nd year)</option>
-                      <option value="mid-phd">Mid PhD (3rd-4th year)</option>
-                      <option value="late-phd">Late PhD (5th+ year)</option>
-                      <option value="writing">Writing dissertation</option>
-                      <option value="recent-grad">Recent PhD graduate</option>
-                    </select>
-                  </div>
-                  
-                  <div className="space-y-2">
-                    <Label htmlFor="hila-message">How can Hila help you? *</Label>
-                    <Textarea 
-                      id="hila-message" 
-                      placeholder="Tell us about your specific challenges or goals..."
-                      rows={4}
-                      value={hilaForm.message}
-                      onChange={(e) => setHilaForm({...hilaForm, message: e.target.value})}
-                    />
-                  </div>
-                  
-                  <Button 
-                    className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
-                    onClick={() => handleSubmit('hila')}
-                    disabled={isLoading}
-                  >
-                    {isLoading ? 'Sending...' : 'Send Message to Hila'}
-                  </Button>
-                </CardContent>
-              </Card>
+                      {isLoading ? 'Sending...' : 'Send Message'}
+                    </Button>
+                  </CardContent>
+                </Card>
+
+                {/* Price per Meeting */}
+                <Card className="shadow-lg bg-blue-50">
+                  <CardHeader>
+                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Price per Meeting</CardTitle>
+                  </CardHeader>
+                  <CardContent>
+                    <div className="space-y-2 text-gray-700">
+                      <p>Single meeting XXX GBP (Pounds) (VAT included)</p>
+                      <p>Single meeting YYY $ (VAT included)</p>
+                      <p>Single meeting ZZZ Euro (VAT included)</p>
+                    </div>
+                  </CardContent>
+                </Card>
+              </div>
 
               {/* Placeholder for Hila's Calendly and Session Info */}
               <div className="space-y-8">
@@ -373,10 +418,11 @@ const Contact = () => {
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3 text-gray-700">
-                      <li>• Initial assessment of your current situation and goals</li>
-                      <li>• Discussion of challenges and opportunities</li>
-                      <li>• Personalized strategy recommendations</li>
-                      <li>• Next steps and follow-up planning</li>
+                      <li>• Personalized guidance based on your specific field and stage</li>
+                      <li>• Strategic planning for your research and career goals</li>
+                      <li>• Practical tools and frameworks for PhD success</li>
+                      <li>• One-on-one mentoring tailored to your needs</li>
+                      <li>• Clear action steps and follow-up recommendations</li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -387,10 +433,23 @@ const Contact = () => {
                     <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <div className="space-y-2 text-gray-700">
-                      <p><strong>Duration:</strong> 45 minutes</p>
-                      <p><strong>Format:</strong> Video call (Zoom/Teams)</p>
-                      <p><strong>Preparation:</strong> Please prepare a brief overview of your current situation and goals</p>
+                    <div className="space-y-3 text-gray-700">
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
+                        <p className="text-sm">60-minute one-on-one video consultation via Zoom</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Preparation</h4>
+                        <p className="text-sm">You'll receive a brief questionnaire before our session to maximize our time together</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Follow-up</h4>
+                        <p className="text-sm">Summary notes and action items provided within 24 hours</p>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
+                        <p className="text-sm">Flexible scheduling including evenings and weekends</p>
+                      </div>
                     </div>
                   </CardContent>
                 </Card>
