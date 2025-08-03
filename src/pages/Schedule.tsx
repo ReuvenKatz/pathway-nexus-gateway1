@@ -22,19 +22,9 @@ const Schedule = () => {
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
-        {/* Hero Section */}
-        <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6">
-            Schedule Your Meeting
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Book your consultation session to discuss your academic goals and challenges.
-          </p>
-        </div>
-
         {/* Schedule with Reuven */}
         <div className="max-w-4xl mx-auto mb-16">
-          <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-6 text-center">Schedule with Reuven</h2>
+          <h2 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6 text-center">Schedule with Reuven</h2>
           <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation with Reuven</p>
           
           {/* Calendly Embedded Widget */}
@@ -46,7 +36,7 @@ const Schedule = () => {
 
         {/* Schedule with Hila */}
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-6 text-center">Schedule with Hila</h2>
+          <h2 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6 text-center">Schedule with Hila</h2>
           <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation with Hila</p>
           
           {/* Calendly Embedded Widget for Hila */}
