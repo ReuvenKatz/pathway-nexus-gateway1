@@ -25,21 +25,33 @@ const Schedule = () => {
         {/* Hero Section */}
         <div className="text-center mb-12">
           <h1 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6">
-            Schedule with Reuven
+            Schedule Your Meeting
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Book your consultation session with Reuven to discuss your academic goals and challenges.
+            Book your consultation session to discuss your academic goals and challenges.
           </p>
         </div>
 
-        {/* Calendly Widget */}
-        <div className="max-w-4xl mx-auto">
-          <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-6 text-center">Schedule Your Session</h2>
-          <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation</p>
+        {/* Schedule with Reuven */}
+        <div className="max-w-4xl mx-auto mb-16">
+          <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-6 text-center">Schedule with Reuven</h2>
+          <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation with Reuven</p>
           
           {/* Calendly Embedded Widget */}
           <div className="calendly-inline-widget min-h-[650px] w-full" 
                data-url="https://calendly.com/reuven-katz/one-on-one-with-reuven"
+               style={{ minWidth: '320px', height: '650px' }}>
+          </div>
+        </div>
+
+        {/* Schedule with Hila */}
+        <div className="max-w-4xl mx-auto">
+          <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-6 text-center">Schedule with Hila</h2>
+          <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation with Hila</p>
+          
+          {/* Calendly Embedded Widget for Hila */}
+          <div className="calendly-inline-widget min-h-[650px] w-full" 
+               data-url="https://calendly.com/hila-katz/consultation"
                style={{ minWidth: '320px', height: '650px' }}>
           </div>
         </div>
