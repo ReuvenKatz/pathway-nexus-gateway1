@@ -25,7 +25,8 @@ const Schedule = () => {
         {/* Schedule with Reuven */}
         <div className="max-w-4xl mx-auto mb-16">
           <h2 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6 text-center">Schedule with Reuven</h2>
-          <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation with Reuven</p>
+          <p className="text-gray-600 text-center mb-4">Choose a convenient time for your consultation with Reuven</p>
+          <p className="text-gray-600 text-center mb-6">Prior to scheduling, please go to PAYMENT</p>
           
           {/* Calendly Embedded Widget */}
           <div className="calendly-inline-widget min-h-[650px] w-full" 
@@ -37,7 +38,8 @@ const Schedule = () => {
         {/* Schedule with Hila */}
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6 text-center">Schedule with Hila</h2>
-          <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation with Hila</p>
+          <p className="text-gray-600 text-center mb-4">Choose a convenient time for your consultation with Hila</p>
+          <p className="text-gray-600 text-center mb-6">Prior to scheduling, please go to PAYMENT</p>
           
           {/* Calendly Embedded Widget for Hila */}
           <div className="calendly-inline-widget min-h-[650px] w-full" 
