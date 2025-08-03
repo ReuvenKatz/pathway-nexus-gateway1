@@ -1,5 +1,7 @@
 
 import { useEffect } from 'react';
+import { Link } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const Schedule = () => {
@@ -26,7 +28,12 @@ const Schedule = () => {
         <div className="max-w-4xl mx-auto mb-16">
           <h2 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6 text-center">Schedule with Reuven</h2>
           <p className="text-gray-600 text-center mb-4">Choose a convenient time for your consultation with Reuven</p>
-          <p className="text-gray-600 text-center mb-6">Prior to scheduling, please go to PAYMENT</p>
+          <p className="text-gray-600 text-center mb-4">Prior to scheduling, please go to PAYMENT</p>
+          <div className="text-center mb-6">
+            <Link to="/payment">
+              <Button className="bg-[#2E4A87] hover:bg-[#2E4A87]/90 text-white">PAYMENT</Button>
+            </Link>
+          </div>
           
           {/* Calendly Embedded Widget */}
           <div className="calendly-inline-widget min-h-[650px] w-full" 
@@ -39,7 +46,12 @@ const Schedule = () => {
         <div className="max-w-4xl mx-auto">
           <h2 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6 text-center">Schedule with Hila</h2>
           <p className="text-gray-600 text-center mb-4">Choose a convenient time for your consultation with Hila</p>
-          <p className="text-gray-600 text-center mb-6">Prior to scheduling, please go to PAYMENT</p>
+          <p className="text-gray-600 text-center mb-4">Prior to scheduling, please go to PAYMENT</p>
+          <div className="text-center mb-6">
+            <Link to="/payment">
+              <Button className="bg-[#2E4A87] hover:bg-[#2E4A87]/90 text-white">PAYMENT</Button>
+            </Link>
+          </div>
           
           {/* Calendly Embedded Widget for Hila */}
           <div className="calendly-inline-widget min-h-[650px] w-full" 
