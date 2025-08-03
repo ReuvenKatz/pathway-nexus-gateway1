@@ -234,24 +234,8 @@ const Contact = () => {
                 </Card>
               </div>
 
-              {/* Calendly and Session Info */}
+              {/* Session Info */}
               <div className="space-y-8">
-                <Card className="shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Schedule with Reuven</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-600 mb-4">
-                      Book a consultation session directly with Reuven.
-                    </p>
-                    {/* Calendly Embedded Widget */}
-                    <div className="calendly-inline-widget min-h-[400px] w-full" 
-                         data-url="https://calendly.com/reuven-katz/one-on-one-with-reuven"
-                         style={{ minWidth: '320px', height: '400px' }}>
-                    </div>
-                  </CardContent>
-                </Card>
-
                 {/* What to Expect */}
                 <Card className="shadow-lg bg-gray-50">
                   <CardHeader>
@@ -383,26 +367,8 @@ const Contact = () => {
                 </Card>
               </div>
 
-              {/* Placeholder for Hila's Calendly and Session Info */}
+              {/* Session Info for Hila */}
               <div className="space-y-8">
-                <Card className="shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Schedule with Hila</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-gray-600 mb-4">
-                      Scheduling with Hila will be available soon. For now, please use the contact form to reach out.
-                    </p>
-                    {/* Placeholder iframe for future Calendly integration */}
-                    <div className="min-h-[400px] w-full border-2 border-dashed border-gray-300 rounded-lg flex items-center justify-center bg-gray-50">
-                      <div className="text-center">
-                        <p className="text-gray-500 mb-2">Calendly integration coming soon</p>
-                        <p className="text-sm text-gray-400">This space will display Hila's scheduling calendar</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
                 {/* What to Expect for Hila */}
                 <Card className="shadow-lg bg-gray-50">
                   <CardHeader>
