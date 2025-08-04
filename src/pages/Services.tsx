@@ -60,7 +60,7 @@ const Services = () => {
                 <div className="space-y-6 text-gray-700">
                   <p>
                     Pursuing a PhD is a rewarding but often overwhelming journey. If you're feeling stressed, stuck, or uncertain, you're 
-                    not alone—and you don't have to go through it by yourself. Our coaching services are designed to bring clarity, 
+                    not alone—and you don't have to go through it by yourself. Our consulting coaching services are designed to bring clarity, 
                     structure, and renewed confidence into your academic life.
                   </p>
 
