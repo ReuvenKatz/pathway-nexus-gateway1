@@ -350,7 +350,7 @@ const Contact = () => {
                   </CardHeader>
                   <CardContent>
                     <ul className="space-y-3 text-gray-700">
-                      <li>• Personalized guidance based on your specific field and stage focused on Humanities and Arts.</li>
+                      <li>• Personalized guidance based on your specific field and stage focused on Humanities and Arts</li>
                       <li>• Strategic planning for your research</li>
                       <li>• Practical tools and frameworks for PhD success</li>
                       <li>• One-on-one mentoring tailored to your needs</li>
