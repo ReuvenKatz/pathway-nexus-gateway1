@@ -29,7 +29,7 @@ const AboutReuven = () => {
             About Reuven
           </h1>
           <h2 className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Academic Coach & Consultant for Doctoral Students and PhDs
+            Academic Consultant for Doctoral Students and PhDs
           </h2>
         </div>
 

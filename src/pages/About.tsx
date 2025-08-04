@@ -78,7 +78,7 @@ const About = () => {
               <div className="lg:col-span-2 space-y-6">
                 <div>
                   <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-4">
-                    Academic Coach & Consultant for Doctoral Students and PhDs
+                    Academic Consultant for Doctoral Students and PhDs
                   </h2>
                 </div>
 
