@@ -43,11 +43,16 @@ const Header = () => {
                 {item.name}
               </Link>
             ))}
-            <Button asChild variant="outline">
-              <Link to="/schedule">
-                Schedule Meeting
-              </Link>
-            </Button>
+            <Link
+              to="/schedule"
+              className={`px-3 py-2 text-sm font-medium transition-colors ${
+                isActive('/schedule')
+                  ? 'text-[#2E4A87] border-b-2 border-[#2E4A87]'
+                  : 'text-gray-700 hover:text-[#2E4A87]'
+              }`}
+            >
+              Schedule Meeting
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -79,13 +84,17 @@ const Header = () => {
                   {item.name}
                 </Link>
               ))}
-              <div className="px-3 py-2">
-                <Button asChild variant="outline" className="w-full">
-                  <Link to="/schedule" onClick={() => setIsMenuOpen(false)}>
-                    Schedule Meeting
-                  </Link>
-                </Button>
-              </div>
+              <Link
+                to="/schedule"
+                className={`block px-3 py-2 text-base font-medium ${
+                  isActive('/schedule')
+                    ? 'text-[#2E4A87] bg-gray-50'
+                    : 'text-gray-700 hover:text-[#2E4A87]'
+                }`}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Schedule Meeting
+              </Link>
             </div>
           </div>
         )}
