@@ -52,7 +52,7 @@ const AboutReuven = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="prose prose-lg max-w-none">
               <p className="text-gray-700">
-                My academic career spans over two decades in research and higher education. Over the years, many students have approached me for help and guidance in completing the dissertation. This led to my developing a method for teaching how to manage doctoral research effectively. I also assist recently graduated PhDs with choosing their career path and navigating rejoining the workforce. My coaching methodology is grounded in extensive experience, empathy, and strategies proven to be effective.
+                My academic career spans over two decades in research and higher education. Over the years, many students have approached me for help and guidance in completing the dissertation. This led me to develop a methodology for teaching effective doctoral research management. I also provide guidance to recent PhD graduates as they explore career opportunities and transition back into the professional workforce. My consulting approach is built upon years of experience, empathy for the challenges faced by doctoral candidates and graduates, and strategies proven to be effective.
               </p>
 
               <p className="text-gray-700">
