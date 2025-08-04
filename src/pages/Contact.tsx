@@ -219,19 +219,6 @@ const Contact = () => {
                   </CardContent>
                 </Card>
 
-                {/* Price per Meeting */}
-                <Card className="shadow-lg bg-blue-50">
-                  <CardHeader>
-                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Price per Meeting</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-2 text-gray-700">
-                      <p>Single meeting XXX GBP (Pounds) (VAT included)</p>
-                      <p>Single meeting YYY $ (VAT included)</p>
-                      <p>Single meeting ZZZ Euro (VAT included)</p>
-                    </div>
-                  </CardContent>
-                </Card>
               </div>
 
               {/* Session Info */}
@@ -352,19 +339,6 @@ const Contact = () => {
                   </CardContent>
                 </Card>
 
-                {/* Price per Meeting */}
-                <Card className="shadow-lg bg-blue-50">
-                  <CardHeader>
-                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Price per Meeting</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-2 text-gray-700">
-                      <p>Single meeting XXX GBP (Pounds) (VAT included)</p>
-                      <p>Single meeting YYY $ (VAT included)</p>
-                      <p>Single meeting ZZZ Euro (VAT included)</p>
-                    </div>
-                  </CardContent>
-                </Card>
               </div>
 
               {/* Session Info for Hila */}
