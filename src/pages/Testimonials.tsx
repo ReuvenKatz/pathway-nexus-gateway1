@@ -1,8 +1,11 @@
 
 import { Card, CardContent } from '@/components/ui/card';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
+import { useNavigate } from 'react-router-dom';
 
 const Testimonials = () => {
+  const navigate = useNavigate();
+  
   const testimonials = [
     {
       id: 1,
@@ -87,8 +90,11 @@ const Testimonials = () => {
             Ready to start your own success story?
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 rounded-md text-lg font-medium transition-colors">
-              Schedule a Consultation
+            <button 
+              onClick={() => navigate('/schedule')}
+              className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
+            >
+              Schedule Meeting
             </button>
             <button className="border border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3 rounded-md text-lg font-medium transition-colors">
               Contact Us
