@@ -11,7 +11,6 @@ const Services = () => {
     "Structuring your research and setting realistic, achievable goals",
     "Choosing the right advisor or improving communication with your current one",
     "Developing effective time management and daily routines",
-    "Conducting a focused and productive literature review",
     "Strengthening relationships with peers, family, and friends",
     "Finding a healthy balance between work and rest",
     "Identifying and addressing potential crises before they escalate",
