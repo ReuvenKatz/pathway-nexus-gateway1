@@ -51,7 +51,7 @@ const Testimonials = () => {
             Client Testimonials
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Read what our clients say about their experience working with our PhD experts. Their 
+            Read what our clients say about their experience working with us. Their 
             success stories demonstrate the impact of our personalized consulting approach.
           </p>
         </div>
