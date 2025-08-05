@@ -96,7 +96,10 @@ const Testimonials = () => {
             >
               Schedule Meeting
             </button>
-            <button className="border border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3 rounded-md text-lg font-medium transition-colors">
+            <button 
+              onClick={() => navigate('/contact')}
+              className="border border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
+            >
               Contact Us
             </button>
           </div>
