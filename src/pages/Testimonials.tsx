@@ -14,7 +14,7 @@ const Testimonials = () => {
     {
       id: 2,
       rating: 5,
-      text: "Hello Reuven, Like many PhD students, I often felt like I was stuck in my own time on the right track. But today, instead of feeling overwhelmed by the massive task of writing a dissertation, I learned to break down my research into smaller, manageable projects with realistic timelines. The organizational techniques I gained help me stay focused day-to-day. What I loved most is that you gave me specific advice on staying operational and communicating more effectively with my advisor. The individual meetings were incredibly valuable and tailored to my exact needs. Now, I am motivated and excited to create my project plans – that enthusiasm has stayed with me ever since!",
+      text: "Hello Reuven, Like many PhD students, I often felt like I was stuck. But today, instead of feeling overwhelmed by the massive task of writing a dissertation, I learned to break down my research into smaller, manageable projects with realistic timelines. The organizational techniques I gained help me stay focused day-to-day. What I loved most is that you gave me specific advice on staying operational and communicating more effectively with my advisor. The individual meetings were incredibly valuable and tailored to my exact needs. Now, I am motivated and excited to create my project plans – that enthusiasm has stayed with me ever since!",
       author: "Bridgit",
       position: "PhD in English Literature"
     },
