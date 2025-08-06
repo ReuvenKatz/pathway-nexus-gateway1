@@ -26,8 +26,12 @@ const AboutHila = () => {
         <div className="grid lg:grid-cols-3 gap-12">
           {/* Left Column - Photo */}
           <div className="lg:col-span-1">
-            <div className="bg-gray-100 rounded-lg aspect-[3/4] flex items-center justify-center" style={{width: '80%'}}>
-              <span className="text-gray-500">Professional Photo Placeholder</span>
+            <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '80%'}}>
+              <img 
+                src="/lovable-uploads/081f4916-488f-4692-8248-1b59dc401d0a.png" 
+                alt="Hila - Academic Coach & Consultant"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
 
