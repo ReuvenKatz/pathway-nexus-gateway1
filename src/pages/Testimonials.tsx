@@ -32,7 +32,7 @@ const Testimonials = () => {
       id: 4,
       rating: 5,
       text: "Hello Reuven, The career transition support was exceptional. I successfully moved from academia to consulting with confidence and clarity about my professional direction. I use my skills and get outstanding feedback. Thanks",
-      author: "Anonymous",
+      author: "Noah",
       position: "Former PhD Candidate"
     }
   ];
