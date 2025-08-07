@@ -58,20 +58,15 @@ const Services = () => {
               <CardContent className="p-8 lg:p-12">
                 <div className="space-y-6 text-gray-700">
                   <p>
-                    Pursuing a PhD is a rewarding but often overwhelming journey. If you're feeling stressed, stuck, or uncertain, you're 
-                    not alone—and you don't have to go through it by yourself. Our consulting services are designed to bring clarity, 
-                    structure, and renewed confidence into your academic life.
+                    Pursuing a PhD can be both rewarding and overwhelming. The experience of feeling stressed or stuck is shared by many students. Our consulting services are designed to help you gain clarity, structure, and confidence for your work.
                   </p>
 
                   <p>
-                    Doctoral studies come with a unique set of challenges: managing independent research, writing a dissertation, 
-                    meeting expectations to publish, and maintaining motivation over the long term. Many students also grapple with 
-                    isolation, financial pressures, and personal struggles that can intensify stress. For international students, these 
-                    challenges are often compounded by cultural adjustment and being far from home.
+                    Doctoral studies come with a unique set of challenges: managing independent research, writing a dissertation, meeting expectations to publish, and maintaining motivation over the long term. Students often struggle with isolation, financial pressures, and personal challenges that can enhance their stress. For international students, there is the added challenge of cultural adjustment far from home.
                   </p>
 
                   <p>
-                    If you're having difficulty making progress, we are here to help you regain momentum and move forward with purpose.
+                    If you're having difficulty making progress, our aim is to help you move forward.
                   </p>
                 </div>
               </CardContent>
