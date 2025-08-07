@@ -84,19 +84,19 @@ const About = () => {
 
                 <div className="prose prose-lg max-w-none space-y-4">
                   <p className="text-gray-700">
-                    My academic career spans over two decades in research and higher education. Over the years, many students have approached me for help and guidance in completing the dissertation. This led me to develop a methodology for teaching effective doctoral research management. I also provide guidance to recent PhD graduates as they explore career opportunities and transition back into the professional workforce. My consulting approach is built upon years of experience, empathy for the challenges faced by doctoral candidates and graduates, and strategies proven to be effective.
+                    My academic career spans over two decades in research and higher education. Over the years, many students have approached me for help and guidance in completing their dissertations. This led me to develop a methodology for teaching effective doctoral research management.
                   </p>
 
                   <p className="text-gray-700">
-                    My educational background includes a BSc and MSc from the Technion, Israel Institute of Technology, a PhD in Engineering from the University of Michigan, and an Executive MBA from Tel Aviv University. I served as a Research Scientist at the University of Michigan before joining the faculty of the Technion as a Professor of Mechanical Engineering.
+                    I also provide guidance to recent PhD graduates as they explore career opportunities and transition back into the professional workforce. My consulting approach is built on years of experience, empathy for the challenges faced by doctoral students and graduates, and strategies proven to be effective.
+                  </p>
+
+                  <p className="text-gray-700">
+                    My educational background includes a BSc and MSc from the Israel Institute of Technology (Technion), a PhD in Engineering from the University of Michigan, and an Executive MBA from Tel Aviv University. I served as a Research Scientist at the University of Michigan, before joining the faculty of the Technion as a Professor of Mechanical Engineering.
                   </p>
 
                   <p className="text-gray-700">
                     I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one consulting. Throughout my career, I have conducted workshops for doctoral students in the United States, Israel, Italy, and Poland. This international perspective has deepened my understanding of the shared universal challenges facing doctoral students. Students who attended my workshops and consulted with me consistently reported increased clarity about their research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing the dissertation and moving forward with their careers.
-                  </p>
-
-                  <p className="text-gray-700">
-                    As PhD consultant, I now collaborate with my daughter Hila, whose background in arts, humanities and education compliments my own.
                   </p>
                 </div>
 
