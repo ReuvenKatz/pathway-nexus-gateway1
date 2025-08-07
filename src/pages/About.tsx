@@ -176,15 +176,15 @@ const About = () => {
 
                 <div className="prose prose-lg max-w-none space-y-4">
                   <p className="text-gray-700">
-                    I provide strength-based coaching that includes tools for identifying and tracking your individual needs, goals and progress. As a consultant, I offer help with gaining the confidence and clarity necessary for completing your dissertation and navigating your relationships and expectations.
+                    I provide strength-based coaching that includes tools for identifying and tracking your individual needs, goals and progress. I offer help navigating your professional relationships and gaining the necessary clarity for completing your dissertation.
                   </p>
 
                   <p className="text-gray-700">
-                    I am experienced with offering one-on-one support to students, having served as a teacher, instructor and mentor for over a decade in different settings and countries (England, The Netherlands, Israel, Canada and the US). My work has included developing educational programs and curricula and teaching at Columbia University's Teachers College, The University of Toronto, and Oranim College.
+                    I am experienced with offering one-on-one support to students, having served as a teacher, instructor and mentor for over a decade in different settings and countries (England, The Netherlands, Israel, Canada and the US). My work has included developing educational programs and curricula and teaching at Columbia University's Teachers College, The University of Toronto, and Oranim College, Israel.
                   </p>
 
                   <p className="text-gray-700">
-                    My educational background includes a Doctor of Education and Master of Education degrees (Ed.D. & Ed.M.) from Columbia University, NY; a master's degree in music (MMus) from the Guildhall School of Music and Drama, London; and a B.A. from the University of Haifa's Honors Program, focused on the humanities.
+                    My educational background includes Doctor of Education and Master of Education degrees from Columbia University, NY; a master's degree in music (MMus) from the Guildhall School of Music and Drama, London; and a B.A. focused on the humanities from the University of Haifa's Honors Program.
                   </p>
                 </div>
 
