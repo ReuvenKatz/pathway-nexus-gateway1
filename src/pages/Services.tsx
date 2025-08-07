@@ -138,50 +138,6 @@ const Services = () => {
               </CardContent>
             </Card>
 
-            {/* Two Column Services */}
-            <div className="grid lg:grid-cols-2 gap-8 mb-12">
-              {/* Career Transition Strategy */}
-              <Card className="shadow-lg">
-                <CardHeader>
-                  <CardTitle className="text-2xl font-serif text-[#2E4A87]">
-                    Career Transition Strategy
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start">
-                      <span className="text-[#2E4A87] mr-2">•</span>
-                      Academic to industry transition planning
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#2E4A87] mr-2">•</span>
-                      Career path exploration and evaluation
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-
-              {/* Professional Development */}
-              <Card className="shadow-lg">
-                <CardHeader>
-                  <CardTitle className="text-2xl font-serif text-[#2E4A87]">
-                    Professional Development
-                  </CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <ul className="space-y-3 text-gray-700">
-                    <li className="flex items-start">
-                      <span className="text-[#2E4A87] mr-2">•</span>
-                      Leadership and management skill building
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-[#2E4A87] mr-2">•</span>
-                      Communication and presentation training
-                    </li>
-                  </ul>
-                </CardContent>
-              </Card>
-            </div>
 
             {/* Bottom Note */}
             <Card className="bg-gray-50">
