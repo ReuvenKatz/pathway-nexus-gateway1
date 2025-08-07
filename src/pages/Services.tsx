@@ -121,38 +121,19 @@ const Services = () => {
             <Card className="mb-12 shadow-lg">
               <CardContent className="p-8 lg:p-12">
                 <p className="text-gray-700 mb-6">
-                  This specialized service is tailored for doctoral candidates who anticipate defending their thesis within the next six 
-                  months, as well as recent PhD graduates who are actively exploring their professional opportunities and career 
-                  trajectories.
+                  This service is offered by Dr. Reuven Katz to doctoral candidates who anticipate defending their dissertation within the next six months, as well as recent PhD graduates who are exploring their professional opportunities and career trajectories.
                 </p>
 
                 <p className="text-gray-700 mb-6">
-                  Throughout my professional journey, I have cultivated extensive experience across diverse sectors and roles. My 
-                  career has encompassed positions as a research engineer and R&D director in industry, co-founding a technology 
-                  startup, conducting advanced research as a scientist at the University of Michigan, and serving as a faculty member at 
-                  the Technion. This multifaceted background provides me with comprehensive insights into the varied career pathways 
-                  available to PhD holders across different professional landscapes.
+                  The consulting is based in Reuven's extensive experience across diverse sectors and roles. His career has encompassed positions as a research engineer and R&D director in industry, co-founding a technology startup, conducting advanced research as a scientist at the University of Michigan, and serving as a faculty member at the Technion. This multifaceted background provides insights into the varied career pathways available to PhD holders.
                 </p>
 
                 <p className="text-gray-700 mb-6">
-                  While I work with individuals from all academic disciplines, my expertise is particularly well-suited for PhDs in 
-                  Engineering, Sciences, and Architecture. I am committed to sharing my experience and providing guidance to help 
-                  you identify career opportunities that align with your unique strengths, personal values, and professional aspirations.
-                </p>
-
-                <p className="text-gray-700 mb-6">
-                  Through our collaborative process, we will examine critical questions that shape career decisions, including whether 
-                  academia represents the optimal path for your goals or simply the most familiar option. We will explore the strategic 
-                  value of pursuing postdoctoral positions, investigate opportunities for researchers within high-technology industries, 
-                  and assess how PhDs are valued and utilized in the private sector.
+                  While Reuven works with individuals from all academic disciplines, his expertise is particularly well-suited for PhDs in Engineering, Sciences, and Architecture. Reuven is committed to sharing his experience and providing guidance to help identify career opportunities that align with one's strengths, personal values, and professional aspirations.
                 </p>
 
                 <p className="text-gray-700">
-                  Our discussions will address concerns about being overqualified for industry positions versus leveraging advanced 
-                  education as a competitive advantage. We will examine career possibilities in public service and education, evaluate 
-                  the merit of obtaining teaching certifications as professional insurance, and assess your entrepreneurial potential 
-                  along with associated rewards and risks. Additionally, we will analyze pathways that offer enhanced financial stability 
-                  or greater personal autonomy, among numerous other important considerations.
+                  Through a collaborative process, questions that shape career decisions are investigated, including whether academia represents the optimal path for your goals, or simply the most familiar option. In the sessions, the strategic value of pursuing postdoctoral positions is explored, alongside opportunities for researchers within high-technology industries, and an assessment of how PhDs are valued and utilized in the private sector.
                 </p>
               </CardContent>
             </Card>
