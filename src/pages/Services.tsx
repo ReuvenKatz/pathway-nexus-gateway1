@@ -142,16 +142,7 @@ const Services = () => {
             {/* Bottom Note */}
             <Card className="bg-gray-50">
               <CardContent className="p-6">
-                <p className="text-sm text-gray-600 italic text-center mb-6">
-                  Note: Some of the following services will be supplied by other experts. For example, Social media and online presence.
-                </p>
-                <p className="text-lg text-gray-700 text-center">
-                  These career decisions carry significant long-term implications for your professional and personal fulfillment. My role 
-                  is to facilitate clarity regarding your options—both within and beyond academic institutions—and to support you in 
-                  making confident, well-informed choices. My objective is to help you identify what genuinely inspires and motivates 
-                  you professionally, and to provide strategic guidance that positions you for success in your chosen direction.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
                     <Link to="/contact">
                       Contact Us
