@@ -131,7 +131,7 @@ const Contact = () => {
               <div className="space-y-6">
                 <Card className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With US</CardTitle>
+                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With Us</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-6">
                     <div className="space-y-2">
@@ -217,8 +217,9 @@ const Contact = () => {
                       <li>• Personalized guidance based on your specific field and stage</li>
                       <li>• Strategic planning for your research and career goals</li>
                       <li>• Practical tools and frameworks for PhD success</li>
-                      <li>• One-on-one mentoring tailored to your needs</li>
+                      <li>• One-on-one consulting tailored to your needs</li>
                       <li>• Clear action steps and follow-up recommendations</li>
+                      <li>• After the first session we will decide together who will be your consultant</li>
                     </ul>
                   </CardContent>
                 </Card>
@@ -337,8 +338,9 @@ const Contact = () => {
                       <li>• Personalized guidance based on your specific field and stage focused on Humanities and Arts</li>
                       <li>• Strategic planning for your research</li>
                       <li>• Practical tools and frameworks for PhD success</li>
-                      <li>• One-on-one mentoring tailored to your needs</li>
+                      <li>• One-on-one consulting tailored to your needs</li>
                       <li>• Clear action steps and follow-up recommendations</li>
+                      <li>• After the first session we will decide together who will be your consultant</li>
                     </ul>
                   </CardContent>
                 </Card>
