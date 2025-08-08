@@ -14,7 +14,7 @@ const Home = () => {
               PhD GATEWAY CONSULTING
             </h1>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-              Professional guidance from experienced experts Prof. Reuven Katz and Dr. Hila Katz. Advancing careers 
+              Professional guidance from experienced experts Dr. Reuven Katz and Dr. Hila Katz. Advancing careers 
               and doctoral research with individual consulting services.
             </p>
             
@@ -52,7 +52,7 @@ const Home = () => {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
                 <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
-                  Meet Reuven Katz, PhD, MBA
+                  Meet Dr. Reuven Katz
                 </h3>
                 <p className="text-gray-600 mb-6">
                   Experienced PhD consultant specializing in research management and academic career development 
