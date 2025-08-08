@@ -95,8 +95,7 @@ const Services = () => {
             <Card className="bg-gray-50">
               <CardContent className="p-8 text-center">
                 <p className="text-gray-700 mb-6">
-                  Both Hila and Reuven are former international students and mentors to many international graduate students. We 
-                  understand the unique hurdles you may be facing. If you're struggling to advance in your research or feeling isolated, 
+                  Both Hila and Reuven are former international graduate students. We understand the unique hurdles international graduate student may be facing. If you're struggling to advance in your research or feeling isolated,
                   we invite you to reach out. Let's work together to turn challenges into achievable steps toward success.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
