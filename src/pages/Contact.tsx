@@ -124,22 +124,6 @@ const Contact = () => {
 
         {/* Tabs */}
         <Tabs defaultValue="reuven" className="w-full">
-          <div className="flex justify-center mb-8">
-            <TabsList className="grid w-full max-w-md grid-cols-2 h-12 bg-gray-100 p-1 rounded-lg">
-              <TabsTrigger 
-                value="reuven" 
-                className="text-sm font-medium py-2 px-4 rounded-md transition-all data-[state=active]:bg-[#2E4A87] data-[state=active]:text-white data-[state=active]:shadow-sm"
-              >
-                Contact Reuven
-              </TabsTrigger>
-              <TabsTrigger 
-                value="hila" 
-                className="text-sm font-medium py-2 px-4 rounded-md transition-all data-[state=active]:bg-[#2E4A87] data-[state=active]:text-white data-[state=active]:shadow-sm"
-              >
-                Contact Hila
-              </TabsTrigger>
-            </TabsList>
-          </div>
 
           <TabsContent value="reuven" className="space-y-6">
             <div className="grid lg:grid-cols-2 gap-12">
@@ -147,7 +131,7 @@ const Contact = () => {
               <div className="space-y-6">
                 <Card className="shadow-lg">
                   <CardHeader>
-                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch with Reuven</CardTitle>
+                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With US</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-6">
                     <div className="space-y-2">
@@ -199,7 +183,7 @@ const Contact = () => {
                     </div>
                     
                     <div className="space-y-2">
-                      <Label htmlFor="reuven-message">How can Reuven help you? *</Label>
+                      <Label htmlFor="reuven-message">How can we help you? *</Label>
                       <Textarea 
                         id="reuven-message" 
                         placeholder="Tell us about your specific challenges or goals..."
