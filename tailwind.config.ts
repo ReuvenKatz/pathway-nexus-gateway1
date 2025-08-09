@@ -65,7 +65,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				'algerian': ['Cinzel Decorative', 'Algerian', 'Arial Black', 'cursive', 'sans-serif'],
+				'algerian': ['Algerian', 'Arial Black', 'cursive', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
