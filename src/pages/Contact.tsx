@@ -130,20 +130,9 @@ const Contact = () => {
           </TabsList>
 
           <TabsContent value="reuven" className="space-y-6">
-            <div className="grid lg:grid-cols-3 gap-12">
-              {/* Reuven's Photo */}
-              <div className="lg:col-span-1 flex justify-center">
-                <div className="w-96 h-96">
-                  <img 
-                    src="/lovable-uploads/6d130454-1c86-4057-96ba-a375ced6f78e.png" 
-                    alt="Reuven Katz - Academic Consultant"
-                    className="w-full h-full object-cover rounded-lg shadow-lg"
-                  />
-                </div>
-              </div>
-              
+            <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
-              <div className="lg:col-span-2 space-y-6">
+              <div className="space-y-6">
                 <Card className="shadow-lg">
                   <CardHeader>
                     <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With Us</CardTitle>
@@ -262,20 +251,9 @@ const Contact = () => {
           </TabsContent>
 
           <TabsContent value="hila" className="space-y-6">
-            <div className="grid lg:grid-cols-3 gap-12">
-              {/* Hila's Photo */}
-              <div className="lg:col-span-1 flex justify-center">
-                <div className="w-96 h-96">
-                  <img 
-                    src="/lovable-uploads/56736c88-2950-47c0-b73a-aa3c8aa3edca.png" 
-                    alt="Hila - Academic Consultant"
-                    className="w-full h-full object-cover rounded-lg shadow-lg"
-                  />
-                </div>
-              </div>
-              
+            <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form for Hila */}
-              <div className="lg:col-span-2 space-y-6">
+              <div className="space-y-6">
                 <Card className="shadow-lg">
                   <CardHeader>
                     <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch with Hila</CardTitle>
