@@ -117,16 +117,13 @@ const Contact = () => {
           <h1 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6">
             Contact Us
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Ready to take the next step in your doctoral journey? We're here to help you succeed.
-          </p>
         </div>
 
         {/* Tabs */}
         <Tabs defaultValue="reuven" className="w-full">
           <TabsList className="grid w-full grid-cols-2 mb-8">
-            <TabsTrigger value="reuven" className="text-lg">Contact Reuven</TabsTrigger>
-            <TabsTrigger value="hila" className="text-lg">Contact Hila</TabsTrigger>
+            <TabsTrigger value="reuven" className="text-lg">Reuven</TabsTrigger>
+            <TabsTrigger value="hila" className="text-lg">Hila</TabsTrigger>
           </TabsList>
 
           <TabsContent value="reuven" className="space-y-6">
