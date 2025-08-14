@@ -38,7 +38,6 @@ const Contact = () => {
   }, []);
 
   const handleSubmit = async () => {
-    
     // Basic validation
     if (!formData.name || !formData.email || !formData.message) {
       toast({
@@ -106,106 +105,103 @@ const Contact = () => {
 
         <div className="w-full">
           <div className="grid lg:grid-cols-2 gap-12">
-              {/* Contact Form */}
-              <div className="space-y-6">
-                <Card className="shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With Us</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-6">
-                     <div className="space-y-2">
-                       <Label htmlFor="name">Full Name *</Label>
-                       <Input 
-                         id="name" 
-                         placeholder="Your full name"
-                         value={formData.name}
-                         onChange={(e) => setFormData({...formData, name: e.target.value})}
-                       />
-                     </div>
-                    
-                     <div className="space-y-2">
-                       <Label htmlFor="email">Email Address *</Label>
-                       <Input 
-                         id="email" 
-                         type="email" 
-                         placeholder="your.email@example.com"
-                         value={formData.email}
-                         onChange={(e) => setFormData({...formData, email: e.target.value})}
-                       />
-                     </div>
-                    
-                     <div className="space-y-2">
-                       <Label htmlFor="field">Field of Study</Label>
-                       <Input 
-                         id="field" 
-                         placeholder="e.g., Computer Science, Psychology, etc."
-                         value={formData.field}
-                         onChange={(e) => setFormData({...formData, field: e.target.value})}
-                       />
-                     </div>
-                    
-                     <div className="space-y-2">
-                       <Label htmlFor="stage">Current Stage</Label>
-                       <select 
-                         id="stage" 
-                         className="w-full p-2 border border-gray-300 rounded-md"
-                         value={formData.stage}
-                         onChange={(e) => setFormData({...formData, stage: e.target.value})}
-                       >
-                        <option value="">Select your current stage</option>
-                        <option value="early-phd">Early PhD (1st-2nd year)</option>
-                        <option value="mid-phd">Mid PhD (3rd-4th year)</option>
-                        <option value="late-phd">Late PhD (5th+ year)</option>
-                        <option value="writing">Writing dissertation</option>
-                        <option value="recent-grad">Recent PhD graduate</option>
-                      </select>
-                    </div>
-                    
-                     <div className="space-y-2">
-                       <Label htmlFor="message">How can we help you? *</Label>
-                       <Textarea 
-                         id="message" 
-                         placeholder="Tell us about your specific challenges or goals..."
-                         rows={4}
-                         value={formData.message}
-                         onChange={(e) => setFormData({...formData, message: e.target.value})}
-                       />
-                     </div>
-                    
-                     <Button 
-                       className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
-                       onClick={handleSubmit}
-                       disabled={isLoading}
+            {/* Contact Form */}
+            <div className="space-y-6">
+              <Card className="shadow-lg">
+                <CardHeader>
+                  <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With Us</CardTitle>
+                </CardHeader>
+                <CardContent className="space-y-6">
+                  <div className="space-y-2">
+                    <Label htmlFor="name">Full Name *</Label>
+                    <Input 
+                      id="name" 
+                      placeholder="Your full name"
+                      value={formData.name}
+                      onChange={(e) => setFormData({...formData, name: e.target.value})}
+                    />
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <Label htmlFor="email">Email Address *</Label>
+                    <Input 
+                      id="email" 
+                      type="email" 
+                      placeholder="your.email@example.com"
+                      value={formData.email}
+                      onChange={(e) => setFormData({...formData, email: e.target.value})}
+                    />
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <Label htmlFor="field">Field of Study</Label>
+                    <Input 
+                      id="field" 
+                      placeholder="e.g., Computer Science, Psychology, etc."
+                      value={formData.field}
+                      onChange={(e) => setFormData({...formData, field: e.target.value})}
+                    />
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <Label htmlFor="stage">Current Stage</Label>
+                    <select 
+                      id="stage" 
+                      className="w-full p-2 border border-gray-300 rounded-md"
+                      value={formData.stage}
+                      onChange={(e) => setFormData({...formData, stage: e.target.value})}
                     >
-                      {isLoading ? 'Sending...' : 'Send Message'}
-                    </Button>
-                  </CardContent>
-                </Card>
+                      <option value="">Select your current stage</option>
+                      <option value="early-phd">Early PhD (1st-2nd year)</option>
+                      <option value="mid-phd">Mid PhD (3rd-4th year)</option>
+                      <option value="late-phd">Late PhD (5th+ year)</option>
+                      <option value="writing">Writing dissertation</option>
+                      <option value="recent-grad">Recent PhD graduate</option>
+                    </select>
+                  </div>
+                  
+                  <div className="space-y-2">
+                    <Label htmlFor="message">How can we help you? *</Label>
+                    <Textarea 
+                      id="message" 
+                      placeholder="Tell us about your specific challenges or goals..."
+                      rows={4}
+                      value={formData.message}
+                      onChange={(e) => setFormData({...formData, message: e.target.value})}
+                    />
+                  </div>
+                  
+                  <Button 
+                    className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
+                    onClick={handleSubmit}
+                    disabled={isLoading}
+                  >
+                    {isLoading ? 'Sending...' : 'Send Message'}
+                  </Button>
+                </CardContent>
+              </Card>
+            </div>
 
-              </div>
-
-              {/* Session Info */}
-              <div className="space-y-8">
-
-                {/* Session Details */}
-                <Card className="shadow-lg bg-gray-50">
-                  <CardHeader>
-                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-3 text-gray-700">
-                      <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
-                        <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
-                        <p className="text-sm">Flexible scheduling</p>
-                      </div>
+            {/* Session Info */}
+            <div className="space-y-8">
+              {/* Session Details */}
+              <Card className="shadow-lg bg-gray-50">
+                <CardHeader>
+                  <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <div className="space-y-3 text-gray-700">
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
+                      <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
                     </div>
-                  </CardContent>
-                </Card>
-              </div>
+                    <div>
+                      <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
+                      <p className="text-sm">Flexible scheduling</p>
+                    </div>
+                  </div>
+                </CardContent>
+              </Card>
             </div>
           </div>
         </div>
