@@ -5,7 +5,7 @@ import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const Home = () => {
   return (
-    <div className="bg-white">
+    <div className="bg-yellow-50">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-50 to-white py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -35,7 +35,7 @@ const Home = () => {
               </Button>
               <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3 text-lg">
                 <Link to="/contact">
-                  Get Started Today
+                  Get Started
                 </Link>
               </Button>
             </div>
