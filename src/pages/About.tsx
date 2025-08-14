@@ -137,10 +137,10 @@ const About = () => {
                     <h3 className="text-xl font-serif font-bold text-[#2E4A87] mb-4">Journal Articles</h3>
                     <div className="space-y-3 text-gray-700">
                       <p>
-                        Katz, R. (2016). Challenges in doctoral research project management: A comparative study. <em>International Journal of Doctoral Studies</em>, 11, 105-125.
+                        Katz, R. (2016). Challenges in doctoral research project management: A comparative study. <em>International Journal of Doctoral Studies</em>, <em>11</em>, 105-125.
                       </p>
                       <p>
-                        Katz, R. (2018). Crises in a doctoral research project: A comparative study. <em>International Journal of Doctoral Studies</em>, 13, 211-231. <a href="https://doi.org/10.28945/4044" className="text-[#2E4A87] hover:underline" target="_blank" rel="noopener noreferrer">https://doi.org/10.28945/4044</a>
+                        Katz, R. (2018). Crises in a doctoral research project: A comparative study. <em>International Journal of Doctoral Studies</em>, <em>13</em>, 211-231. <a href="https://doi.org/10.28945/4044" className="text-[#2E4A87] hover:underline" target="_blank" rel="noopener noreferrer">https://doi.org/10.28945/4044</a>
                       </p>
                     </div>
                   </div>
