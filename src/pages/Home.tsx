@@ -5,7 +5,7 @@ import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const Home = () => {
   return (
-    <div className="bg-yellow-100">
+    <div className="bg-yellow-400">
       {/* Hero Section */}
       <section className="bg-gradient-to-b from-gray-50 to-white py-16 lg:py-24">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
