@@ -14,8 +14,7 @@ const Home = () => {
               PhD GATEWAY CONSULTING
             </h1>
             <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-              Professional guidance from experienced experts Dr. Reuven Katz and Dr. Hila Katz. Advancing careers 
-              and doctoral research with individual consulting services.
+              Professional guidance for completing the doctorate and advancing careers.
             </p>
             
             {/* Yellow Illustration */}
