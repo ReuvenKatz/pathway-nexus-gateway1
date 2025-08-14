@@ -7,7 +7,7 @@ const Home = () => {
   return (
     <div className="bg-yellow-400">
       {/* Hero Section */}
-      <section className="bg-gradient-to-b from-gray-50 to-white py-16 lg:py-24">
+      <section className="bg-gradient-to-b from-gray-50 to-white pt-16 lg:pt-24 pb-6 lg:pb-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-algerian text-black mb-6">
@@ -44,7 +44,7 @@ const Home = () => {
       </section>
 
       {/* Consultants Section */}
-      <section className="py-16 lg:py-24 bg-gray-50">
+      <section className="pt-6 lg:pt-10 pb-16 lg:pb-24 bg-gray-50">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
             {/* Reuven Card */}
