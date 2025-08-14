@@ -62,7 +62,7 @@ const About = () => {
             <div className="grid lg:grid-cols-3 gap-12">
               {/* Left Column - Photo */}
               <div className="lg:col-span-1">
-                <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '92%'}}>
+                <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '101%'}}>
                   <img 
                     src="/lovable-uploads/56736c88-2950-47c0-b73a-aa3c8aa3edca.png" 
                     alt="Reuven Katz - Academic Coach & Consultant"
@@ -154,7 +154,7 @@ const About = () => {
             <div className="grid lg:grid-cols-3 gap-12">
               {/* Left Column - Photo */}
               <div className="lg:col-span-1">
-                <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '92%'}}>
+                <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '101%'}}>
                   <img 
                     src="/lovable-uploads/081f4916-488f-4692-8248-1b59dc401d0a.png" 
                     alt="Hila - Academic Coach & Consultant"
