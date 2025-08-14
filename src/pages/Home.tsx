@@ -53,10 +53,7 @@ const Home = () => {
                 <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
                   Meet Dr. Reuven Katz
                 </h3>
-                <p className="text-gray-600 mb-6">
-                  Experienced PhD consultant specializing in research management and academic career development 
-                  mainly in science and engineering.
-                </p>
+                <div className="mb-6"></div>
                 <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white">
                   <Link to="/about">
                     Learn More
@@ -71,9 +68,7 @@ const Home = () => {
                 <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
                   Meet Dr. Hila Katz
                 </h3>
-                <p className="text-gray-600 mb-6">
-                  Expert consultant with extensive experience in students' guidance in humanities.
-                </p>
+                <div className="mb-6"></div>
                 <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white">
                   <Link to="/about">
                     Learn More
