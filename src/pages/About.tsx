@@ -106,7 +106,7 @@ const About = () => {
                     className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
                     onClick={handleContactReuven}
                   >
-                    Contact Reuven
+                    Contact Us
                   </Button>
                   <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">
                     <Link to="/schedule">
@@ -194,7 +194,7 @@ const About = () => {
                     className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
                     onClick={handleContactHila}
                   >
-                    Contact Hila
+                    Contact Us
                   </Button>
                   <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">
                     <Link to="/schedule">
