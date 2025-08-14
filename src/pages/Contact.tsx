@@ -3,7 +3,6 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Label } from '@/components/ui/label';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useToast } from '@/hooks/use-toast';
 import { supabase } from '@/integrations/supabase/client';
 import { useEffect, useState } from 'react';
@@ -13,17 +12,8 @@ const Contact = () => {
   const { toast } = useToast();
   const [isLoading, setIsLoading] = useState(false);
 
-  // Form states for Reuven
-  const [reuvenForm, setReuvenForm] = useState({
-    name: '',
-    email: '',
-    field: '',
-    stage: '',
-    message: ''
-  });
-
-  // Form states for Hila
-  const [hilaForm, setHilaForm] = useState({
+  // Form state
+  const [formData, setFormData] = useState({
     name: '',
     email: '',
     field: '',
@@ -47,8 +37,7 @@ const Contact = () => {
     };
   }, []);
 
-  const handleSubmit = async (contactType: 'reuven' | 'hila') => {
-    const formData = contactType === 'reuven' ? reuvenForm : hilaForm;
+  const handleSubmit = async () => {
     
     // Basic validation
     if (!formData.name || !formData.email || !formData.message) {
@@ -77,7 +66,7 @@ const Contact = () => {
       const { data, error } = await supabase.functions.invoke('send-contact-email', {
         body: {
           ...formData,
-          contactType
+          contactType: 'general'
         }
       });
 
@@ -86,15 +75,11 @@ const Contact = () => {
       }
 
       // Reset form
-      if (contactType === 'reuven') {
-        setReuvenForm({ name: '', email: '', field: '', stage: '', message: '' });
-      } else {
-        setHilaForm({ name: '', email: '', field: '', stage: '', message: '' });
-      }
+      setFormData({ name: '', email: '', field: '', stage: '', message: '' });
 
       toast({
         title: "Message Sent!",
-        description: `Your message has been sent to ${contactType === 'reuven' ? 'Reuven' : 'Hila'}. We'll get back to you soon!`,
+        description: "Your message has been sent. We'll get back to you soon!",
       });
 
     } catch (error: any) {
@@ -119,15 +104,8 @@ const Contact = () => {
           </h1>
         </div>
 
-        {/* Tabs */}
-        <Tabs defaultValue="reuven" className="w-full">
-          <TabsList className="grid w-full grid-cols-2 mb-8">
-            <TabsTrigger value="reuven" className="text-lg">Reuven</TabsTrigger>
-            <TabsTrigger value="hila" className="text-lg">Hila</TabsTrigger>
-          </TabsList>
-
-          <TabsContent value="reuven" className="space-y-6">
-            <div className="grid lg:grid-cols-2 gap-12">
+        <div className="w-full">
+          <div className="grid lg:grid-cols-2 gap-12">
               {/* Contact Form */}
               <div className="space-y-6">
                 <Card className="shadow-lg">
@@ -135,45 +113,45 @@ const Contact = () => {
                     <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With Us</CardTitle>
                   </CardHeader>
                   <CardContent className="space-y-6">
-                    <div className="space-y-2">
-                      <Label htmlFor="reuven-name">Full Name *</Label>
-                      <Input 
-                        id="reuven-name" 
-                        placeholder="Your full name"
-                        value={reuvenForm.name}
-                        onChange={(e) => setReuvenForm({...reuvenForm, name: e.target.value})}
-                      />
-                    </div>
+                     <div className="space-y-2">
+                       <Label htmlFor="name">Full Name *</Label>
+                       <Input 
+                         id="name" 
+                         placeholder="Your full name"
+                         value={formData.name}
+                         onChange={(e) => setFormData({...formData, name: e.target.value})}
+                       />
+                     </div>
                     
-                    <div className="space-y-2">
-                      <Label htmlFor="reuven-email">Email Address *</Label>
-                      <Input 
-                        id="reuven-email" 
-                        type="email" 
-                        placeholder="your.email@example.com"
-                        value={reuvenForm.email}
-                        onChange={(e) => setReuvenForm({...reuvenForm, email: e.target.value})}
-                      />
-                    </div>
+                     <div className="space-y-2">
+                       <Label htmlFor="email">Email Address *</Label>
+                       <Input 
+                         id="email" 
+                         type="email" 
+                         placeholder="your.email@example.com"
+                         value={formData.email}
+                         onChange={(e) => setFormData({...formData, email: e.target.value})}
+                       />
+                     </div>
                     
-                    <div className="space-y-2">
-                      <Label htmlFor="reuven-field">Field of Study</Label>
-                      <Input 
-                        id="reuven-field" 
-                        placeholder="e.g., Computer Science, Psychology, etc."
-                        value={reuvenForm.field}
-                        onChange={(e) => setReuvenForm({...reuvenForm, field: e.target.value})}
-                      />
-                    </div>
+                     <div className="space-y-2">
+                       <Label htmlFor="field">Field of Study</Label>
+                       <Input 
+                         id="field" 
+                         placeholder="e.g., Computer Science, Psychology, etc."
+                         value={formData.field}
+                         onChange={(e) => setFormData({...formData, field: e.target.value})}
+                       />
+                     </div>
                     
-                    <div className="space-y-2">
-                      <Label htmlFor="reuven-stage">Current Stage</Label>
-                      <select 
-                        id="reuven-stage" 
-                        className="w-full p-2 border border-gray-300 rounded-md"
-                        value={reuvenForm.stage}
-                        onChange={(e) => setReuvenForm({...reuvenForm, stage: e.target.value})}
-                      >
+                     <div className="space-y-2">
+                       <Label htmlFor="stage">Current Stage</Label>
+                       <select 
+                         id="stage" 
+                         className="w-full p-2 border border-gray-300 rounded-md"
+                         value={formData.stage}
+                         onChange={(e) => setFormData({...formData, stage: e.target.value})}
+                       >
                         <option value="">Select your current stage</option>
                         <option value="early-phd">Early PhD (1st-2nd year)</option>
                         <option value="mid-phd">Mid PhD (3rd-4th year)</option>
@@ -183,21 +161,21 @@ const Contact = () => {
                       </select>
                     </div>
                     
-                    <div className="space-y-2">
-                      <Label htmlFor="reuven-message">How can we help you? *</Label>
-                      <Textarea 
-                        id="reuven-message" 
-                        placeholder="Tell us about your specific challenges or goals..."
-                        rows={4}
-                        value={reuvenForm.message}
-                        onChange={(e) => setReuvenForm({...reuvenForm, message: e.target.value})}
-                      />
-                    </div>
+                     <div className="space-y-2">
+                       <Label htmlFor="message">How can we help you? *</Label>
+                       <Textarea 
+                         id="message" 
+                         placeholder="Tell us about your specific challenges or goals..."
+                         rows={4}
+                         value={formData.message}
+                         onChange={(e) => setFormData({...formData, message: e.target.value})}
+                       />
+                     </div>
                     
-                    <Button 
-                      className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
-                      onClick={() => handleSubmit('reuven')}
-                      disabled={isLoading}
+                     <Button 
+                       className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
+                       onClick={handleSubmit}
+                       disabled={isLoading}
                     >
                       {isLoading ? 'Sending...' : 'Send Message'}
                     </Button>
@@ -208,22 +186,6 @@ const Contact = () => {
 
               {/* Session Info */}
               <div className="space-y-8">
-                {/* What to Expect */}
-                <Card className="shadow-lg bg-gray-50">
-                  <CardHeader>
-                    <CardTitle className="text-xl font-serif text-[#2E4A87]">What to Expect</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-3 text-gray-700">
-                      <li>• Personalized guidance based on your specific field and stage</li>
-                      <li>• Strategic planning for your research and career goals</li>
-                      <li>• Practical tools and frameworks for PhD success</li>
-                      <li>• One-on-one consulting tailored to your needs</li>
-                      <li>• Clear action steps and follow-up recommendations</li>
-                      <li>• After the first session we will decide together who will be your consultant</li>
-                    </ul>
-                  </CardContent>
-                </Card>
 
                 {/* Session Details */}
                 <Card className="shadow-lg bg-gray-50">
@@ -245,138 +207,8 @@ const Contact = () => {
                 </Card>
               </div>
             </div>
-          </TabsContent>
-
-          <TabsContent value="hila" className="space-y-6">
-            <div className="grid lg:grid-cols-2 gap-12">
-              {/* Contact Form for Hila */}
-              <div className="space-y-6">
-                <Card className="shadow-lg">
-                  <CardHeader>
-                    <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch with Hila</CardTitle>
-                  </CardHeader>
-                  <CardContent className="space-y-6">
-                    <div className="space-y-2">
-                      <Label htmlFor="hila-name">Full Name *</Label>
-                      <Input 
-                        id="hila-name" 
-                        placeholder="Your full name"
-                        value={hilaForm.name}
-                        onChange={(e) => setHilaForm({...hilaForm, name: e.target.value})}
-                      />
-                    </div>
-                    
-                    <div className="space-y-2">
-                      <Label htmlFor="hila-email">Email Address *</Label>
-                      <Input 
-                        id="hila-email" 
-                        type="email" 
-                        placeholder="your.email@example.com"
-                        value={hilaForm.email}
-                        onChange={(e) => setHilaForm({...hilaForm, email: e.target.value})}
-                      />
-                    </div>
-                    
-                    <div className="space-y-2">
-                      <Label htmlFor="hila-field">Field of Study</Label>
-                      <Input 
-                        id="hila-field" 
-                        placeholder="e.g., Computer Science, Psychology, etc."
-                        value={hilaForm.field}
-                        onChange={(e) => setHilaForm({...hilaForm, field: e.target.value})}
-                      />
-                    </div>
-                    
-                    <div className="space-y-2">
-                      <Label htmlFor="hila-stage">Current Stage</Label>
-                      <select 
-                        id="hila-stage" 
-                        className="w-full p-2 border border-gray-300 rounded-md"
-                        value={hilaForm.stage}
-                        onChange={(e) => setHilaForm({...hilaForm, stage: e.target.value})}
-                      >
-                        <option value="">Select your current stage</option>
-                        <option value="early-phd">Early PhD (1st-2nd year)</option>
-                        <option value="mid-phd">Mid PhD (3rd-4th year)</option>
-                        <option value="late-phd">Late PhD (5th+ year)</option>
-                        <option value="writing">Writing dissertation</option>
-                        <option value="recent-grad">Recent PhD graduate</option>
-                      </select>
-                    </div>
-                    
-                    <div className="space-y-2">
-                      <Label htmlFor="hila-message">How can Hila help you? *</Label>
-                      <Textarea 
-                        id="hila-message" 
-                        placeholder="Tell us about your specific challenges or goals..."
-                        rows={4}
-                        value={hilaForm.message}
-                        onChange={(e) => setHilaForm({...hilaForm, message: e.target.value})}
-                      />
-                    </div>
-                    
-                    <Button 
-                      className="w-full bg-[#2E4A87] hover:bg-[#1e3a6f] text-white"
-                      onClick={() => handleSubmit('hila')}
-                      disabled={isLoading}
-                    >
-                      {isLoading ? 'Sending...' : 'Send Message'}
-                    </Button>
-                  </CardContent>
-                </Card>
-
-              </div>
-
-              {/* Session Info for Hila */}
-              <div className="space-y-8">
-                {/* What to Expect for Hila */}
-                <Card className="shadow-lg bg-gray-50">
-                  <CardHeader>
-                    <CardTitle className="text-xl font-serif text-[#2E4A87]">What to Expect</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <ul className="space-y-3 text-gray-700">
-                      <li>• Personalized guidance based on your specific field and stage focused on Humanities and Arts</li>
-                      <li>• Strategic planning for your research</li>
-                      <li>• Practical tools and frameworks for PhD success</li>
-                      <li>• One-on-one consulting tailored to your needs</li>
-                      <li>• Clear action steps and follow-up recommendations</li>
-                      <li>• After the first session we will decide together who will be your consultant</li>
-                    </ul>
-                  </CardContent>
-                </Card>
-
-                {/* Session Details for Hila */}
-                <Card className="shadow-lg bg-gray-50">
-                  <CardHeader>
-                    <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <div className="space-y-3 text-gray-700">
-                      <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
-                        <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
-                      </div>
-                      <div>
-                        <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
-                        <p className="text-sm">Flexible scheduling</p>
-                      </div>
-                    </div>
-                  </CardContent>
-                </Card>
-
-                <Card className="shadow-lg bg-gray-50">
-                  <CardContent className="p-6">
-                    <h4 className="font-semibold text-gray-900 mb-2">Response Time</h4>
-                    <p className="text-gray-600 text-sm">
-                      We typically respond to inquiries within 24-48 hours. For urgent matters, please mention it in your message.
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
-          </TabsContent>
-        </Tabs>
+          </div>
+        </div>
       </div>
       <ScrollToTopButton />
     </div>
