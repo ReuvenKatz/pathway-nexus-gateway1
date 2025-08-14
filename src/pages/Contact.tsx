@@ -202,6 +202,15 @@ const Contact = () => {
                   </div>
                 </CardContent>
               </Card>
+              
+              {/* Contact Image */}
+              <div className="flex justify-center">
+                <img 
+                  src="/lovable-uploads/8a3a838d-2d9d-4156-b4fe-849698827936.png" 
+                  alt="PhD student thinking 'I should contact them now!'"
+                  className="max-w-full h-auto rounded-lg"
+                />
+              </div>
             </div>
           </div>
         </div>
