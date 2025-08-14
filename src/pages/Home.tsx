@@ -51,7 +51,7 @@ const Home = () => {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
                 <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
-                  Meet Dr. Reuven Katz
+                  About Dr. Reuven Katz
                 </h3>
                 <div className="mb-6"></div>
                 <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white">
@@ -66,7 +66,7 @@ const Home = () => {
             <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8 text-center">
                 <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
-                  Meet Dr. Hila Katz
+                  About Dr. Hila Katz
                 </h3>
                 <div className="mb-6"></div>
                 <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white">
