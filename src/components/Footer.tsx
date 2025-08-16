@@ -10,7 +10,7 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-sm text-gray-600 font-algerian">
-            © 2024 PhD Gateway Consulting. All rights reserved.
+            © 2025 PhD Gateway Consulting. All rights reserved.
           </p>
           <p className="text-sm text-gray-500 mt-2">
             Professional guidance for doctoral students and academic professionals
