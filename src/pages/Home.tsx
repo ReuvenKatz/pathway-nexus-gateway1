@@ -16,6 +16,20 @@ const Home = () => {
             <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto mb-12">
               Professional guidance for completing the doctorate and building your career post-graduation. Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
             </p>
+
+            {/* About Us CTAs */}
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
+              <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 text-lg">
+                <Link to="/about">
+                  About Us
+                </Link>
+              </Button>
+              <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 text-lg">
+                <Link to="/about">
+                  About Us
+                </Link>
+              </Button>
+            </div>
             
             {/* Yellow Illustration */}
             <div className="mb-12">
@@ -43,42 +57,6 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Consultants Section */}
-      <section className="pt-6 lg:pt-10 pb-16 lg:pb-24 bg-gray-50">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
-            {/* Reuven Card */}
-            <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
-                  About Dr. Reuven Katz
-                </h3>
-                <div className="mb-6"></div>
-                <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white">
-                  <Link to="/about">
-                    Learn More
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-
-            {/* Hila Card */}
-            <Card className="bg-white shadow-lg hover:shadow-xl transition-shadow">
-              <CardContent className="p-8 text-center">
-                <h3 className="text-2xl font-algerian font-bold text-[#2E4A87] mb-4">
-                  About Dr. Hila Katz
-                </h3>
-                <div className="mb-6"></div>
-                <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white">
-                  <Link to="/about">
-                    Learn More
-                  </Link>
-                </Button>
-              </CardContent>
-            </Card>
-          </div>
-        </div>
-      </section>
       <ScrollToTopButton />
     </div>
   );
