@@ -104,9 +104,9 @@ const Contact = () => {
         </div>
 
         <div className="w-full">
-          <div className="grid lg:grid-cols-2 gap-12">
+          <div className="flex justify-center">
             {/* Contact Form */}
-            <div className="space-y-6">
+            <div className="max-w-lg w-full">
               <Card className="shadow-lg">
                 <CardHeader>
                   <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With Us</CardTitle>
@@ -180,37 +180,6 @@ const Contact = () => {
                   </Button>
                 </CardContent>
               </Card>
-            </div>
-
-            {/* Session Info */}
-            <div className="space-y-8">
-              {/* Session Details */}
-              <Card className="shadow-lg bg-gray-50">
-                <CardHeader>
-                  <CardTitle className="text-xl font-serif text-[#2E4A87]">Session Details</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <div className="space-y-3 text-gray-700">
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Duration & Format</h4>
-                      <p className="text-sm">50-minute one-on-one video consultation via Zoom/Teams</p>
-                    </div>
-                    <div>
-                      <h4 className="font-semibold text-gray-900 mb-1">Scheduling</h4>
-                      <p className="text-sm">Flexible scheduling</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              {/* Contact Image */}
-              <div className="flex justify-center">
-                <img 
-                  src="/lovable-uploads/8a3a838d-2d9d-4156-b4fe-849698827936.png" 
-                  alt="PhD student thinking 'I should contact them now!'"
-                  className="max-w-full h-auto rounded-lg"
-                />
-              </div>
             </div>
           </div>
         </div>
