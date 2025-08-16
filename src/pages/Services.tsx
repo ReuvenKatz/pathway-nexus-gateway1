@@ -7,13 +7,13 @@ import ScrollToTopButton from '@/components/ScrollToTopButton';
 
 const Services = () => {
   const individualConsultingServices = [
-    "Receiving support from a caring, experienced, and objective mentors",
+    "Receiving support from caring, experienced, and objective mentors",
     "Structuring your research and setting realistic, achievable goals",
-    "Choosing the right advisor or improving communication with your current one",
-    "Developing effective time management and daily routines",
-    "Finding a healthy balance between work and rest",
+    "Choosing the right advisor, or improving communication with your current one",
+    "Developing effective time-management and daily routines",
+    "Finding a health work-life balance",
     "Identifying and addressing potential crises before they escalate",
-    "Maintaining steady progress on your thesis or dissertation",
+    "Maintaining steady progress on your dissertation or thesis",
     "If your major is in science or engineering, talk to Reuven. If your major is in humanities, Hila is the better choice"
   ];
 
