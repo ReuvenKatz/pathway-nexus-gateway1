@@ -17,13 +17,8 @@ const Home = () => {
               Professional guidance for completing the doctorate and building your career post-graduation. Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
             </p>
 
-            {/* About Us CTAs */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
-              <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 text-lg">
-                <Link to="/about">
-                  About Us
-                </Link>
-              </Button>
+            {/* About Us CTA */}
+            <div className="flex justify-center mb-12">
               <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 text-lg">
                 <Link to="/about">
                   About Us
