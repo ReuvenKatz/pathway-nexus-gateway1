@@ -155,7 +155,6 @@ const Contact = () => {
                       <option value="early-phd">Early PhD (1st-2nd year)</option>
                       <option value="mid-phd">Mid PhD (3rd-4th year)</option>
                       <option value="late-phd">Late PhD (5th+ year)</option>
-                      <option value="writing">Writing dissertation</option>
                       <option value="recent-grad">Recent PhD graduate</option>
                     </select>
                   </div>
