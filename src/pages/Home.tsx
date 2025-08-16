@@ -13,8 +13,8 @@ const Home = () => {
             <h1 className="text-4xl lg:text-6xl font-algerian text-black mb-6">
               PhD GATEWAY CONSULTING
             </h1>
-            <p className="text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto mb-12">
-              Professional guidance for completing the doctorate and advancing careers.
+            <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto mb-12">
+              Professional guidance for completing the doctorate and building your career post-graduation. Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
             </p>
             
             {/* Yellow Illustration */}
