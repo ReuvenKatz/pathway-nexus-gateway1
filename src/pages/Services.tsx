@@ -11,12 +11,10 @@ const Services = () => {
     "Structuring your research and setting realistic, achievable goals",
     "Choosing the right advisor or improving communication with your current one",
     "Developing effective time management and daily routines",
-    "Strengthening relationships with peers, family, and friends",
     "Finding a healthy balance between work and rest",
     "Identifying and addressing potential crises before they escalate",
     "Maintaining steady progress on your thesis or dissertation",
-    "If your major is in science or engineering, talk to Reuven. If your major is in humanities, Hila is the better choice",
-    "And much more..."
+    "If your major is in science or engineering, talk to Reuven. If your major is in humanities, Hila is the better choice"
   ];
 
   return (
@@ -94,10 +92,6 @@ const Services = () => {
             {/* Bottom Message */}
             <Card className="bg-gray-50">
               <CardContent className="p-8 text-center">
-                <p className="text-gray-700 mb-6">
-                  Both Hila and Reuven are former international graduate students. We understand the unique hurdles international graduate student may be facing. If you're struggling to advance in your research or feeling isolated,
-                  we invite you to reach out. Let's work together to turn challenges into achievable steps toward success.
-                </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
                     <Link to="/contact">
