@@ -10,11 +10,10 @@ const Services = () => {
     "Receiving support from caring, experienced, and objective mentors",
     "Structuring your research and setting realistic, achievable goals",
     "Choosing the right advisor, or improving communication with your current one",
-    "Developing effective time-management and daily routines",
-    "Finding a health work-life balance",
+    "Developing effective time-management skills and daily routines",
+    "Finding a healthy work-life balance",
     "Identifying and addressing potential crises before they escalate",
-    "Maintaining steady progress on your dissertation or thesis",
-    "If your major is in science or engineering, talk to Reuven. If your major is in humanities, Hila is the better choice"
+    "Maintaining steady progress on your dissertation or thesis"
   ];
 
   return (
