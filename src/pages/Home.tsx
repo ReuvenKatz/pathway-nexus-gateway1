@@ -18,7 +18,23 @@ const Home = () => {
             </p>
             
             {/* Horizontal line */}
-            <div className="border-b border-gray-200 w-full max-w-3xl mx-auto"></div>
+            <div className="border-b border-gray-200 w-full max-w-3xl mx-auto mb-8"></div>
+            
+            {/* Dr. Reuven Katz Section */}
+            <div className="flex flex-col lg:flex-row items-start gap-8 max-w-4xl mx-auto text-left">
+              <div className="lg:w-2/3">
+                <p className="text-2xl lg:text-3xl text-gray-700 leading-relaxed">
+                  Hi, I am Dr. Reuven Katz. I'm an academic consultant for doctoral students and PhDs, offering help in completing the doctorate and building your career post-graduation.
+                </p>
+              </div>
+              <div className="lg:w-1/3">
+                <img
+                  src="/lovable-uploads/466312e0-95c0-480b-9d77-cecc0f4ddf22.png"
+                  alt="Dr. Reuven Katz"
+                  className="w-full max-w-sm mx-auto lg:mx-0 rounded-lg shadow-lg"
+                />
+              </div>
+            </div>
           </div>
         </div>
       </section>
