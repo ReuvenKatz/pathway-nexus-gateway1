@@ -182,6 +182,28 @@ const Contact = () => {
             </div>
           </div>
         </div>
+        
+        {/* Schedule Meeting CTA */}
+        <div className="mt-16 text-center">
+          <div className="max-w-md mx-auto">
+            <Card className="bg-gray-50">
+              <CardContent className="p-8">
+                <h3 className="text-xl font-serif text-[#2E4A87] mb-4">
+                  Ready to Get Started?
+                </h3>
+                <p className="text-gray-600 mb-6">
+                  Schedule a meeting with us to discuss your needs and how we can help you succeed.
+                </p>
+                <Button 
+                  className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
+                  onClick={() => window.open('https://calendly.com/your-calendly-link', '_blank')}
+                >
+                  Schedule Meeting
+                </Button>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
       </div>
       <ScrollToTopButton />
     </div>
