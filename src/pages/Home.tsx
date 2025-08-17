@@ -56,6 +56,15 @@ const Home = () => {
         </div>
       </section>
 
+      {/* CTA Section */}
+      <section className="bg-gray-50 py-12">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+          <Button asChild size="lg" className="text-lg px-8 py-4">
+            <Link to="/about">About Us</Link>
+          </Button>
+        </div>
+      </section>
+
       <ScrollToTopButton />
     </div>
   );
