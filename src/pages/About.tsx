@@ -92,11 +92,11 @@ const About = () => {
                   </p>
 
                   <p className="text-gray-700">
-                    My educational background includes a BSc and MSc from the Israel Institute of Technology (Technion), a PhD in Engineering from the University of Michigan, and an Executive MBA from Tel Aviv University. I served as a Research Scientist at the University of Michigan, before joining the faculty of the Technion as a Professor of Mechanical Engineering.
+                    My educational background includes a BSc and MSc in Engineering from the Technion, Israel Institute of Technology, a PhD in Engineering from the University of Michigan, and an Executive MBA from Tel Aviv University. I served as a Research Scientist at the University of Michigan, before joining the faculty of Technion as a Professor of Mechanical Engineering.
                   </p>
 
                   <p className="text-gray-700">
-                    I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one consulting. Throughout my career, I have conducted workshops for doctoral students in the United States, Israel, Italy, and Poland. This international perspective has deepened my understanding of the shared universal challenges facing doctoral students. Students who attended my workshops and consulted with me consistently reported increased clarity about their research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing the dissertation and moving forward with their careers.
+                    I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one consulting. Throughout my career, I have conducted workshops for doctoral students in Europe, the United States and Asia. Students who attended my workshops and consulted with me consistently reported increased clarity about their research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing the dissertation and moving forward with their careers.
                   </p>
                 </div>
 
