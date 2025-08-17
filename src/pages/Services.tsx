@@ -57,13 +57,7 @@ const Services = () => {
                 <div className="space-y-6 text-gray-700">
                   <p>
                     Pursuing a PhD can be both rewarding and overwhelming. The experience of feeling stressed or stuck is shared by many students. Our consulting services are designed to help you gain clarity, structure, and confidence for your work.
-                  </p>
-
-                  <p>
                     Doctoral studies come with a unique set of challenges: managing independent research, writing a dissertation, meeting expectations to publish, and maintaining motivation over the long term. Students often struggle with isolation, financial pressures, and personal challenges that can enhance their stress. For international students, there is the added challenge of cultural adjustment far from home.
-                  </p>
-
-                  <p>
                     If you're having difficulty making progress, our aim is to help you move forward.
                   </p>
                 </div>
