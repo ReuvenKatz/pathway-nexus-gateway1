@@ -85,15 +85,10 @@ const Services = () => {
             {/* Bottom Message */}
             <Card className="bg-gray-50">
               <CardContent className="p-8 text-center">
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="flex justify-center">
                   <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
                     <Link to="/contact">
                       Contact Us
-                    </Link>
-                  </Button>
-                  <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">
-                    <Link to="/contact">
-                      Schedule a Meeting
                     </Link>
                   </Button>
                 </div>
@@ -128,15 +123,10 @@ const Services = () => {
             {/* Bottom Note */}
             <Card className="bg-gray-50">
               <CardContent className="p-6">
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                <div className="flex justify-center">
                   <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
                     <Link to="/contact">
                       Contact Us
-                    </Link>
-                  </Button>
-                  <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">
-                    <Link to="/contact">
-                      Schedule a Meeting
                     </Link>
                   </Button>
                 </div>
