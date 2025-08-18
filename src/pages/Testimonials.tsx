@@ -79,14 +79,11 @@ const Testimonials = () => {
 
         {/* Contact Us CTA */}
         <div className="text-center mt-16">
-          <h2 className="text-2xl font-bold text-[#2E4A87] mb-6">
-            Contact Us
-          </h2>
           <button 
             onClick={() => navigate('/contact')}
             className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
           >
-            Get in Touch
+            Contact Us
           </button>
         </div>
       </div>
