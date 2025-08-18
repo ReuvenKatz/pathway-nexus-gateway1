@@ -6,7 +6,7 @@ const Payment = () => {
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-8 text-center">PAYMENT</h1>
+          <h1 className="text-4xl lg:text-5xl font-aptos font-bold text-[#2E4A87] mb-8 text-center">PAYMENT</h1>
           
           {/* Price per Meeting */}
           <Card className="shadow-lg bg-blue-50 mb-8">

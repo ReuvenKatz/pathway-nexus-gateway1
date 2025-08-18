@@ -10,7 +10,7 @@ const Home = () => {
       <section className="bg-gradient-to-b from-gray-50 to-white pt-8 lg:pt-12 pb-6 lg:pb-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-4xl lg:text-6xl font-algerian text-black mb-6">
+            <h1 className="text-4xl lg:text-6xl font-aptos text-black mb-6">
               PhD GATEWAY CONSULTING
             </h1>
             <p className="text-xl lg:text-2xl text-gray-600 max-w-3xl mx-auto mb-8">

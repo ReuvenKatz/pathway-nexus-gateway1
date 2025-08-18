@@ -43,7 +43,7 @@ const Testimonials = () => {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
-          <h1 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6">
+          <h1 className="text-4xl lg:text-5xl font-aptos font-bold text-[#2E4A87] mb-6">
             Client Testimonials
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

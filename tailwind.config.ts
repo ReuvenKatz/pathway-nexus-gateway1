@@ -65,7 +65,7 @@ export default {
 				}
 			},
 			fontFamily: {
-				'algerian': ['Algerian', 'Arial Black', 'cursive', 'sans-serif'],
+				'aptos': ['Aptos', 'Segoe UI', 'Helvetica Neue', 'Arial', 'sans-serif'],
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

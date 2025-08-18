@@ -109,9 +109,9 @@ All colors MUST be HSL.
   font-family: 'Girassol', cursive;
 }
 
-.font-algerian {
-  font-family: 'Algerian', 'Arial Black', 'Impact', 'Franklin Gothic Bold', cursive, sans-serif;
-  font-weight: 900;
+.font-aptos {
+  font-family: 'Aptos', 'Segoe UI', 'Helvetica Neue', 'Arial', sans-serif;
+  font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
   letter-spacing: 0.1em;

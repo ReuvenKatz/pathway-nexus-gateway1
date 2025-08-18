@@ -30,7 +30,7 @@ const About = () => {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6">
+          <h1 className="text-4xl lg:text-5xl font-aptos font-bold text-[#2E4A87] mb-6">
             About Us
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">

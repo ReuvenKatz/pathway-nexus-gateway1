@@ -26,7 +26,7 @@ const Schedule = () => {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
         {/* Schedule with Reuven */}
         <div className="max-w-4xl mx-auto mb-16">
-          <h2 className="text-4xl lg:text-5xl font-algerian font-bold text-[#2E4A87] mb-6 text-center">SCHEDULE CONSULTATION MEETING</h2>
+          <h2 className="text-4xl lg:text-5xl font-aptos font-bold text-[#2E4A87] mb-6 text-center">SCHEDULE CONSULTATION MEETING</h2>
           <p className="text-gray-600 text-center mb-4">Choose a convenient time for your consultation with Reuven and Hila</p>
           <p className="text-gray-600 text-center mb-4">Prior to scheduling, please go to PAYMENT</p>
           <div className="text-center mb-6">
