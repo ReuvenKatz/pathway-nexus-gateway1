@@ -10,13 +10,22 @@ const Home = () => {
       <section className="bg-gradient-to-b from-gray-50 to-white pt-8 lg:pt-12 pb-6 lg:pb-10">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <div className="bg-amber-100 border border-amber-200 rounded-lg p-6 max-w-3xl mx-auto mb-8">
-              <h1 className="text-4xl lg:text-6xl font-aptos text-black mb-4">
-                PhD GATEWAY CONSULTING
-              </h1>
-              <p className="text-xl lg:text-2xl text-gray-700">
-                Professional guidance for completing the doctorate and building your career post-graduation. Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
-              </p>
+            <div className="relative -mx-4 sm:-mx-6 lg:-mx-8 mb-8">
+              <div
+                className="w-full py-10 px-6 text-center"
+                style={{
+                  backgroundImage: 'url(/lovable-uploads/419c667a-c2d0-4edd-877e-a5d3c1b79406.png)',
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+              >
+                <h1 className="text-4xl lg:text-6xl font-aptos text-black mb-4">
+                  PhD GATEWAY CONSULTING
+                </h1>
+                <p className="text-xl lg:text-2xl text-gray-700">
+                  Professional guidance for completing the doctorate and building your career post-graduation. Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
+                </p>
+              </div>
             </div>
             
             {/* Horizontal line */}
@@ -61,7 +70,7 @@ const Home = () => {
       {/* CTA Section */}
       <section className="bg-gray-50 py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <Button asChild size="lg" className="text-lg px-8 py-4">
+          <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4">
             <Link to="/about">About Us</Link>
           </Button>
         </div>
