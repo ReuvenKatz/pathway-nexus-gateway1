@@ -24,10 +24,10 @@ const Testimonials = () => {
     {
       id: 3,
       rating: 5,
-      text: "Hi Reuven, Thank you for your effective consulting. My advisors were impressed when I showed them my new research plan. Now I update it each semester, track what worked (and what didn't), and discuss any changes with them. I've even shared my knowledge with my lab mates, and they're really interested in applying these techniques too. Thanks for such a practical and encouraging experience!",
-      author: "Moses",
-      position: "PhD candidate in Computer Science"
-    },
+      text: "Hi Reuven, I really enjoyed the workshop. I found it especially interesting to interact with students from other faculties and see that we share similar challenges in the doctoral program. It was a great opportunity to present my research in front of an audience that was not familiar with my research topic! I showed my newly prepared plan to both my advisors. They agreed that it's very important to create a plan and follow it. I intend to update my plan once a semester, analyze in which points I did not meet my schedule and why, update my plan and discuss it with my advisors to get their approval for the changes. I've also shared topics from the workshop with my lab mates, and they're really interested in applying the methods you taught. Regards,",
+      author: "Monica",
+      position: "PhD candidate in Behavioral Sciences"
+    }
   ];
 
   const renderStars = (rating: number) => {
@@ -77,6 +77,18 @@ const Testimonials = () => {
           ))}
         </div>
 
+        {/* Contact Us CTA */}
+        <div className="text-center mt-16">
+          <h2 className="text-2xl font-bold text-[#2E4A87] mb-6">
+            Contact Us
+          </h2>
+          <button 
+            onClick={() => navigate('/contact')}
+            className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
+          >
+            Get in Touch
+          </button>
+        </div>
       </div>
       <ScrollToTopButton />
     </div>
