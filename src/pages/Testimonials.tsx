@@ -28,13 +28,6 @@ const Testimonials = () => {
       author: "Moses",
       position: "PhD candidate in Computer Science"
     },
-    {
-      id: 4,
-      rating: 5,
-      text: "Hello Reuven, The career transition support was exceptional. I successfully moved from academia to consulting with confidence and clarity about my professional direction. I use my skills and get outstanding feedback. Thanks",
-      author: "Noah",
-      position: "Former PhD Candidate"
-    }
   ];
 
   const renderStars = (rating: number) => {
@@ -84,26 +77,6 @@ const Testimonials = () => {
           ))}
         </div>
 
-        {/* Bottom CTA */}
-        <div className="text-center mt-16">
-          <p className="text-lg text-gray-700 mb-6">
-            Ready to start your own success story?
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={() => navigate('/schedule')}
-              className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
-            >
-              Schedule Meeting
-            </button>
-            <button 
-              onClick={() => navigate('/contact')}
-              className="border border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3 rounded-md text-lg font-medium transition-colors"
-            >
-              Contact Us
-            </button>
-          </div>
-        </div>
       </div>
       <ScrollToTopButton />
     </div>
