@@ -14,6 +14,22 @@ const Index = () => {
         </div>
       </div>
 
+      {/* Framed Section */}
+      <div className="bg-amber-100 border border-amber-200 mx-4 sm:mx-8 lg:mx-16 p-6 rounded-lg shadow-sm">
+        <div className="text-center">
+          <h2 className="text-2xl md:text-3xl font-bold font-aptos text-primary mb-4">
+            PhD GATEWAY CONSULTING
+          </h2>
+          <p className="text-lg text-foreground leading-relaxed">
+            Professional guidance for completing the doctorate and building your career post-graduation. 
+            Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
+          </p>
+        </div>
+      </div>
+
+      {/* Horizontal line */}
+      <div className="border-b border-border mx-4 sm:mx-8 lg:mx-16 my-8"></div>
+
       {/* Main Content */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid md:grid-cols-2 gap-12 items-center">
