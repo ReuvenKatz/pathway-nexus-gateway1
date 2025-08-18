@@ -24,7 +24,7 @@ const Testimonials = () => {
     {
       id: 3,
       rating: 5,
-      text: "Hi Reuven, I really enjoyed the workshop. I found it especially interesting to interact with students from other faculties and see that we share similar challenges in the doctoral program. It was a great opportunity to present my research in front of an audience that was not familiar with my research topic! I showed my newly prepared plan to both my advisors. They agreed that it's very important to create a plan and follow it. I intend to update my plan once a semester, analyze in which points I did not meet my schedule and why, update my plan and discuss it with my advisors to get their approval for the changes. I've also shared topics from the workshop with my lab mates, and they're really interested in applying the methods you taught. Regards,",
+      text: "Hi Reuven, I really enjoyed the workshop. I found it especially interesting to interact with students from other faculties and see that we share similar challenges in the doctoral program. It was a great opportunity to present my research in front of an audience that was not familiar with my research topic! I showed my newly prepared plan to both my advisors. They agreed that it's very important to create a plan and follow it. I intend to update my plan once a semester, analyze in which points I did not meet my schedule and why, update my plan and discuss it with my advisors to get their approval for the changes. I've also shared topics from the workshop with my lab mates, and they're really interested in applying the methods you taught.",
       author: "Monica",
       position: "PhD candidate in Behavioral Sciences"
     }
