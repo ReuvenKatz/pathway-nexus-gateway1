@@ -121,7 +121,7 @@ const About = () => {
             <div className="mt-16">
               <Card className="bg-gray-50">
                 <CardHeader>
-                  <CardTitle className="text-3xl font-serif text-[#2E4A87]">Publications</CardTitle>
+                  <CardTitle className="text-3xl font-serif text-[#2E4A87]">Publications on this topic</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-8">
                   {/* Book Section */}
