@@ -182,16 +182,6 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        
-        {/* Schedule Meeting CTA */}
-        <div className="mt-16 text-center">
-          <Button 
-            className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
-            onClick={() => window.open('https://calendly.com/your-calendly-link', '_blank')}
-          >
-            Schedule Meeting
-          </Button>
-        </div>
       </div>
       <ScrollToTopButton />
     </div>
