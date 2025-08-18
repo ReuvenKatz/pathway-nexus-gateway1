@@ -64,7 +64,7 @@ const About = () => {
               <div className="lg:col-span-1">
                 <div className="rounded-lg aspect-[3/4] overflow-hidden" style={{width: '101%'}}>
                   <img 
-                    src="/lovable-uploads/1feec13e-f3b5-4ef7-948b-b3d4c99be93f.png" 
+                    src="/lovable-uploads/c079fde1-c57a-49b8-8d4a-58ba68a42096.png" 
                     alt="Reuven Katz - Academic Coach & Consultant"
                     className="w-full h-full object-cover"
                     onError={handleImageError}
