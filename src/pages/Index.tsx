@@ -15,7 +15,7 @@ const Index = () => {
       </div>
 
       {/* Framed Section */}
-      <div className="bg-amber-100 border border-amber-200 mx-4 sm:mx-8 lg:mx-16 p-6 rounded-lg shadow-sm">
+      <div className="relative w-full py-12 px-6" style={{backgroundImage: 'url(/lovable-uploads/419c667a-c2d0-4edd-877e-a5d3c1b79406.png)', backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold font-aptos text-primary mb-4">
             PhD GATEWAY CONSULTING
@@ -56,8 +56,8 @@ const Index = () => {
 
         {/* CTA Section */}
         <div className="text-center mt-16">
-          <Button asChild size="lg" className="px-8 py-6 text-lg">
-            <Link to="/about">Learn More About Our Services</Link>
+          <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg">
+            <Link to="/about">About Us</Link>
           </Button>
         </div>
       </div>
