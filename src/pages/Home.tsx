@@ -19,7 +19,7 @@ const Home = () => {
                   backgroundPosition: 'center',
                 }}
               >
-                <h1 className="text-4xl lg:text-6xl font-aptos text-black mb-4">
+                <h1 className="text-4xl lg:text-6xl font-aptos italic text-black mb-4">
                   PhD GATEWAY CONSULTING
                 </h1>
                 <p className="text-xl lg:text-2xl text-gray-700">
