@@ -17,14 +17,6 @@ const About = () => {
     console.log('Image loaded successfully:', e.currentTarget.src);
   };
 
-  const handleContactReuven = () => {
-    navigate('/contact');
-  };
-
-  const handleContactHila = () => {
-    navigate('/contact');
-  };
-
   return (
     <div className="bg-white">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8 py-16">
@@ -98,21 +90,6 @@ const About = () => {
                   <p className="text-gray-700">
                     I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one consulting. Throughout my career, I have conducted workshops for doctoral students in Europe, the United States and Asia. Students who attended my workshops and consulted with me consistently reported increased clarity about their research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing the dissertation and moving forward with their careers.
                   </p>
-                </div>
-
-                {/* Action Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                  <Button 
-                    className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
-                    onClick={handleContactReuven}
-                  >
-                    Contact Us
-                  </Button>
-                  <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">
-                    <Link to="/schedule">
-                      Schedule a Meeting
-                    </Link>
-                  </Button>
                 </div>
               </div>
             </div>
@@ -188,17 +165,11 @@ const About = () => {
                   </p>
                 </div>
 
-                {/* Action Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 pt-6">
-                  <Button 
-                    className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3"
-                    onClick={handleContactHila}
-                  >
-                    Contact Us
-                  </Button>
-                  <Button asChild variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white px-8 py-3">
-                    <Link to="/schedule">
-                      Schedule a Meeting
+                {/* Services Button */}
+                <div className="flex justify-start pt-6">
+                  <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
+                    <Link to="/services">
+                      Services
                     </Link>
                   </Button>
                 </div>
