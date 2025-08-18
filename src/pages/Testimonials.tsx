@@ -17,9 +17,9 @@ const Testimonials = () => {
     {
       id: 2,
       rating: 5,
-      text: "Hello Reuven, Like many PhD students, I often felt like I was stuck. But today, instead of feeling overwhelmed by the massive task of writing a dissertation, I learned to break down my research into smaller, manageable projects with realistic timelines. The organizational techniques I gained help me stay focused day-to-day. What I loved most is that you gave me specific advice on staying operational and communicating more effectively with my advisor. The individual meetings were incredibly valuable and tailored to my exact needs. Now, I am motivated and excited to create my project plans – that enthusiasm has stayed with me ever since!",
-      author: "Bridgit",
-      position: "PhD in English Literature"
+      text: "Hello Reuven, As doctoral students we often encounter moments of hopelessness and ask ourselves questions such as: 'Am I doing what I am expected to do?', 'Where am I headed?', 'How will I manage to do it?'  In the 'Managing Doctoral Research as a Project' workshop, I felt the 'you are not alone' phenomenon – the doctoral student experience of feeling alone can be handled effectively with the right skills. This workshop greatly expanded my understanding of the importance of time optimization as a PhD student.  I learned how to keep on focusing on the bigger picture – the end goal of writing a dissertation – while also modulating the work by breaking down the research process into smaller, 'manageable' projects, and setting realistic goals within the available time frame. Through the workshop, I gained day-to-day organizational skills and techniques. Besides the practical skills, the workshop gave me a stronger sense of direction and provided a quantitative way of planning and measuring the work. During the one-on-one meeting, you tailored your advice to my specific needs, and showed me how to be operational and how to handle communication with my advisor in a more effective and professional way. The workshop and the individualized meeting helped me regain my belief in what I am doing and know where I am headed to. I felt highly motivated to create my WBS, Gantt, and Master Plans, and this sense of ambition stays with me to this day.",
+      author: "Brigitta",
+      position: "PhD student in Linguistics"
     },
     {
       id: 3,
