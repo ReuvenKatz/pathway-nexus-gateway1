@@ -87,8 +87,8 @@ const Services = () => {
               <CardContent className="p-8 text-center">
                 <div className="flex justify-center">
                   <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
-                    <Link to="/contact">
-                      Contact Us
+                    <Link to="/schedule">
+                      Schedule Meeting
                     </Link>
                   </Button>
                 </div>
@@ -125,8 +125,8 @@ const Services = () => {
               <CardContent className="p-6">
                 <div className="flex justify-center">
                   <Button asChild className="bg-[#2E4A87] hover:bg-[#1e3a6f] text-white px-8 py-3">
-                    <Link to="/contact">
-                      Contact Us
+                    <Link to="/schedule">
+                      Schedule Meeting
                     </Link>
                   </Button>
                 </div>
