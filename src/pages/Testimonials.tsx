@@ -12,7 +12,7 @@ const Testimonials = () => {
       rating: 5,
       text: "Dr. Katz, When I started my doctoral program, I was sure it would be easy, I'll think about a research topic, I'll plan it, get the approval, perform successful research and publish. But as I advanced in the doctorate, I came to realize that the administrative aspect and the research itself are more complex than I thought. Not everything I managed to accomplish was worth publication. Also, the relationship with my adviser became challenging. The more I advanced, the more questions arose. Following the workshop attendance, and especially after the individual sessions with you, I understood that a solid doctorate research plan will allow me to anticipate challenges and prepare solutions in advance, that can be applied later when needed. My research includes two large studies. I learned from you how to work on both of them in parallel. I also learned how to incorporate into my research plan personal constraints, such as the birth of my child. Now I know how to follow the \"big picture\" of my research and at the same time also plan my daily chores… Having a solid plan helped me not only on the cognitive level of planning and executing, but also gave me peace of mind and deep confidence on the emotional level, that I previously lacked. Since our last meeting many unanticipated things popped up in my personal life, but the plan that I created with your help calmed me down and allowed me to reorganize my new focus. Now I understand that my adviser should be involved in this process and take part in it. Thank you,",
       author: "Ifat",
-      position: "Department of Psychology"
+      position: "PhD candidate, Department of Psychology"
     },
     {
       id: 2,
