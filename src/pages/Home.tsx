@@ -32,21 +32,21 @@ const Home = () => {
             <div className="border-b border-gray-200 w-full max-w-3xl mx-auto mb-8"></div>
             
             {/* Dr. Reuven Katz Section */}
-            <div className="flex flex-col lg:flex-row gap-8 max-w-6xl mx-auto text-left">
-              {/* Left side - Dr. Reuven Katz */}
-              <div className="flex flex-col items-start lg:w-1/2">
+            <div className="flex flex-col lg:flex-row gap-8 max-w-7xl mx-auto text-left">
+              {/* Left side - Dr. Reuven Katz intro and photo */}
+              <div className="flex flex-col items-start lg:w-2/5">
                 <p className="text-2xl lg:text-3xl text-gray-700 leading-relaxed mb-6 max-w-sm">
                   Hi, I am Dr. Reuven Katz. I am an academic consultant for doctoral students and PhDs, offering help in completing the doctorate and building your career post-graduation.
                 </p>
                 <img
                   src="/lovable-uploads/466312e0-95c0-480b-9d77-cecc0f4ddf22.png"
                   alt="Dr. Reuven Katz"
-                  className="w-full max-w-sm rounded-lg shadow-lg"
+                  className="w-full max-w-xs rounded-lg shadow-lg"
                 />
               </div>
               
               {/* Right side - About Dr. Reuven Katz */}
-              <div className="lg:w-1/2">
+              <div className="lg:w-3/5">
                 <div className="text-lg text-gray-700 leading-relaxed space-y-4">
                   <p>
                     I am an experienced PhD consultant, and for the past two decades I've specialized in working with doctoral students who are ready to be empowered and make positive changes.
