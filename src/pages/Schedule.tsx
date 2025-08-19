@@ -27,13 +27,7 @@ const Schedule = () => {
         {/* Schedule with Reuven */}
         <div className="max-w-4xl mx-auto mb-16">
           <h2 className="text-4xl lg:text-5xl font-aptos font-bold text-[#2E4A87] mb-6 text-center">SCHEDULE CONSULTATION MEETING</h2>
-          <p className="text-gray-600 text-center mb-4">Choose a convenient time for your consultation with Reuven and Hila</p>
-          <p className="text-gray-600 text-center mb-4">Prior to scheduling, please go to PAYMENT</p>
-          <div className="text-center mb-6">
-            <Link to="/payment">
-              <Button className="bg-[#2E4A87] hover:bg-[#2E4A87]/90 text-white">PAYMENT</Button>
-            </Link>
-          </div>
+          <p className="text-gray-600 text-center mb-6">Choose a convenient time for your consultation with Reuven and Hila</p>
           
           {/* Calendly Embedded Widget */}
           <div className="calendly-inline-widget min-h-[650px] w-full" 
