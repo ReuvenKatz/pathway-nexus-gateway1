@@ -14,7 +14,7 @@ const Home = () => {
               <div
                 className="w-full py-10 px-6 text-center"
                 style={{
-                  backgroundImage: 'url(/lovable-uploads/3b547c09-07cd-49bc-987a-564742bff4ca.png)',
+                  backgroundImage: 'url(/lovable-uploads/a3006bd5-b515-4ab7-a8b0-39fb481d75ef.png)',
                   backgroundSize: 'cover',
                   backgroundPosition: 'center',
                 }}
