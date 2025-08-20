@@ -39,7 +39,7 @@ const Contact = () => {
 
   const handleSubmit = async () => {
     // Basic validation
-    if (!formData.name || !formData.email || !formData.message) {
+    if (!formData.name || !formData.email || !formData.field || !formData.message) {
       toast({
         title: "Error",
         description: "Please fill in all required fields.",
@@ -134,7 +134,7 @@ const Contact = () => {
                   </div>
                   
                   <div className="space-y-2">
-                    <Label htmlFor="field">Field of Study</Label>
+                    <Label htmlFor="field">Field of Study *</Label>
                     <Input 
                       id="field" 
                       placeholder="e.g., Computer Science, Psychology, etc."
