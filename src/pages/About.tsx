@@ -26,7 +26,7 @@ const About = () => {
             About Us
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Meet our team of experienced academic consultants dedicated to helping doctoral students succeed.
+            Meet our team of experienced academic coaches dedicated to helping doctoral students succeed.
           </p>
         </div>
 
