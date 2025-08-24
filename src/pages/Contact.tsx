@@ -112,7 +112,7 @@ const Contact = () => {
             <div className="max-w-lg w-full">
               <Card className="shadow-lg">
                 <CardHeader>
-                  <CardTitle className="text-2xl font-serif text-[#2E4A87]">Get In Touch With Us</CardTitle>
+                  <CardTitle className="text-2xl font-serif text-[#2E4A87]">Contact Us</CardTitle>
                 </CardHeader>
                 <CardContent className="space-y-6">
                   <div className="space-y-2">
