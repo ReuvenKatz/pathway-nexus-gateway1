@@ -60,6 +60,9 @@ const Home = () => {
                   <p>
                     As a retired Professor of Mechanical Engineering at the Technion, Israel Institute of Technology, I have been working with students of engineering, science and architecture. I have recently been collaborating with Dr. Hila Katz in my consulting practice, as her background is in the humanities, arts and education. You're welcome to read more about both of us at the link below. Have a look around this site and get in touch to see how we can assist you.
                   </p>
+                  <p className="text-lg font-bold text-[#2E4A87] mt-6">
+                    On the Contact Us page please fill out the contact form and get a FREE 20-minute initial consultation to discuss your current status and needs.
+                  </p>
                 </div>
               </div>
             </div>
@@ -70,9 +73,6 @@ const Home = () => {
       {/* CTA Section */}
       <section className="bg-gray-50 py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-lg font-bold text-[#2E4A87] mb-6">
-            On the Contact Us page please fill out the contact form and get a FREE 20-minute initial consultation to discuss your current status and needs.
-          </p>
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4">
             <Link to="/about">About Us</Link>
           </Button>
