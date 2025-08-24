@@ -69,7 +69,7 @@ const Services = () => {
                 How Can We Support You
               </h2>
               <p className="text-lg text-gray-600 text-center mb-8">
-                Through personalized consulting, we help PhD students with:
+                Through personalized coaching, we help PhD students with:
               </p>
 
               <div className="grid lg:grid-cols-2 gap-6">
