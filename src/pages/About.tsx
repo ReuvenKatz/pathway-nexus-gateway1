@@ -70,7 +70,7 @@ const About = () => {
               <div className="lg:col-span-2 space-y-6">
                 <div>
                   <h2 className="text-2xl font-serif font-bold text-[#2E4A87] mb-4">
-                    Academic Consultant for Doctoral Students and PhDs
+                    Academic Coach and Consultant for Doctoral Students and PhDs
                   </h2>
                 </div>
 
@@ -80,7 +80,7 @@ const About = () => {
                   </p>
 
                   <p className="text-gray-700">
-                    I also provide guidance to recent PhD graduates as they explore career opportunities and transition back into the professional workforce. My consulting approach is built on years of experience, empathy for the challenges faced by doctoral students and graduates, and strategies proven to be effective.
+                    I also provide guidance to recent PhD graduates as they explore career opportunities and transition back into the professional workforce. My counselling approach is built on years of experience, empathy for the challenges faced by doctoral students and graduates, and strategies proven to be effective.
                   </p>
 
                   <p className="text-gray-700">
@@ -88,7 +88,7 @@ const About = () => {
                   </p>
 
                   <p className="text-gray-700">
-                    I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one consulting. Throughout my career, I have conducted workshops for doctoral students in Europe, the United States and Asia. Students who attended my workshops and consulted with me consistently reported increased clarity about their research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing the dissertation and moving forward with their careers.
+                    I have worked with doctoral students from diverse disciplines and institutions, providing individualized one-on-one coaching. Throughout my career, I have conducted workshops for doctoral students in Europe, the United States and Asia. Students who attended my workshops and consulted with me consistently reported increased clarity about their research direction, enhanced confidence in their abilities, and the development of concrete, actionable plans for completing the dissertation and moving forward with their careers.
                   </p>
                 </div>
               </div>
