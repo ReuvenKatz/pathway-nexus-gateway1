@@ -49,7 +49,7 @@ const Home = () => {
               <div className="lg:w-3/5">
                 <div className="text-base text-gray-700 leading-relaxed space-y-4">
                   <p>
-                    I am an experienced PhD consultant, and for the past two decades I've specialized in working with doctoral students who are ready to be empowered and make positive changes.
+                    I am an experienced PhD coach and consultant, and for the past two decades I've specialized in working with doctoral students who are ready to be empowered and make positive changes.
                   </p>
                   <p>
                     Pursuing doctoral research and writing a thesis/dissertation present significant challenge. Doctoral students are expected to complete an original research project on their own, sometimes without having the tools to organize it. I help graduate students manage their research projects: plan and execute project tasks in a systematic manner, build solid work habits, improve the relationship with their advisor, and overcome setbacks. My clients gain the confidence to take action that moves them forward, towards successful completion of the doctorate.
