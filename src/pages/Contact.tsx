@@ -101,6 +101,9 @@ const Contact = () => {
           <h1 className="text-4xl lg:text-5xl font-aptos font-bold text-[#2E4A87] mb-6">
             Contact Us
           </h1>
+          <p className="text-lg font-bold text-[#2E4A87] max-w-3xl mx-auto">
+            Fill out the "contact us" form below and get a FREE 20-minute initial consultation to discuss your current status and needs.
+          </p>
         </div>
 
         <div className="w-full">
