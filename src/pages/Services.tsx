@@ -37,13 +37,13 @@ const Services = () => {
                 value="individual" 
                 className="text-sm font-medium py-2 px-4 rounded-md transition-all data-[state=active]:bg-[#2E4A87] data-[state=active]:text-white data-[state=active]:shadow-sm"
               >
-                Individual Consulting
+                Individual Coaching
               </TabsTrigger>
               <TabsTrigger 
                 value="career" 
                 className="text-sm font-medium py-2 px-4 rounded-md transition-all data-[state=active]:bg-[#2E4A87] data-[state=active]:text-white data-[state=active]:shadow-sm"
               >
-                Career Guidance
+                Career Consulting
               </TabsTrigger>
             </TabsList>
           </div>
