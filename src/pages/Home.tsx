@@ -70,6 +70,9 @@ const Home = () => {
       {/* CTA Section */}
       <section className="bg-gray-50 py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
+          <p className="text-lg font-bold text-[#2E4A87] mb-6">
+            On the Contact Us page please fill out the contact form and get a FREE 20-minute initial consultation to discuss your current status and needs.
+          </p>
           <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4">
             <Link to="/about">About Us</Link>
           </Button>
