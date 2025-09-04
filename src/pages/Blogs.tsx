@@ -21,8 +21,7 @@ const Blogs = () => {
             Our Blogs
           </h1>
           <p className="text-xl md:text-2xl text-blue-100 max-w-3xl mx-auto leading-relaxed">
-            Insights, guidance, and expert advice for your academic and research journey. 
-            Explore our comprehensive collection of articles designed to help you succeed.
+            Explore our collection of articles presenting management methods and supplementary academic topics essential for doctoral success.
           </p>
         </div>
       </section>
