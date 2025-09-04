@@ -15,20 +15,12 @@ const Blogs = () => {
   return (
     <main className="flex-1">
       {/* Hero Section */}
-      <section 
-        className="py-20 text-white relative"
-        style={{
-          backgroundImage: 'url(/lovable-uploads/55699c3e-ebb2-41ac-b698-da919a3b53f6.png)',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
-        }}
-      >
+      <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-wider text-[#2E4A87]">
             OUR BLOGS
           </h1>
-          <p className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed font-medium">
+          <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Explore our collection of articles presenting management methods and supplementary academic topics essential for doctoral success.
           </p>
         </div>
