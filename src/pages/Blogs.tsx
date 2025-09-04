@@ -11,6 +11,7 @@ import {
 } from "@/components/ui/table";
 
 const Blogs = () => {
+  const sortedBlogs = [...blogs].sort((a, b) => Date.parse(b.publishDate) - Date.parse(a.publishDate));
   return (
     <main className="flex-1">
       {/* Hero Section */}
@@ -44,10 +45,10 @@ const Blogs = () => {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {blogs.map((blog, index) => (
+                    {sortedBlogs.map((blog, index) => (
                       <TableRow key={blog.id} className="hover:bg-gray-50">
                         <TableCell className="font-medium text-gray-600">
-                          {blogs.length - index}
+                          {sortedBlogs.length - index}
                         </TableCell>
                         <TableCell>
                           <Link 
