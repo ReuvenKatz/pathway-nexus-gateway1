@@ -107,44 +107,6 @@ export const blogs: Blog[] = [
         <p>Project management methodologies and tools help the researcher plan and organize tasks, time and resources; however, they should not touch either the essence of the research or its results. These are simply generic tools aimed at improving the researcher's performance and helping them concentrate on the primary objectives of the thesis, instead of being preoccupied with many unproductive chores and frustrations that do not contribute to the primary effort.</p>
       </div>
     `
-  },
-  {
-    id: "4",
-    title: "The doctoral dissertation: Is it a project?",
-    description: "Doctoral research meets the formal definition of a project; therefore, it is a research project.",
-    publishDate: "2025-07-03",
-    content: `
-      <div class="prose max-w-none">
-        <p>To answer this question, one must first understand what a project is, exactly. One of the former definitions proposed by the Project Management Institute was: "A task that has a starting point and a well-defined goal which operates under constrained resources and is finished when the goal is accomplished". In other words, a job with four simple elements: beginning and end, goal and limited resources. It is a general definition that any type of project should meet.</p>
-        
-        <p>In any Ph.D. program, there is always a well-defined and formal starting point. In some universities it is the Qualifying Exam, which tests your background and knowledge to determine if you should be allowed to enter the program. In other schools, it might be an exam or a presentation.</p>
-        
-        <p>In any Ph.D. work there is a goal that must be reached to complete the project. It may be a proof of theorem; an extensive set of experiments that validate a theory or assumption; innovative software that presents new concepts; or several scientific papers published in top professional journals.</p>
-        
-        <p>In any project, and Ph.D. projects are no exception, there are always limited resources. In your doctoral research the main resource is your personal time and effort. Another precious resource that you must always respect is your adviser's time, which should never be wasted. Use it mainly for planned meetings when you are ready and well-prepared.</p>
-        
-        <p>The art of completing a job as planned and on schedule is a rare managerial skill. In a Ph.D. work, after the deliverables are submitted, you will have to defend your thesis. This step is the formal end point of your project and includes both the completion of all tasks and reception of your committee's approval for all your efforts.</p>
-        
-        <p>As one can easily conclude, the process of writing a doctoral dissertation meets all four requirements: beginning and end, goal and limited resources. Therefore, it is a research project by definition and one can apply project management methodologies to manage it. You can and should learn how to do it!</p>
-      </div>
-    `
-  },
-  {
-    id: "5",
-    title: "Why do so many doctoral students become stressed and overwhelmed?",
-    description: "Candidates that haven't planned their work or monitored their progress become insecure when something goes wrong.",
-    publishDate: "2025-06-12",
-    content: `
-      <div class="prose max-w-none">
-        <p>Nearly all doctoral candidates accept that the effort required to complete a thesis successfully is more than just an academic or scientific task. Some sense that there is a more efficient way to handle this effort. Yet many do not possess the essential management skills needed for that success.</p>
-        
-        <p>To extend one's knowledge in an academic field, one must conduct a diligent and systematic investigation into the topic they selected to discover or revise facts or theories. The scientific community defines this investigation as "research" and it is at the core of any doctoral thesis. Exploring new ideas, presenting innovative concepts and challenging existing paradigms are the main goal of any research. At the same time, students who are about to conduct research for five to eight of their best years need to understand how to properly and effectively manage their effort. It doesn't matter if the focus of the dissertation is Music, Engineering, Linguistics or Theology. The concepts of project management are generic and may be applied to all with only slight variations for any academic discipline.</p>
-        
-        <p>Candidates writing a dissertation will face various difficult and stressful situations. For many, this is the first time in their lives that they are confronted with major intellectual and organizational challenges. These challenges force them to be alert and solve problems on a day-to-day basis, publishing papers and taking complicated examinations, to say nothing of the fundamental problem of finding a good Ph.D. topic and an adviser. Once they've handled these initial problems, they still need to research their topic, manage their time, solve theoretical and experimental problems, and often struggle with financial limitations.</p>
-        
-        <p>During some stages of their research work, many doctoral students become confused, stressed, and sometimes depressed and desperate. Typically, students who haven't effectively planned their work or monitored their progress become insecure when something goes wrong. Whenever I'd ask students when they expected to complete their dissertation, the common response was, "I don't know, maybe next summer, maybe a year after that". I was amazed to find again and again that many graduate students have no plan and no control over their work. This is because they don't equate conducting their doctoral research with managing a project. It therefore goes without saying that they have no idea they could be using project-managing tools for planning their effort. This lack of planning and control contributes to an already stressful and insecure experience. It is one of the most common reasons that many graduate students don't enjoy their research and end up staying in graduate school much longer than they had hoped or expected.</p>
-      </div>
-    `
   }
 ];
 
