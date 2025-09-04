@@ -193,58 +193,18 @@ export const blogs: Blog[] = [
   },
   {
     id: "5",
-    title: "Funding Your PhD: Scholarships, Grants, and Financial Planning",
-    description: "Navigate the complex world of PhD funding with comprehensive strategies for securing financial support.",
-    publishDate: "2023-12-20",
+    title: "Why do so many doctoral students become stressed and overwhelmed?",
+    description: "Candidates that haven't planned their work or monitored their progress become insecure when something goes wrong.",
+    publishDate: "2025-06-12",
     content: `
       <div class="prose max-w-none">
-        <h2>The Financial Reality of PhD Studies</h2>
-        <p>Funding your PhD is often one of the biggest challenges faced by prospective doctoral students. Understanding your options and planning strategically can make the difference between financial stress and academic success.</p>
+        <p>Nearly all doctoral candidates accept that the effort required to complete a thesis successfully is more than just an academic or scientific task. Some sense that there is a more efficient way to handle this effort. Yet many do not possess the essential management skills needed for that success.</p>
         
-        <h2>Types of PhD Funding</h2>
+        <p>To extend one's knowledge in an academic field, one must conduct a diligent and systematic investigation into the topic they selected to discover or revise facts or theories. The scientific community defines this investigation as "research" and it is at the core of any doctoral thesis. Exploring new ideas, presenting innovative concepts and challenging existing paradigms are the main goal of any research. At the same time, students who are about to conduct research for five to eight of their best years need to understand how to properly and effectively manage their effort. It doesn't matter if the focus of the dissertation is Music, Engineering, Linguistics or Theology. The concepts of project management are generic and may be applied to all with only slight variations for any academic discipline.</p>
         
-        <h3>University Funding</h3>
-        <ul>
-          <li><strong>Research Assistantships:</strong> Work with faculty on research projects</li>
-          <li><strong>Teaching Assistantships:</strong> Support undergraduate courses</li>
-          <li><strong>Fellowships:</strong> Merit-based financial support</li>
-          <li><strong>Tuition Waivers:</strong> Reduced or eliminated tuition costs</li>
-        </ul>
+        <p>Candidates writing a dissertation will face various difficult and stressful situations. For many, this is the first time in their lives that they are confronted with major intellectual and organizational challenges. These challenges force them to be alert and solve problems on a day-to-day basis, publishing papers and taking complicated examinations, to say nothing of the fundamental problem of finding a good Ph.D. topic and an adviser. Once they've handled these initial problems, they still need to research their topic, manage their time, solve theoretical and experimental problems, and often struggle with financial limitations.</p>
         
-        <h3>External Funding Sources</h3>
-        <ul>
-          <li><strong>Government Grants:</strong> National science foundations and research councils</li>
-          <li><strong>Private Foundations:</strong> Non-profit organizations supporting research</li>
-          <li><strong>Industry Partnerships:</strong> Corporate-sponsored research projects</li>
-          <li><strong>International Programs:</strong> Cross-border research initiatives</li>
-        </ul>
-        
-        <h2>Application Strategies</h2>
-        <p>Maximize your funding success with these approaches:</p>
-        <ol>
-          <li><strong>Early Preparation:</strong> Start researching funding 12-18 months before you need it</li>
-          <li><strong>Multiple Applications:</strong> Apply to several funding sources simultaneously</li>
-          <li><strong>Tailored Proposals:</strong> Customize applications to match funder priorities</li>
-          <li><strong>Strong References:</strong> Build relationships with potential recommenders</li>
-        </ol>
-        
-        <h2>Financial Planning Tips</h2>
-        <ul>
-          <li>Create a realistic budget for your PhD years</li>
-          <li>Consider part-time work opportunities</li>
-          <li>Build an emergency fund before starting</li>
-          <li>Explore tax benefits for education expenses</li>
-          <li>Network with current PhD students for practical advice</li>
-        </ul>
-        
-        <h2>Alternative Funding Models</h2>
-        <p>Consider innovative approaches such as:</p>
-        <ul>
-          <li>Crowdfunding for unique research projects</li>
-          <li>Industry-sponsored PhDs with guaranteed employment</li>
-          <li>Part-time PhD programs while maintaining employment</li>
-          <li>International exchange programs with funding support</li>
-        </ul>
+        <p>During some stages of their research work, many doctoral students become confused, stressed, and sometimes depressed and desperate. Typically, students who haven't effectively planned their work or monitored their progress become insecure when something goes wrong. Whenever I'd ask students when they expected to complete their dissertation, the common response was, "I don't know, maybe next summer, maybe a year after that". I was amazed to find again and again that many graduate students have no plan and no control over their work. This is because they don't equate conducting their doctoral research with managing a project. It therefore goes without saying that they have no idea they could be using project-managing tools for planning their effort. This lack of planning and control contributes to an already stressful and insecure experience. It is one of the most common reasons that many graduate students don't enjoy their research and end up staying in graduate school much longer than they had hoped or expected.</p>
       </div>
     `
   }
