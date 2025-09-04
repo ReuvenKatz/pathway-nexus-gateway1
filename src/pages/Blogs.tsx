@@ -44,7 +44,7 @@ const Blogs = () => {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {blogs.map((blog, index) => (
+                    {[...blogs].reverse().map((blog, index) => (
                       <TableRow key={blog.id} className="hover:bg-gray-50">
                         <TableCell className="font-medium text-gray-600">
                           {index + 1}
