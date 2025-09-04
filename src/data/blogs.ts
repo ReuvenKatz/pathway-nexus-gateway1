@@ -136,58 +136,22 @@ export const blogs: Blog[] = [
   },
   {
     id: "4",
-    title: "Career Planning Beyond Academia: Industry Transitions",
-    description: "Explore diverse career paths for PhD graduates and learn strategies for successful transitions to industry roles.",
-    publishDate: "2023-12-28",
+    title: "The doctoral dissertation: Is it a project?",
+    description: "Doctoral research meets the formal definition of a project; therefore, it is a research project.",
+    publishDate: "2025-07-03",
     content: `
       <div class="prose max-w-none">
-        <h2>Beyond the Ivory Tower</h2>
-        <p>While academia remains a traditional path for PhD graduates, the modern job market offers numerous exciting opportunities in industry, government, and entrepreneurship.</p>
+        <p>To answer this question, one must first understand what a project is, exactly. One of the former definitions proposed by the Project Management Institute was: "A task that has a starting point and a well-defined goal which operates under constrained resources and is finished when the goal is accomplished". In other words, a job with four simple elements: beginning and end, goal and limited resources. It is a general definition that any type of project should meet.</p>
         
-        <h2>Transferable Skills</h2>
-        <p>Your PhD has equipped you with valuable skills that are highly sought after in various industries:</p>
-        <ul>
-          <li><strong>Research and Analysis:</strong> Critical thinking and data interpretation</li>
-          <li><strong>Project Management:</strong> Long-term planning and execution</li>
-          <li><strong>Communication:</strong> Presenting complex ideas clearly</li>
-          <li><strong>Problem-Solving:</strong> Innovative approaches to challenges</li>
-          <li><strong>Leadership:</strong> Mentoring and collaboration experience</li>
-        </ul>
+        <p>In any Ph.D. program, there is always a well-defined and formal starting point. In some universities it is the Qualifying Exam, which tests your background and knowledge to determine if you should be allowed to enter the program. In other schools, it might be an exam or a presentation.</p>
         
-        <h2>Industry Career Paths</h2>
+        <p>In any Ph.D. work there is a goal that must be reached to complete the project. It may be a proof of theorem; an extensive set of experiments that validate a theory or assumption; innovative software that presents new concepts; or several scientific papers published in top professional journals.</p>
         
-        <h3>Technology Sector</h3>
-        <ul>
-          <li>Data Scientist</li>
-          <li>Research and Development</li>
-          <li>Product Management</li>
-          <li>Technical Consulting</li>
-        </ul>
+        <p>In any project, and Ph.D. projects are no exception, there are always limited resources. In your doctoral research the main resource is your personal time and effort. Another precious resource that you must always respect is your adviser's time, which should never be wasted. Use it mainly for planned meetings when you are ready and well-prepared.</p>
         
-        <h3>Consulting</h3>
-        <ul>
-          <li>Management Consulting</li>
-          <li>Strategy Development</li>
-          <li>Market Research</li>
-          <li>Policy Analysis</li>
-        </ul>
+        <p>The art of completing a job as planned and on schedule is a rare managerial skill. In a Ph.D. work, after the deliverables are submitted, you will have to defend your thesis. This step is the formal end point of your project and includes both the completion of all tasks and reception of your committee's approval for all your efforts.</p>
         
-        <h3>Healthcare and Biotech</h3>
-        <ul>
-          <li>Clinical Research</li>
-          <li>Regulatory Affairs</li>
-          <li>Medical Writing</li>
-          <li>Business Development</li>
-        </ul>
-        
-        <h2>Transition Strategies</h2>
-        <p>Successfully moving from academia to industry requires:</p>
-        <ol>
-          <li><strong>Network Building:</strong> Connect with industry professionals</li>
-          <li><strong>Skills Translation:</strong> Articulate academic experience in business terms</li>
-          <li><strong>Continuous Learning:</strong> Develop industry-specific knowledge</li>
-          <li><strong>Professional Branding:</strong> Update your CV and LinkedIn profile</li>
-        </ol>
+        <p>As one can easily conclude, the process of writing a doctoral dissertation meets all four requirements: beginning and end, goal and limited resources. Therefore, it is a research project by definition and one can apply project management methodologies to manage it. You can and should learn how to do it!</p>
       </div>
     `
   },
