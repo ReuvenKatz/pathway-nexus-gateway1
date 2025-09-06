@@ -9,6 +9,25 @@ export interface Blog {
 export const blogs: Blog[] = [
   {
     id: "1",
+    title: "Shorten the Time to Doctorate: A Guide to Managing your Ph.D. as a Project",
+    description: "Brief outline of a book I wrote.",
+    publishDate: "2025-06-05",
+    content: `
+      <div class="prose max-w-none">
+        <p>In 2009 I published a book titled, "Shorten the Time to Doctorate: A Guide to Managing your Ph.D. as a Project".</p>
+        
+        <p>The book is written especially for graduate students to help them in their doctoral research. This book explains, in simple terms, how to apply management techniques to shorten the time to your doctoral degree by at least ONE whole year. The techniques are generic and can be easily applied to improve all doctoral projects, regardless of academic field. The book is packed with practical tips which are easy to apply.</p>
+        
+        <p>A chapter is devoted to explaining how to identify, avoid, and cope with potential crises in a doctoral program. Each potential crisis is explained and analyzed to help the candidate avoid or resolve it.</p>
+        
+        <p>The book is short, informative, affordable and fun. It can help many Ph.D. candidates to improve their overall performance, as well as guide graduate students who are considering joining a doctoral program.</p>
+        
+        <p>The book is available online.</p>
+      </div>
+    `
+  },
+  {
+    id: "2",
     title: "Why do so many doctoral students become stressed and overwhelmed?",
     description: "Candidates that haven't planned their work or monitored their progress become insecure when something goes wrong.",
     publishDate: "2025-06-12",
@@ -25,7 +44,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "2",
+    id: "3",
     title: "The doctoral dissertation: Is it a project?",
     description: "Doctoral research meets the formal definition of a project; therefore, it is a research project.",
     publishDate: "2025-07-03",
@@ -46,7 +65,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "3",
+    id: "4",
     title: "The \"Hidden Task\"",
     description: "Doctoral candidates must complete two parallel tasks during their doctoral project the first one is research; the other is the \"hidden task\".",
     publishDate: "2025-07-24",
