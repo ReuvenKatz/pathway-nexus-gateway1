@@ -9,6 +9,23 @@ export interface Blog {
 export const blogs: Blog[] = [
   {
     id: "1",
+    title: "Finding balance in your PhD: How to manage stress and enjoy the journey",
+    description: "A PhD is a personal journey. Discover how to overcome stress and create a joyful path to graduation.",
+    publishDate: "2025-08-07",
+    content: `
+      <div class="prose max-w-none">
+        <p>Candidates writing a dissertation will find themselves in some difficult and stressful situations. Often, they find themselves confronting major intellectual and organizational challenges for the first time in their lives. But a student's life is also filled with joy and beauty. Most graduate students are young, healthy and intelligent (though usually not financially well off, unfortunately). Your twenties or thirties are a time for falling in love, perhaps finding a mate or starting a family, enjoying social events and otherwise having fun. The key to a successful and happy journey through a graduate program is to keep a well-checked balance between your serious studies and your social life.</p>
+        
+        <p>The number one question for any doctoral candidate is: How can I balance stress and joy? There are two keys to finding that balance.</p>
+        
+        <p>The first key is to develop a solid work plan, control it, keep it updated, and of course discuss it with – and get it approved by – your adviser. A serious, adviser-approved plan will give you the confidence that if anything goes wrong, you will know how to handle it (with your adviser's assistance if necessary).</p>
+        
+        <p>The second key is to create, and adhere to, good work habits from the very beginning. If circumstances allow, set up your schedule so that you work 6 days a week, for 8 hours a day, without wasting any time on social media or small talk during these hours. Having set this schedule, now make sure you purposefully leave enough time every day for activities that bring you relaxation and joy. Mark time on your calendar for activities with your family, for meeting friends and for enjoying your hobbies. Make intentional effort to regularly "recharge your batteries". But do so without compromising your academic work schedule.</p>
+      </div>
+    `
+  },
+  {
+    id: "2",
     title: "The four fundamental elements of a doctoral project?",
     description: "A doctoral journey rests on four key elements. Learn how these components shape the quality of your research.",
     publishDate: "2025-07-31",
@@ -29,7 +46,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "2",
+    id: "3",
     title: "Shorten the Time to Doctorate: A Guide to Managing your Ph.D. as a Project",
     description: "Brief outline of a book I wrote.",
     publishDate: "2025-06-05",
@@ -48,7 +65,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "3",
+    id: "4",
     title: "Why do so many doctoral students become stressed and overwhelmed?",
     description: "Candidates that haven't planned their work or monitored their progress become insecure when something goes wrong.",
     publishDate: "2025-06-12",
@@ -65,7 +82,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "4",
+    id: "5",
     title: "The doctoral dissertation: Is it a project?",
     description: "Doctoral research meets the formal definition of a project; therefore, it is a research project.",
     publishDate: "2025-07-03",
@@ -86,7 +103,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "5",
+    id: "6",
     title: "The \"Hidden Task\"",
     description: "Doctoral candidates must complete two parallel tasks during their doctoral project the first one is research; the other is the \"hidden task\".",
     publishDate: "2025-07-24",
