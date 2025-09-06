@@ -57,7 +57,7 @@ const Services = () => {
                   <p>
                     Pursuing a PhD can be both rewarding and overwhelming. The experience of feeling stressed or stuck is shared by many students. Our mentoring services are designed to help you gain clarity, structure, and confidence for your work.
                     Doctoral studies come with a unique set of challenges: managing independent research, writing a dissertation, meeting expectations to publish, and maintaining motivation over the long term. Students often struggle with isolation, financial pressures, and personal challenges that can enhance their stress. For international students, there is the added challenge of cultural adjustment far from home.
-                    If you're having difficulty making progress, our aim is to help you move forward.
+                    If you're having difficulty making progress, our aim is to help you move forward. We will teach you effective management techniques that can shorten the time to your doctoral degree by at least ONE whole year.
                   </p>
                 </div>
               </CardContent>
