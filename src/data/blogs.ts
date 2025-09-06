@@ -38,7 +38,7 @@ export const blogs: Blog[] = [
         
         <p>I hope you understand now that the only answer to the question, "Who is your customer?" is: "My advisor".</p>
         
-        <p>The next question you should immediately ask yourself is what your customer needs are. Once you're aware of these needs, you will be able to think carefully how to address them in your project. Good relations with your advisor are the key to your success. Make this a win-win situation.</p>
+        <p>The next question you should immediately ask yourself is what your customer needs are. Once you're aware of these needs, you will be able to think carefully how to address them in your project. Effective communication and good relations with your advisor are the key to your success. Make this a win-win situation.</p>
       </div>
     `
   },
