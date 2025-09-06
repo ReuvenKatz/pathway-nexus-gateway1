@@ -9,6 +9,41 @@ export interface Blog {
 export const blogs: Blog[] = [
   {
     id: "1",
+    title: "Who is the customer of your doctoral project?",
+    description: "The customer of a doctoral project may not be who you think. Learn why this question matters for effective PhD supervision and research management.",
+    publishDate: "2025-08-14",
+    content: `
+      <div class="prose max-w-none">
+        <p>In any commercial project there is a customer and there are stakeholders (if you are not familiar with these terms, please google them). Since doctoral research is a project, it goes without saying that it should have a customer.</p>
+        
+        <p>During our doctoral project management workshops, we used to ask the participating candidates, "Who is the customer of your Ph.D. research?", and these are the answers that we received:</p>
+        
+        <ul>
+          <li>The public benefitting from my study</li>
+          <li>The scientific community in my field</li>
+          <li>The president of my university</li>
+          <li>The graduate school</li>
+          <li>My doctoral committee</li>
+          <li>My adviser</li>
+          <li>My family</li>
+          <li>My spouse</li>
+          <li>Myself</li>
+        </ul>
+        
+        <p>Please think for a moment: Which of the above is the correct answer?</p>
+        
+        <p>In a study I conducted¹, I asked hundreds of doctoral students from several countries, "Who is your customer?" Over 45% of all students answered: "The scientific community in my field." But is it the correct answer?</p>
+        
+        <p>All things considered, the customer of your project must be the person who: a) is interested in the academic problem and values your contribution; b) decides when you are ready to submit your dissertation; and c) has the authority to prevent you from getting the doctoral degree.</p>
+        
+        <p>I hope you understand now that the only answer to the question, "Who is your customer?" is: "My adviser".</p>
+        
+        <p>The next question you should immediately ask yourself is what your customer needs are. Once you're aware of these needs, you will be able to think carefully how to address them in your project. Good relations with your adviser are the key to your success. Make this a win-win situation.</p>
+      </div>
+    `
+  },
+  {
+    id: "2",
     title: "Finding balance in your PhD: How to manage stress and enjoy the journey",
     description: "A PhD is a personal journey. Discover how to overcome stress and create a joyful path to graduation.",
     publishDate: "2025-08-07",
@@ -25,7 +60,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "2",
+    id: "3",
     title: "The four fundamental elements of a doctoral project?",
     description: "A doctoral journey rests on four key elements. Learn how these components shape the quality of your research.",
     publishDate: "2025-07-31",
@@ -46,7 +81,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "3",
+    id: "4",
     title: "Shorten the Time to Doctorate: A Guide to Managing your Ph.D. as a Project",
     description: "Brief outline of a book I wrote.",
     publishDate: "2025-06-05",
@@ -65,7 +100,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "4",
+    id: "5",
     title: "Why do so many doctoral students become stressed and overwhelmed?",
     description: "Candidates that haven't planned their work or monitored their progress become insecure when something goes wrong.",
     publishDate: "2025-06-12",
@@ -82,7 +117,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "5",
+    id: "6",
     title: "The doctoral dissertation: Is it a project?",
     description: "Doctoral research meets the formal definition of a project; therefore, it is a research project.",
     publishDate: "2025-07-03",
@@ -103,7 +138,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "6",
+    id: "7",
     title: "The \"Hidden Task\"",
     description: "Doctoral candidates must complete two parallel tasks during their doctoral project the first one is research; the other is the \"hidden task\".",
     publishDate: "2025-07-24",
