@@ -144,7 +144,7 @@ export const blogs: Blog[] = [
     publishDate: "2025-07-24",
     content: `
       <div class="prose max-w-none">
-        <p>One of the goals of this short article is to explain that you must complete two parallel tasks during your doctoral project: The first and most important task is your academic research and writing your dissertation! The other, parallel task is managing your research project efficiently, as presented in the following figure.</p>
+        <p>One of the goals of this short article is to explain that you must complete two parallel tasks during your doctoral project- The first and most important task is your academic research and writing your dissertation! The other, parallel task is managing your research project efficiently, as presented in the following figure.</p>
         
         <div class="my-8 flex justify-center">
           <img src="/lovable-uploads/c419b618-7d31-46db-bb91-b4e0e2818e8e.png" alt="PhD thesis project diagram showing academic research tasks and project management tasks leading to successful project completion" class="max-w-full h-auto rounded-lg shadow-md" />
