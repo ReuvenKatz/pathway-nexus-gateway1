@@ -9,6 +9,27 @@ export interface Blog {
 export const blogs: Blog[] = [
   {
     id: "1",
+    title: "The four fundamental elements of a doctoral project?",
+    description: "A doctoral journey rests on four key elements. Learn how these components shape the quality of your research.",
+    publishDate: "2025-07-31",
+    content: `
+      <div class="prose max-w-none">
+        <p>The core components of any project are scope and quality, cost and time. In a doctoral study, quality stands for academic work and reflects on its contribution to the relevant field of study. Quality is the science or the essence of all academic research projects. Scope is related to the boundaries of the project. It is a statement of what will be included in the research and submitted as deliverables of the project. It also defines what is EXCLUDED and will not be done! The cost of the project is related to the budget allocated at its beginning as well as the expenses in practice. Time is related to the schedule and duration of various project activities. All projects have a defined starting point and a planned completion date.</p>
+        
+        <div class="my-8 flex justify-center">
+          <img src="/lovable-uploads/e0c42375-28ac-48fa-9c03-e44c2222ded3.png" alt="Diagram showing the four fundamental elements of a project: Cost, Quality, Time, and Scope arranged in a square" class="max-w-full h-auto rounded-lg shadow-md" />
+        </div>
+        
+        <p>The relative importance of each component varies from one type of project to another. In commercial projects, the focus is typically on the cost of the project or the "bottom line". When profits are a project's main goal, cost reduction is crucial. In this case, cost becomes the "critical" component for the project's success.</p>
+        
+        <p>The doctoral project is unique in that instead of focusing on cost as its main outcome, the goal is to achieve excellent quality.</p>
+        
+        <p>It is very important for a Ph.D. candidate to understand this point clearly. A thesis project is not valued by its economic profit but rather by its scientific contribution, and this represents the quality of the study. Quality is manifested in the candidate's knowledge, innovation and imagination, as well as their personal investment, dedication and talent as reflected in the research dissertation.</p>
+      </div>
+    `
+  },
+  {
+    id: "2",
     title: "Shorten the Time to Doctorate: A Guide to Managing your Ph.D. as a Project",
     description: "Brief outline of a book I wrote.",
     publishDate: "2025-06-05",
@@ -27,7 +48,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "2",
+    id: "3",
     title: "Why do so many doctoral students become stressed and overwhelmed?",
     description: "Candidates that haven't planned their work or monitored their progress become insecure when something goes wrong.",
     publishDate: "2025-06-12",
@@ -44,7 +65,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "3",
+    id: "4",
     title: "The doctoral dissertation: Is it a project?",
     description: "Doctoral research meets the formal definition of a project; therefore, it is a research project.",
     publishDate: "2025-07-03",
@@ -65,7 +86,7 @@ export const blogs: Blog[] = [
     `
   },
   {
-    id: "4",
+    id: "5",
     title: "The \"Hidden Task\"",
     description: "Doctoral candidates must complete two parallel tasks during their doctoral project the first one is research; the other is the \"hidden task\".",
     publishDate: "2025-07-24",
