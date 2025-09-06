@@ -24,7 +24,7 @@ export const blogs: Blog[] = [
           <li>The president of my university</li>
           <li>The graduate school</li>
           <li>My doctoral committee</li>
-          <li>My adviser</li>
+          <li>My advisor</li>
           <li>My family</li>
           <li>My spouse</li>
           <li>Myself</li>
@@ -36,9 +36,9 @@ export const blogs: Blog[] = [
         
         <p>All things considered, the customer of your project must be the person who: a) is interested in the academic problem and values your contribution; b) decides when you are ready to submit your dissertation; and c) has the authority to prevent you from getting the doctoral degree.</p>
         
-        <p>I hope you understand now that the only answer to the question, "Who is your customer?" is: "My adviser".</p>
+        <p>I hope you understand now that the only answer to the question, "Who is your customer?" is: "My advisor".</p>
         
-        <p>The next question you should immediately ask yourself is what your customer needs are. Once you're aware of these needs, you will be able to think carefully how to address them in your project. Good relations with your adviser are the key to your success. Make this a win-win situation.</p>
+        <p>The next question you should immediately ask yourself is what your customer needs are. Once you're aware of these needs, you will be able to think carefully how to address them in your project. Good relations with your advisor are the key to your success. Make this a win-win situation.</p>
       </div>
     `
   },
@@ -53,7 +53,7 @@ export const blogs: Blog[] = [
         
         <p>The number one question for any doctoral candidate is: How can I balance stress and joy? There are two keys to finding that balance.</p>
         
-        <p>The first key is to develop a solid work plan, control it, keep it updated, and of course discuss it with – and get it approved by – your adviser. A serious, adviser-approved plan will give you the confidence that if anything goes wrong, you will know how to handle it (with your adviser's assistance if necessary).</p>
+        <p>The first key is to develop a solid work plan, control it, keep it updated, and of course discuss it with – and get it approved by – your advisor. A serious, advisor-approved plan will give you the confidence that if anything goes wrong, you will know how to handle it (with your advisor's assistance if necessary).</p>
         
         <p>The second key is to create, and adhere to, good work habits from the very beginning. If circumstances allow, set up your schedule so that you work 6 days a week, for 8 hours a day, without wasting any time on social media or small talk during these hours. Having set this schedule, now make sure you purposefully leave enough time every day for activities that bring you relaxation and joy. Mark time on your calendar for activities with your family, for meeting friends and for enjoying your hobbies. Make intentional effort to regularly "recharge your batteries". But do so without compromising your academic work schedule.</p>
       </div>
@@ -110,7 +110,7 @@ export const blogs: Blog[] = [
         
         <p>To extend one's knowledge in an academic field, one must conduct a diligent and systematic investigation into the topic they selected to discover or revise facts or theories. The scientific community defines this investigation as "research" and it is at the core of any doctoral thesis. Exploring new ideas, presenting innovative concepts and challenging existing paradigms are the main goal of any research. At the same time, students who are about to conduct research for five to eight of their best years need to understand how to properly and effectively manage their effort. It doesn't matter if the focus of the dissertation is Music, Engineering, Linguistics or Theology. The concepts of project management are generic and may be applied to all with only slight variations for any academic discipline.</p>
         
-        <p>Candidates writing a dissertation will face various difficult and stressful situations. For many, this is the first time in their lives that they are confronted with major intellectual and organizational challenges. These challenges force them to be alert and solve problems on a day-to-day basis, publishing papers and taking complicated examinations, to say nothing of the fundamental problem of finding a good Ph.D. topic and an adviser. Once they've handled these initial problems, they still need to research their topic, manage their time, solve theoretical and experimental problems, and often struggle with financial limitations.</p>
+        <p>Candidates writing a dissertation will face various difficult and stressful situations. For many, this is the first time in their lives that they are confronted with major intellectual and organizational challenges. These challenges force them to be alert and solve problems on a day-to-day basis, publishing papers and taking complicated examinations, to say nothing of the fundamental problem of finding a good Ph.D. topic and an advisor. Once they've handled these initial problems, they still need to research their topic, manage their time, solve theoretical and experimental problems, and often struggle with financial limitations.</p>
         
         <p>During some stages of their research work, many doctoral students become confused, stressed, and sometimes depressed and desperate. Typically, students who haven't effectively planned their work or monitored their progress become insecure when something goes wrong. Whenever I'd ask students when they expected to complete their dissertation, the common response was, "I don't know, maybe next summer, maybe a year after that". I was amazed to find again and again that many graduate students have no plan and no control over their work. This is because they don't equate conducting their doctoral research with managing a project. It therefore goes without saying that they have no idea they could be using project-managing tools for planning their effort. This lack of planning and control contributes to an already stressful and insecure experience. It is one of the most common reasons that many graduate students don't enjoy their research and end up staying in graduate school much longer than they had hoped or expected.</p>
       </div>
@@ -129,7 +129,7 @@ export const blogs: Blog[] = [
         
         <p>In any Ph.D. work there is a goal that must be reached to complete the project. It may be a proof of theorem; an extensive set of experiments that validate a theory or assumption; innovative software that presents new concepts; or several scientific papers published in top professional journals.</p>
         
-        <p>In any project, and Ph.D. projects are no exception, there are always limited resources. In your doctoral research the main resource is your personal time and effort. Another precious resource that you must always respect is your adviser's time, which should never be wasted. Use it mainly for planned meetings when you are ready and well-prepared.</p>
+        <p>In any project, and Ph.D. projects are no exception, there are always limited resources. In your doctoral research the main resource is your personal time and effort. Another precious resource that you must always respect is your advisor's time, which should never be wasted. Use it mainly for planned meetings when you are ready and well-prepared.</p>
         
         <p>The art of completing a job as planned and on schedule is a rare managerial skill. In a Ph.D. work, after the deliverables are submitted, you will have to defend your thesis. This step is the formal end point of your project and includes both the completion of all tasks and reception of your committee's approval for all your efforts.</p>
         

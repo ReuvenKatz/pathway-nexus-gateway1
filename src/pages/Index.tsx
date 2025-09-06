@@ -45,7 +45,7 @@ const Index = () => {
             </p>
             
             <p>
-              Doctoral research and writing a thesis is a challenge. Doctoral students are expected to complete an original research project on their own, sometimes without having the tools to organize it. I help graduate students to manage their research projects: improve relationships with their adviser, plan and execute project tasks, build solid work habits, identify situations of getting into trouble and propose ways to overcome them. My clients gain confidence and take action that moves them towards successful completion of the doctorate.
+              Doctoral research and writing a thesis is a challenge. Doctoral students are expected to complete an original research project on their own, sometimes without having the tools to organize it. I help graduate students to manage their research projects: improve relationships with their advisor, plan and execute project tasks, build solid work habits, identify situations of getting into trouble and propose ways to overcome them. My clients gain confidence and take action that moves them towards successful completion of the doctorate.
             </p>
             
             <p>
