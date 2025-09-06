@@ -140,7 +140,7 @@ export const blogs: Blog[] = [
   {
     id: "7",
     title: "The \"Hidden Task\"",
-    description: "Doctoral candidates must complete two parallel tasks during their doctoral project the first one is research; the other is the \"hidden task\".",
+    description: "Doctoral candidates must complete two parallel tasks during their doctoral project - the first one is research; the other is the \"hidden task\".",
     publishDate: "2025-07-24",
     content: `
       <div class="prose max-w-none">
