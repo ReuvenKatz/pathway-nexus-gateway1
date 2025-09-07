@@ -18,7 +18,7 @@ const Blogs = () => {
       <section className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 tracking-wider text-[#2E4A87]">
-            OUR BLOGS
+            OUR BLOG
           </h1>
           <p className="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
             Explore our collection of articles presenting management methods and supplementary academic topics essential for doctoral success.
