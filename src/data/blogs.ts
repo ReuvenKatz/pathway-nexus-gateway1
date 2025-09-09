@@ -11,7 +11,7 @@ export const blogs: Blog[] = [
     id: "1",
     title: "Who is the customer of your doctoral project?",
     description: "The customer of a doctoral project may not be who you think. Learn why this question matters for effective PhD supervision and research management.",
-    publishDate: "2025-08-14",
+    publishDate: "2025-08-21",
     content: `
       <div class="prose max-w-none">
         <p>In any commercial project there is a customer and there are stakeholders (if you are not familiar with these terms, please google them). Since doctoral research is a project, it goes without saying that it should have a customer.</p>
@@ -46,7 +46,7 @@ export const blogs: Blog[] = [
     id: "2",
     title: "Finding balance in your PhD: How to manage stress and enjoy the journey",
     description: "A PhD is a personal journey. Discover how to overcome stress and create a joyful path to graduation.",
-    publishDate: "2025-08-07",
+    publishDate: "2025-08-14",
     content: `
       <div class="prose max-w-none">
         <p>Candidates writing a dissertation will find themselves in some difficult and stressful situations. Often, they find themselves confronting major intellectual and organizational challenges for the first time in their lives. But a student's life is also filled with joy and beauty. Most graduate students are young, healthy and intelligent (though usually not financially well off, unfortunately). Your twenties or thirties are a time for falling in love, perhaps finding a mate or starting a family, enjoying social events and otherwise having fun. The key to a successful and happy journey through a graduate program is to keep a well-checked balance between your serious studies and your social life.</p>
