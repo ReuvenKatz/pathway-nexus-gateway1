@@ -25,7 +25,7 @@ const Home = () => {
                   PhD GATEWAY CONSULTING
                 </h1>
                 <p className="text-xl lg:text-2xl text-gray-700">
-                  Professional guidance for completing the doctorate and building your career post-graduation. Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
+                  Professional guidance for completing the doctoral research and building your career post-graduation. Offered by Dr. Hila Katz and Dr. Reuven Katz, author of the book <em>Shorten the Time to Doctorate</em>.
                 </p>
               </div>
             </div>
