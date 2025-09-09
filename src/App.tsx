@@ -15,7 +15,6 @@ import BlogPost from "./pages/BlogPost";
 import Contact from "./pages/Contact";
 import Schedule from "./pages/Schedule";
 import AccessibilityStatement from "./pages/AccessibilityStatement";
-import Landing from "./pages/Landing";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -38,7 +37,6 @@ const App = () => (
             <Route path="/contact" element={<Contact />} />
             <Route path="/schedule" element={<Schedule />} />
             <Route path="/accessibility" element={<AccessibilityStatement />} />
-            <Route path="/landing" element={<Landing />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Layout>
