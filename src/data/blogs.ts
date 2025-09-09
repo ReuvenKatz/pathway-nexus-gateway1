@@ -55,7 +55,7 @@ export const blogs: Blog[] = [
         
         <p>The first key is to develop a solid work plan, control it, keep it updated, and of course discuss it with – and get it approved by – your advisor. A serious, advisor-approved plan will give you the confidence that if anything goes wrong, you will know how to handle it (with your advisor's assistance if necessary).</p>
         
-        <p>The second key is to create, and adhere to, good work habits from the very beginning. If circumstances allow, set up your schedule so that you work 6 days a week, for 8 hours a day, without wasting any time on social media or small talk during these hours. Having set this schedule, now make sure you purposefully leave enough time every day for activities that bring you relaxation and joy. Mark time on your calendar for activities with your family, for meeting friends and for enjoying your hobbies. Make intentional effort to regularly "recharge your batteries". But do so without compromising your academic work schedule.</p>
+        <p>The second key is to create, and adhere to, good work habits from the very beginning. If circumstances allow, set up your schedule so that you work six days a week for a set amount of hours each day, without wasting any time on social media or small talk during these hours. Having set this schedule, now make sure you purposefully leave enough time every day for activities that bring you relaxation and joy. Mark time on your calendar for activities with your family, for meeting friends and for enjoying your hobbies. Make intentional effort to regularly "recharge your batteries". But do so without compromising your academic work schedule.</p>
       </div>
     `
   },
