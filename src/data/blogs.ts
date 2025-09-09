@@ -82,9 +82,9 @@ export const blogs: Blog[] = [
   },
   {
     id: "5",
-    title: "Why do so many doctoral students become stressed and overwhelmed?",
+    title: "Why do so many doctoral students become worried and overwhelmed?",
     description: "Candidates that haven't planned their work or monitored their progress become insecure when something goes wrong.",
-    publishDate: "2025-06-12",
+    publishDate: "2025-08-07",
     content: `
       <div class="prose max-w-none">
         <p>Nearly all doctoral candidates accept that the effort required to complete a thesis successfully is more than just an academic or scientific task. Some sense that there is a more efficient way to handle this effort. Yet many do not possess the essential management skills needed for that success.</p>
