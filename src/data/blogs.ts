@@ -101,7 +101,7 @@ export const blogs: Blog[] = [
     id: "6",
     title: "The doctoral dissertation: Is it a project?",
     description: "Doctoral research meets the formal definition of a project; therefore, it is a research project.",
-    publishDate: "2025-07-03",
+    publishDate: "2025-07-17",
     content: `
       <div class="prose max-w-none">
         <p>To answer this question, one must first understand what a project is, exactly. One of the former definitions proposed by the Project Management Institute was: "A task that has a starting point and a well-defined goal which operates under constrained resources and is finished when the goal is accomplished". In other words, a job with four simple elements: beginning and end, goal and limited resources. It is a general definition that any type of project should meet.</p>
