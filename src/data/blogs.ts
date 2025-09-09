@@ -119,6 +119,40 @@ export const blogs: Blog[] = [
     `
   },
   {
+    id: "8",
+    title: "Pre-doctoral decision guide: How to decide if you should pursue a Ph.D.?",
+    description: "Thinking about getting your Ph.D.? Use our decision-making guide to decide if it's the right choice for you.",
+    publishDate: "2025-07-10",
+    content: `
+      <div class="prose max-w-none">
+        <p>This article is meant for readers who are seriously considering pursuing their doctoral degree.</p>
+        
+        <p>Getting a Ph.D. requires making a tremendous effort across 3 to 7 years of your life. It includes tons of hard work, balancing satisfaction and success with pressure and stress, and dealing with many ups and downs along the journey. Are you ready for such an exciting, but very demanding, journey? To find an answer, try to follow this guide:</p>
+        
+        <h3>1. Understand your reasoning</h3>
+        <p>Are you passionate about research? Do you dream of becoming a professor in academia and educating others? Do you plan to become a senior researcher in industry? Will a Ph.D. increase your chances of reaching upper-level managerial positions in your field of choice? Make sure you think through the question "should I get a Ph.D.?" until you understand whether it is aligned with your long-term goals, and don't decide before you have a clear answer.</p>
+        <p>Some students see their Ph.D. as a personal challenge, like running a marathon or climbing a mountain. When asked, "Who is your doctoral project customer?", these students answered: "Myself," just to prove to themselves that they can do it. This can be a good reason to start and certainly creates outstanding motivation. However, don't forget to consider the practical implications before you set out to make yourself (or your parents) proud and happy.</p>
+        
+        <h3>2. Evaluate your commitment</h3>
+        <p>You should clearly understand what you're up against and decide if you're willing to commit to independent research, years of intense workloads and many setbacks. If you're not sure that you can be totally committed to these basic demands, consider not taking up a Ph.D. endeavor.</p>
+        
+        <h3>3. Figure out your career outcomes</h3>
+        <p>Some disciplines don't require a doctoral degree. Talk to alumni from your field and learn if the investment of time and effort in a doctoral degree makes sense in terms of your future career goals. Make sure that you're making a good investment.</p>
+        
+        <h3>4. Assess your readiness for rigorous research</h3>
+        <p>Independent research is quite different from most of what you've done so far at school. Assess whether you have the skills and talent to come up with the novel ideas and innovative concepts required for Ph.D. work. These include strong analytical and problem-solving skills, which are needed for research and for writing a dissertation.</p>
+        
+        <h3>5. Consider how Ph.D. work may affect your wellness</h3>
+        <p>The demands of doctoral programs can affect your mental, social and financial well-being. It is quite crucial to evaluate if you have a support system that can assist you when you need it, including your advisor, partner, family and friends, and of course, funding. It is certainly possible that you naturally possess traits that will enable you to work through crises on your own, even without a comprehensive support system, but be realistic and honest in your self-assessment.</p>
+        
+        <h3>6. Seek advice from peers and advisors</h3>
+        <p>Thoroughly learn about the Ph.D. programs you're considering. Read all available material. Talk to current candidates, alumni and potential advisors. Collect and analyze as much information as you can and make a well-informed decision.</p>
+        
+        <p>In summary, pursuing a Ph.D. is a life-changing decision and should be seriously addressed. Make sure it is aligned with your professional and personal aspirations and with your lifestyle.</p>
+      </div>
+    `
+  },
+  {
     id: "7",
     title: "The \"Hidden Task\"",
     description: "Doctoral candidates must complete two parallel tasks during their doctoral project - the first one is research; the other is the \"hidden task\".",
