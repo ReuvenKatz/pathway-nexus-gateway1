@@ -14,7 +14,7 @@ export const blogs: Blog[] = [
     publishDate: "2025-08-28",
     content: `
       <div class="prose max-w-none">
-        <p><strong>Key words:</strong> PhD advisor contract, doctoral project milestones</p>
+        <p>Key words: PhD advisor contract, doctoral project milestones</p>
         
         <p>One of the best things you can do at the very outset of your doctoral project, is to build a clear understanding with your advisor. In academia, what we refer to as the doctoral "contract" is the trust and communication which exists between both parties, an intellectual and interpersonal agreement that sets up expectations and strengthens your advisor–student relationship.</p>
         
@@ -25,16 +25,16 @@ export const blogs: Blog[] = [
         
         <h4>Interpersonal:</h4>
         <ul>
-          <li><strong>Your commitment:</strong> Work diligently, conduct yourself with integrity, and try to complete your dissertation within the allotted timeframe.</li>
-          <li><strong>Advisor's commitment:</strong> Show genuine interest in your studies, plan frequent meetings (weekly or bi-weekly), and provide academic guidance.</li>
-          <li><strong>Collaborative support:</strong> Your advisor should be ready to defend you on your behalf, in front of your committee, department, or faculty.</li>
+          <li>Your commitment: Work diligently, conduct yourself with integrity, and try to complete your dissertation within the allotted timeframe.</li>
+          <li>Advisor's commitment: Show genuine interest in your studies, plan frequent meetings (weekly or bi-weekly), and provide academic guidance.</li>
+          <li>Collaborative support: Your advisor should be ready to defend you on your behalf, in front of your committee, department, or faculty.</li>
         </ul>
         
         <h4>At the research project level:</h4>
         <ul>
-          <li><strong>Agreed-upon topic:</strong> Agree on the general direction or theme of your dissertation.</li>
-          <li><strong>Defined scope and deliverables:</strong> Put down in writing what you intend to do and define what "success" means for this specific project.</li>
-          <li><strong>Timeline and milestones:</strong> Develop a project plan or a Gantt chart defining the key phases of your research.</li>
+          <li>Agreed-upon topic: Agree on the general direction or theme of your dissertation.</li>
+          <li>Defined scope and deliverables: Put down in writing what you intend to do and define what "success" means for this specific project.</li>
+          <li>Timeline and milestones: Develop a project plan or a Gantt chart defining the key phases of your research.</li>
         </ul>
         
         <h3>Communication is the Core</h3>
