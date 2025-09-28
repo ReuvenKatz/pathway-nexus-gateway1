@@ -76,12 +76,20 @@ const Home = () => {
       <section className="bg-gray-50 py-12" aria-labelledby="cta-heading">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center">
           <h2 id="cta-heading" className="sr-only">Learn more about our services</h2>
-          <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
-            <Link to="/about" aria-describedby="cta-description">
-              <span id="cta-description" className="sr-only">Navigate to learn more about Dr. Hila Katz and Dr. Reuven Katz</span>
-              About Us
-            </Link>
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg" className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-8 py-4 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
+              <Link to="/about" aria-describedby="cta-about-description">
+                <span id="cta-about-description" className="sr-only">Navigate to learn more about Dr. Hila Katz and Dr. Reuven Katz</span>
+                About Us
+              </Link>
+            </Button>
+            <Button asChild size="lg" variant="outline" className="border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white text-lg px-8 py-4 focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2">
+              <Link to="/contact" aria-describedby="cta-contact-description">
+                <span id="cta-contact-description" className="sr-only">Navigate to contact us for consultation</span>
+                Contact Us
+              </Link>
+            </Button>
+          </div>
         </div>
       </section>
 
