@@ -56,9 +56,7 @@ export const blogs: Blog[] = [
     publishDate: "2025-08-28",
     content: `
       <div class="prose max-w-none">
-        <p>Key words: PhD advisor contract, doctoral project milestones</p>
-        
-        <p>One of the best things you can do at the very outset of your doctoral project, is to build a clear understanding with your advisor. In academia, what we refer to as the doctoral "contract" is the trust and communication which exists between both parties, an intellectual and interpersonal agreement that sets up expectations and strengthens your advisor–student relationship.</p>
+        <p>One of the best things you can do at the very outset of your doctoral project, is to build a clear understanding with your advisor. In academia, what we refer to as the doctoral "contract" is an intellectual and interpersonal agreement that sets up expectations and strengthens your advisor–student relationship.</p>
         
         <h3>Why a Doctoral "Contract" Matters</h3>
         <p>A research project "contract" is the foundation for clear student-advisor communication, and a shared vision for your dissertation. Reaching this understanding before submitting your proposal will reduce stress and make long-term collaboration easier.</p>
@@ -76,16 +74,18 @@ export const blogs: Blog[] = [
         <ul>
           <li>Agreed-upon topic: Agree on the general direction or theme of your dissertation.</li>
           <li>Defined scope and deliverables: Put down in writing what you intend to do and define what "success" means for this specific project.</li>
-          <li>Timeline and milestones: Develop a project plan or a Gantt chart defining the key phases of your research.</li>
+          <li>Timeline and milestones: Develop a project plan defining the key phases of your research.</li>
         </ul>
         
         <h3>Communication is the Core</h3>
-        <p>This "contract" requires that you clearly communicate your ideas but also listen well to what your advisor wants. Even if it's never explicitly said, you must figure out what's most important to your advisor, and this will establish your working relationship.</p>
+        <p>This "contract" requires that you clearly communicate your ideas but also listen to what your advisor wants. Even if it's never explicitly said, you must figure out what's most important to your advisor, and this will establish your working relationship.</p>
         
-        <p>Remember: research plans evolve. Deliverables may shift, timelines need re-writing, and unexpected challenges arise. Always notify your advisor of changes and get their approval prior to moving forward. Update your Gantt chart.</p>
+        <p>Remember: research plans evolve. Deliverables may shift, timelines need re-writing, and unexpected challenges arise. Always notify your advisor of changes and get their approval prior to moving forward. Update your project plan accordingly.</p>
         
         <h3>Final Considerations</h3>
         <p>In practice, the final "contract" for your doctoral project is your accepted dissertation proposal, the formal document you submit to your committee after your advisor approves. By making this proposal a personal as well as an intellectual contract, you establish the foundation for a productive doctoral experience.</p>
+        
+        <p>Keywords: Dissertation advisor contract, doctoral project milestones</p>
       </div>
     `
   },
