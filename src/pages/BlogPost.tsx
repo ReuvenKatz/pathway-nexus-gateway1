@@ -80,13 +80,20 @@ const BlogPost = () => {
       <section className="bg-gray-50 py-12 border-t">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h3 className="text-xl font-semibold text-gray-900 mb-6">
-            Want to read more insights?
+            On the Contact Us page please fill out the contact form and get a FREE 20-minute initial consultation to discuss your current status and needs.
           </h3>
-          <Link to="/blogs">
-            <Button variant="default" className="bg-[#2E4A87] hover:bg-[#1E3A72]">
-              View All Blog Posts
-            </Button>
-          </Link>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Link to="/blogs">
+              <Button variant="default" className="bg-[#2E4A87] hover:bg-[#1E3A72]">
+                View All Blog Posts
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button variant="outline" className="border-[#2E4A87] text-[#2E4A87] hover:bg-[#2E4A87] hover:text-white">
+                Contact Us
+              </Button>
+            </Link>
+          </div>
         </div>
       </section>
 
