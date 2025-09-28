@@ -14,38 +14,33 @@ export const blogs: Blog[] = [
     publishDate: "2025-09-18",
     content: `
       <div class="prose max-w-none">
-        <p>Key words: advisor-student partnership, relationship with PhD advisor</p>
+        <p>A successful PhD project is rooted in an academic partnership between you and your advisor. Once you create your dissertation proposal, your advisor becomes your research partner. Like any relationship, this partnership should also be actively tended to in order to sustain it.</p>
         
-        <p>A successful PhD project is rooted in an academic partnership between you and your advisor. Once you create your doctoral proposal, your advisor becomes your research partner. Like any worthwhile relationship, this partnership should also be actively tended to in order to sustain it.</p>
-        
-        <p>All PhD advisors wish to see their students succeed. Simply put, and apart from any accolades and issues of prestige, your achievements make your advisor proud. Advisors want their students to work and produce, and when students show dedication, advisors are likely to invest in them. Here are some tips on nurturing this relationship and helping your advisor invest in you.</p>
+        <p>PhD advisors wish to see their students succeed. Advisors want their students to work and produce research, and when students show dedication, advisors are likely to invest in them. Here are some tips on nurturing this relationship and helping your advisor invest in you.</p>
         
         <h3>Practical Strategies to Strengthen Your Advisor Relationship</h3>
         <p>1. Schedule effective meetings.<br/>
-        Meetings, whether weekly or biweekly, must be worthwhile. Don't waste your advisor's time. Always come prepared, with questions or an abstract you've read. Bringing new ideas, you are offering value to your advisor.</p>
+        Meetings, must be worthwhile. Don't waste your advisor's time. Always come prepared, with questions or an abstract you've read. When you bring new ideas, you are offering value to your advisor.</p>
         
         <p>2. Demonstrate consistent progress! Even small steps suffice.<br/>
         New data, preliminary analyses, or even rough results all indicate that you're doing the work, moving along and getting somewhere. Consistent progression gives the advisor confidence in your commitment.</p>
         
         <p>4. Show initiative.<br/>
-        Don't just wait for direction; contribute your own ideas for advancing the research. Advisors value students who show creativity.</p>
+        Don't just wait for direction; contribute your own ideas for advancing the research. Advisors appreciate students who show creativity.</p>
         
         <p>5. Update your research plan regularly.<br/>
-        Review and update your schedule (Gantt chart) each semester or upon completion of major milestones, then share the updates with your advisor to keep data up to date.</p>
+        Review and update your schedule each semester or upon completion of major milestones, then share the updates with your advisor to keep data up to date.</p>
         
         <p>6. Get noticed.<br/>
         Volunteer to present your research at conferences or faculty seminars. It serves both your own career and your advisor's mentorship.</p>
         
         <p>7. Identify and support your advisor's needs.<br/>
-        Obviously, your long-term goal is to write a dissertation and graduate. But take care of your advisor's interests as well.</p>
-        <ul>
-          <li>If your advisor is pre-tenure, publication is of the highest priority, so prioritize co-authoring articles.</li>
-          <li>If your advisor is preparing for a presentation, help them out.</li>
-          <li>If another lab member is struggling, assist them; your advisor will notice and appreciate it.</li>
-        </ul>
+        These may include co-authoring articles and offering them assistance in their work as appropriate.</p>
         
         <h3>Building a Win-Win Relationship</h3>
         <p>The key to enhancing the relationship with your advisor is to turn it into a partnership. It must be a win-win experience for both of you. Ultimately, good advisor-student relationships are based on communication, mutual respect, and common goals. Make sure to actively tend to your responsibilities within this partnership.</p>
+        
+        <p>Keywords: advisor-student relationship</p>
       </div>
     `
   },
