@@ -73,7 +73,6 @@ const AccessibilityStatement = () => {
             </p>
             <ul className="list-disc pl-6 text-gray-700 space-y-2 mb-4">
               <li>Some third-party content may not be fully accessible</li>
-              <li>Older PDF documents may not meet current accessibility standards</li>
             </ul>
           </section>
 
