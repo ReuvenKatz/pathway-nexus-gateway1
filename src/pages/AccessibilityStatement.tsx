@@ -85,7 +85,7 @@ const AccessibilityStatement = () => {
             </p>
             <div className="bg-gray-50 p-6 rounded-lg mb-4">
               <p className="text-gray-700 mb-2">
-                <strong>Email:</strong> <a href="mailto:accessibility@phdgateway.com" className="text-blue-600 hover:text-blue-800 underline focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 rounded">accessibility@phdgateway.com</a>
+                <strong>Email:</strong> <a href="mailto:reuven.katz@gmail.com" className="text-blue-600 hover:text-blue-800 underline focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 rounded">reuven.katz@gmail.com</a>
               </p>
               <p className="text-gray-700 mb-2">
                 <strong>Contact Form:</strong> <Link to="/contact" className="text-blue-600 hover:text-blue-800 underline focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 rounded">Contact Us page</Link>
