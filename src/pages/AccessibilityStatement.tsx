@@ -35,8 +35,6 @@ const AccessibilityStatement = () => {
               <li>Include accessibility as part of our mission statement</li>
               <li>Assign clear accessibility targets and responsibilities</li>
               <li>Employ formal accessibility quality assurance methods</li>
-              <li>Provide accessibility training for our team</li>
-              <li>Include people with disabilities in our design personas</li>
             </ul>
           </section>
 
