@@ -69,17 +69,17 @@ export const blogs: Blog[] = [
     publishDate: "2025-07-17",
     content: `
       <div class="prose max-w-none">
-        <p>To answer this question, one must first understand what a project is, exactly. One of the former definitions proposed by the Project Management Institute was: "A task that has a starting point and a well-defined goal which operates under constrained resources and is finished when the goal is accomplished". In other words, a job with four simple elements: beginning and end, goal and limited resources. It is a general definition that any type of project should meet.</p>
+        <p>To answer this question, one must first understand what a project is. One of the definitions proposed by the Project Management Institute was "a task that has a starting point and a well-defined goal which operates under constrained resources and is finished when the goal is accomplished" (2008). In other words, a project is a task with four elements: beginning and end, goal and limited resources.</p>
         
-        <p>In any Ph.D. program, there is always a well-defined and formal starting point. In some universities it is the Qualifying Exam, which tests your background and knowledge to determine if you should be allowed to enter the program. In other schools, it might be an exam or a presentation.</p>
+        <p>If we consider the doctorate, the formal starting point would be the Qualifying Exam or the Dissertation Proposal Hearing.</p>
         
-        <p>In any Ph.D. work there is a goal that must be reached to complete the project. It may be a proof of theorem; an extensive set of experiments that validate a theory or assumption; innovative software that presents new concepts; or several scientific papers published in top professional journals.</p>
+        <p>There is a goal that must be reached to complete the doctoral project. For example, it may be a proof of theorem; deeper insights into a topic or phenomenon; an extensive set of experiments that validate a theory or hypothesis; innovative software that presents new concepts; or several scientific papers published in top professional journals.</p>
         
-        <p>In any project, and Ph.D. projects are no exception, there are always limited resources. In your doctoral research the main resource is your personal time and effort. Another precious resource that you must always respect is your advisor's time, which should never be wasted. Use it mainly for planned meetings when you are ready and well-prepared.</p>
+        <p>In any project, and doctoral projects are no exception, there are always limited resources. In your doctoral research the main resource is your personal time and effort. Another precious resource that you must always respect is your advisor's time, which should never be wasted. Use it mainly for planned meetings when you are ready and well-prepared.</p>
         
-        <p>The art of completing a job as planned and on schedule is a rare managerial skill. In a Ph.D. work, after the deliverables are submitted, you will have to defend your thesis. This step is the formal end point of your project and includes both the completion of all tasks and reception of your committee's approval for all your efforts.</p>
+        <p>In doctoral work, after the deliverables are submitted, you have to defend your dissertation. This step is the formal end point and includes both the completion of all tasks and receiving your committee's approval for all your efforts.</p>
         
-        <p>As one can easily conclude, the process of writing a doctoral dissertation meets all four requirements: beginning and end, goal and limited resources. Therefore, it is a research project by definition and one can apply project management methodologies to manage it. You can and should learn how to do it!</p>
+        <p>In conclusion, doctoral research meets all four requirements: beginning and end, goal and limited resources. Therefore, it is a project by definition and one can apply project management methodologies to manage it. You can and should learn how to do it!</p>
       </div>
     `
   },
