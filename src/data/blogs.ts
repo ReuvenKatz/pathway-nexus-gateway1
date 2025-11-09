@@ -10,7 +10,7 @@ export const blogs: Blog[] = [
   {
     id: "2",
     title: "Finding balance in your PhD: How to manage stress and enjoy the journey",
-    description: "A PhD is a personal journey. Discover how to overcome stress and create a joyful path to graduation.",
+    description: "A doctorate is a personal journey. Discover how to overcome stress and create a joyful path to graduation.",
     publishDate: "2025-08-14",
     content: `
       <div class="prose max-w-none">
