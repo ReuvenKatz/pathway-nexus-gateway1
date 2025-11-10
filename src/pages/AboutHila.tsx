@@ -39,7 +39,7 @@ const AboutHila = () => {
           <div className="lg:col-span-2 space-y-6">
             <div className="prose prose-lg max-w-none space-y-4">
               <p className="text-gray-700">
-                I provide strength-based coaching that includes tools for identifying and tracking your individual needs, goals and progress. As a consultant, I offer help with gaining the confidence and clarity necessary for completing your dissertation and navigating your relationships and expectations.
+                I provide strength-based coaching that includes tools for identifying and tracking your individual needs, goals and progress. I offer help navigating your professional relationships and gaining the necessary clarity for completing your dissertation.
               </p>
 
               <p className="text-gray-700">
@@ -47,7 +47,7 @@ const AboutHila = () => {
               </p>
 
               <p className="text-gray-700">
-                My educational background includes a Doctor of Education and Master of Education degrees (Ed.D. & Ed.M.) from Columbia University, NY; a master's degree in music (MMus) from the Guildhall School of Music and Drama, London; and a B.A. from the University of Haifa's Honors Program, focused on the humanities.
+                My educational background includes Doctor of Education and Master of Education degrees from Teachers College, Columbia University, NY; a master's degree in music from the Guildhall School of Music and Drama, London; and a B.A. focused on the humanities from the University of Haifa's Honors Program.
               </p>
             </div>
 
