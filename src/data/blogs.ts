@@ -26,7 +26,7 @@ export const blogs: Blog[] = [
   },
   {
     id: "3",
-    title: "The four fundamental elements of a doctoral project?",
+    title: "The four fundamental elements of a doctoral project",
     description: "A doctoral journey rests on four key elements. Learn how these components shape the quality of your research.",
     publishDate: "2025-07-31",
     content: `
