@@ -93,7 +93,7 @@ export const blogs: Blog[] = [
         <p>One of the goals of this blog post is to explain that you must complete two parallel tasks during your doctoral project: The first and most important task is your academic research and writing your dissertation! The other, parallel task is managing your research project efficiently, as presented in the following figure.</p>
         
         <div class="my-8 flex justify-center">
-          <img src="/lovable-uploads/c419b618-7d31-46db-bb91-b4e0e2818e8e.png" alt="PhD thesis project diagram showing academic research tasks and project management tasks leading to successful project completion" class="max-w-full h-auto rounded-lg shadow-md" />
+          <img src="/lovable-uploads/phd-research-project-diagram.png" alt="PhD thesis project diagram showing academic research tasks and project management tasks leading to successful project completion" class="max-w-full h-auto rounded-lg shadow-md" />
         </div>
         
         <p>Doctoral students' expertise in their field has been developed over many years of study, informing their doctoral research. On the other hand, most doctoral students have never learned project management. It is a "hidden task" that no one ever told them about. As we explained in an earlier article, a doctorate is a research project and should be managed by applying project management methodologies and tools.</p>
