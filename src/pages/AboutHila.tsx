@@ -47,7 +47,7 @@ const AboutHila = () => {
               </p>
 
               <p className="text-gray-700">
-                My educational background includes Doctor of Education and Master of Education degrees from Teachers College, Columbia University, NY; a master's degree in music from the Guildhall School of Music and Drama, London; and a B.A. focused on the humanities from the University of Haifa's Honors Program.
+                My educational background includes Doctor of Education and Master of Education degrees from Teachers College, Columbia University; a master's degree in music from the Guildhall School of Music and Drama, London; and a B.A. focused on the humanities from the University of Haifa's Honors Program.
               </p>
             </div>
 
