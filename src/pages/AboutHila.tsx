@@ -37,10 +37,6 @@ const AboutHila = () => {
 
           {/* Right Column - Content */}
           <div className="lg:col-span-2 space-y-6">
-            <div className="prose prose-lg max-w-none space-y-4">
-              {/* Content removed */}
-            </div>
-
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row gap-4 pt-6">
               <Button 
