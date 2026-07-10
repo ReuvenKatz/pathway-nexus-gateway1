@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { blogs } from '@/data/blogs';
+import { articles } from '@/data/articles';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
 import {
   Table,
@@ -10,8 +10,8 @@ import {
   TableRow,
 } from "@/components/ui/table";
 
-const Blogs = () => {
-  const sortedBlogs = [...blogs].sort((a, b) => Date.parse(b.publishDate) - Date.parse(a.publishDate));
+const Articles = () => {
+  const sortedArticles = [...articles].sort((a, b) => Date.parse(b.publishDate) - Date.parse(a.publishDate));
   return (
     <main className="flex-1">
       {/* Hero Section */}
@@ -26,7 +26,7 @@ const Blogs = () => {
         </div>
       </section>
 
-      {/* Blogs Table Section */}
+      {/* Articles Table Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
@@ -43,21 +43,21 @@ const Blogs = () => {
                     </TableRow>
                   </TableHeader>
                   <TableBody>
-                    {sortedBlogs.map((blog, index) => (
-                      <TableRow key={blog.id} className="hover:bg-gray-50">
+                    {sortedArticles.map((article, index) => (
+                      <TableRow key={article.id} className="hover:bg-gray-50">
                         <TableCell className="font-medium text-gray-600">
-                          {sortedBlogs.length - index}
+                          {sortedArticles.length - index}
                         </TableCell>
                         <TableCell>
                           <Link 
-                            to={`/blogs/${blog.id}`}
+                            to={`/articles/${article.id}`}
                             className="text-[#2E4A87] hover:text-[#1E3A72] font-medium hover:underline transition-colors duration-200"
                           >
-                            {blog.title}
+                            {article.title}
                           </Link>
                         </TableCell>
                         <TableCell className="text-gray-700">
-                          {blog.description}
+                          {article.description}
                         </TableCell>
                       </TableRow>
                     ))}
@@ -74,4 +74,4 @@ const Blogs = () => {
   );
 };
 
-export default Blogs;
+export default Articles;
