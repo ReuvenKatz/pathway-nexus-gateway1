@@ -31,7 +31,7 @@ const Blogs = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="px-6 py-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Latest Blog Posts</h2>
+              <h2 className="text-2xl font-bold text-gray-900 mb-6">Latest Articles</h2>
               
               <div className="overflow-x-auto">
                 <Table>
@@ -40,7 +40,6 @@ const Blogs = () => {
                       <TableHead className="w-20 font-semibold text-[#2E4A87]">#</TableHead>
                       <TableHead className="font-semibold text-[#2E4A87]">Title</TableHead>
                       <TableHead className="font-semibold text-[#2E4A87]">Description</TableHead>
-                      <TableHead className="w-32 font-semibold text-[#2E4A87]">Date</TableHead>
                     </TableRow>
                   </TableHeader>
                   <TableBody>
