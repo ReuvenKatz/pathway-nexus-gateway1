@@ -1,4 +1,4 @@
-export interface Blog {
+export interface Article {
   id: string;
   title: string;
   description: string;
@@ -6,7 +6,7 @@ export interface Blog {
   publishDate: string;
 }
 
-export const blogs: Blog[] = [
+export const articles: Article[] = [
   {
     id: "2",
     title: "Finding balance in your PhD: How to manage stress and enjoy the journey",
@@ -88,7 +88,7 @@ export const blogs: Blog[] = [
     publishDate: "2025-07-24",
     content: `
       <div class="prose max-w-none">
-        <p>One of the goals of this blog post is to explain that you must complete two parallel tasks during your doctoral project: The first and most important task is your academic research and writing your dissertation! The other, parallel task is managing your research project efficiently, as presented in the following figure.</p>
+        <p>One of the goals of this article is to explain that you must complete two parallel tasks during your doctoral project: The first and most important task is your academic research and writing your dissertation! The other, parallel task is managing your research project efficiently, as presented in the following figure.</p>
         
         <div class="my-8 flex justify-center">
           <img src="/lovable-uploads/phd-research-project-diagram.png" alt="PhD thesis project diagram showing academic research tasks and project management tasks leading to successful project completion" class="max-w-full h-auto rounded-lg shadow-md" />
@@ -106,6 +106,6 @@ export const blogs: Blog[] = [
   }
 ];
 
-export const getBlogById = (id: string): Blog | undefined => {
-  return blogs.find(blog => blog.id === id);
+export const getArticleById = (id: string): Article | undefined => {
+  return articles.find(article => article.id === id);
 };
