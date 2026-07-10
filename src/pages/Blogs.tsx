@@ -59,13 +59,6 @@ const Blogs = () => {
                         <TableCell className="text-gray-700">
                           {blog.description}
                         </TableCell>
-                        <TableCell className="text-gray-500 text-sm">
-                          {new Date(blog.publishDate).toLocaleDateString('en-US', {
-                            year: 'numeric',
-                            month: 'short',
-                            day: 'numeric'
-                          })}
-                        </TableCell>
                       </TableRow>
                     ))}
                   </TableBody>
