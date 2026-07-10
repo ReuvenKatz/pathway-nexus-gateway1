@@ -17,8 +17,8 @@ const BlogPost = () => {
     return (
       <main className="flex-1">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <h1 className="text-3xl font-bold text-gray-900 mb-4">Blog Post Not Found</h1>
-          <p className="text-gray-600 mb-8">The blog post you're looking for doesn't exist.</p>
+          <h1 className="text-3xl font-bold text-gray-900 mb-4">Article Not Found</h1>
+          <p className="text-gray-600 mb-8">The article you're looking for doesn't exist.</p>
           <Link to="/blogs">
             <Button variant="default" className="bg-[#2E4A87] hover:bg-[#1E3A72]">
               <ArrowLeft className="mr-2 h-4 w-4" />
