@@ -22,7 +22,7 @@ const BlogPost = () => {
           <Link to="/blogs">
             <Button variant="default" className="bg-[#2E4A87] hover:bg-[#1E3A72]">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Blogs
+              Back to Articles
             </Button>
           </Link>
         </div>
@@ -39,7 +39,7 @@ const BlogPost = () => {
           <Link to="/blogs" className="inline-block mb-6">
             <Button variant="ghost" className="text-[#2E4A87] hover:text-[#1E3A72] hover:bg-blue-50">
               <ArrowLeft className="mr-2 h-4 w-4" />
-              Back to Blogs
+              Back to Articles
             </Button>
           </Link>
           
@@ -85,7 +85,7 @@ const BlogPost = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/blogs">
               <Button variant="default" className="bg-[#2E4A87] hover:bg-[#1E3A72]">
-                View All Blog Posts
+                View All Articles
               </Button>
             </Link>
             <Link to="/contact">
