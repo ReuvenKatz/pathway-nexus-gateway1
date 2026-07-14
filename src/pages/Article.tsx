@@ -1,5 +1,5 @@
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { ArrowLeft, Calendar } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { getArticleById } from '@/data/articles';
 import { Button } from '@/components/ui/button';
 import ScrollToTopButton from '@/components/ScrollToTopButton';
