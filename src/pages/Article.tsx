@@ -47,17 +47,6 @@ const Article = () => {
             {article.title}
           </h1>
           
-          <div className="flex items-center text-gray-600 mb-6">
-            <Calendar className="mr-2 h-5 w-5" />
-            <span>
-              Published on {new Date(article.publishDate).toLocaleDateString('en-US', {
-                year: 'numeric',
-                month: 'long',
-                day: 'numeric'
-              })}
-            </span>
-          </div>
-          
           <p className="text-lg text-gray-700 leading-relaxed">
             {article.description}
           </p>
